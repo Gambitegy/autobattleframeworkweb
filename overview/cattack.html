@@ -1,0 +1,428 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Create a new Attack Effect | Auto-Battle Framework documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Create a new Attack Effect | Auto-Battle Framework documentation ">
+    <meta name="generator" content="docfx 2.59.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.6/release/featherlight.min.css" type="text/css" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../overview/Introduction.html" title="Manual">Manual</a>
+                      </li>
+                      <li>
+                          <a href="../api/AutoBattleFramework.BattleBehaviour.html" title="Scripting API">Scripting API</a>
+                      </li>
+                      <li>
+                          <a href="https://gambitegy.github.io/" title="Contact">Contact</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">Overview</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Introduction.html" title="Introduction" class="">Introduction</a>
+                          </li>
+                          <li class="">
+                            <a href="install.html" title="Install Auto-Battle Framework" class="">Install Auto-Battle Framework</a>
+                          </li>
+                          <li class="">
+                            <a href="description.html" title="Description of the systems" class="">Description of the systems</a>
+                          </li>
+                          <li class="">
+                            <a href="scene.html" title="Description of the sample scene" class="">Description of the sample scene</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">Tutorials</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="started.html" title="Getting started" class="">Getting started</a>
+                          </li>
+                          <li class="">
+                            <a href="battlegrid.html" title="Customizing the Battle Grid" class="">Customizing the Battle Grid</a>
+                          </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="ccharacter.html" title="Create a new Game Character" class="">Create a new Game Character</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="ctrait.html" title="Create a new Trait" class="">Create a new Trait</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="active">
+                            <span class="expand-stub"></span>
+                            <a href="cattack.html" title="Create a new Attack Effect" class="active">Create a new Attack Effect</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="cprojectile.html" title="Create a new Projectile" class="">Create a new Projectile</a>
+                                </li>
+                                <li class="">
+                                  <a href="cbuff.html" title="Create a new Buff Effect" class="">Create a new Buff Effect</a>
+                                </li>
+                                <li class="">
+                                  <a href="conhit.html" title="Create a new On-Hit Effect" class="">Create a new On-Hit Effect</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="fusionmanager.html" title="Fusion Manager" class="">Fusion Manager</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="clevelup.html" title="Level Up a Game Character" class="">Level Up a Game Character</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <a href="citem.html" title="Create a new Game Item" class="">Create a new Game Item</a>
+                          </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="shopmanager.html" title="Shop Manager" class="">Shop Manager</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="citemlist.html" title="Create a new Item List" class="">Create a new Item List</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="battlestage.html" title="Battle Stage" class="">Battle Stage</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="preparationstate.html" title="Create a new Preparation State" class="">Create a new Preparation State</a>
+                                </li>
+                                <li class="">
+                                  <a href="fightstate.html" title="Create a new Fight State" class="">Create a new Fight State</a>
+                                </li>
+                                <li class="">
+                                  <a href="changestagestate.html" title="Create a new Change Stage State" class="">Create a new Change Stage State</a>
+                                </li>
+                                <li class="">
+                                  <a href="cstate.html" title="Create a new Battle State" class="">Create a new Battle State</a>
+                                </li>
+                                <li class="">
+                                  <a href="cstage.html" title="Create a new Battle Stage" class="">Create a new Battle Stage</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <a href="editui.html" title="Customize the UI" class="">Customize the UI</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="create-a-new-attack-effect">Create a new Attack Effect</h1>
+
+<p>An Attack Effect is the damage and effects associated with the basic attack animation or the special attack animation.</p>
+<p>In most cases, for the basic attack, we will be able to use <a href="../api/AutoBattleFramework.Skills.SwordEffect.html">SwordEffect</a> for melee attacks, and  <a href="../api/AutoBattleFramework.Skills.ArrowEffect.html">ArrowEffect</a> for ranged attacks.</p>
+<ul>
+<li><p><a href="../api/AutoBattleFramework.Skills.SwordEffect.html">SwordEffect</a>: Performs a basic melee attack, or at range if it is not necessary to create a projectile for the attack.</p>
+</li>
+<li><p><a href="../api/AutoBattleFramework.Skills.ArrowEffect.html">ArrowEffect</a>: Performs a basic attack at range, creating a projectile for the attack. The projectile included in the package travels in a straight line to the target. How to create a projectile with a different trajectory is explained in the section <a href="cprojectile.html">Create a new Projectile</a>.</p>
+</li>
+</ul>
+<h2 id="create-a-basic-attack-effect">Create a basic Attack Effect</h2>
+<p>A basic attack is the one performed by a character whenever he is within range of his target, and does not have a full energy bar.</p>
+<p>Let&#39;s create a new basic ranged attack for the Witch character created in <a href="ccharacter.html">Create a new Game Character</a>.</p>
+<p>The witch&#39;s basic attack will have a damage bonus the farther away the target is, and ignore the Magic Defenses, but it will not be able to do critical damage, or apply other effects.</p>
+<p>Note that for basic attacks it would be normal to use the <a href="../api/AutoBattleFramework.Formulas.BattleFormulas.html##AutoBattleFramework_Formulas_BattleFormulas_BasicAttackDamage_AutoBattleFramework_Formulas_BattleFormulas_DamageType_GameCharacter_GameCharacter_">BasicAttackDamage</a> method, which takes into account doing critical damage and applying effects.</p>
+<p>1. Create a new C# script named WitchBasicAttackEffect. Carefully read the comments on all the lines for a description of what they do and why they are there:</p>
+<pre><code>using AutoBattleFramework.BattleBehaviour.GameActors;
+using AutoBattleFramework.Formulas;
+using AutoBattleFramework.Skills;
+using UnityEngine;
+
+/// &lt;summary&gt;
+/// Basic attack effect for the witch character. Gets a bonus damage the further the target is.
+/// &lt;/summary&gt;
+[CreateAssetMenu(fileName = &quot;WitchBasicAttackEffect&quot;, menuName = &quot;Auto-Battle Framework/Effects/RangedEffect/WitchBasicAttackEffect&quot;, order = 1)] //Allows the easy creation of the Scriptable Object.
+public class WitchBasicAttackEffect : RangedEffect //Since it is a ranged attack, it inherits from the RangedEffect class. If it were melee, it would inherit from the MeleeEffect class.
+{
+    //Reference to the spawn position of the projectile.
+    Transform shootingPoint;
+
+    // Method called through the animation event Attack() or SpecialAttack() of the GameCharacter.
+    public override void Attack(GameCharacter ai, Transform shootingPoint)
+    {
+        this.ai = ai; // Save the attacking GameCharacter
+        this.shootingPoint = shootingPoint; // Save the attacking GameCharacter shooting point.
+        SpawnProjectile(); // Spawn the projectile.
+    }
+
+    // Creates a new Projectile and set its properties.
+    protected override Projectile SpawnProjectile()
+    {
+        Projectile proj = Instantiate(projectile) as Projectile; //Instantiate the projectile
+        proj.transform.position = shootingPoint.transform.position; // Move the projectile to the shooting point.
+        proj.transform.LookAt(ai.TargetEnemy.EnemyShootingPoint); // Aim the projectile to the target.
+        proj.SetTarget(ai, ai.TargetEnemy, speed, this); // Set source GameCharacter, the target of the projectile, the speed and this AttackEffect.
+        return proj;
+    }
+
+    // Method called when the projectile hits its target.
+    public override void OnHit(GameCharacter target)
+    {
+        // Get damage value depending on the type of damage of the effect.
+        float damage = ai.CurrentStats.Damage;
+        if(DamageType == BattleFormulas.DamageType.Magic)
+        {
+            damage = ai.CurrentStats.MagicDamage;
+        }
+
+        if (target)
+        {
+            float distance = ai.CurrentGridCell.DistanceToOtherCell(target.CurrentGridCell); // Get the distance between the source and target characters.
+            float extraDamage = damage + (damage * distance * 0.1f); // Get a bonus damage based on the distance.
+
+            ai.CurrentStats.Energy = Mathf.Clamp(ai.CurrentStats.Energy + (int)ai.CurrentStats.EnergyRecoveryPerAttack, 0, ai.InitialStats.Energy); // Get some energy.
+            BattleFormulas.RecieveDamage(target,extraDamage,BattleFormulas.DamageType.Magic,ai.GetDamageColor(BattleFormulas.DamageType.Magic)); // Reduce the Health of the defending character, ignoring the magic defense.
+        }
+    }
+}
+</code></pre><p>2. Right click on a project folder, and click on &quot;Create/Auto-Battle Framework/Effects/Ranged Effect/WitchBasicAttackEffect&quot;. This will create a new Scriptable Object of the Attack Effect.</p>
+<p><img src="../resources/cattack/b1.png" alt="Create the Basic Attack Effect">
+<em>Create the Witch Basic Attack Effect.</em></p>
+<p>3. Select the new WitchBasicAttackEffect. The following fields are required in the inspector:</p>
+<ul>
+<li>Effect Image: Sprite representing the effect. We can leave it empty since for basic attacks the icon is never displayed in the UI.</li>
+<li>Effect Description: Description of this Attack Effect. We can leave it empty since for basic attacks the description is never displayed in the UI.</li>
+<li>Double Animation: If the attack consists of two animations (e.g. load arrow and release arrow), check this option. Leave it unchecked.</li>
+<li>Damage Type: The type of damage the attack will inflict. Set it to Magic.</li>
+<li>Projectile: The prefab of the projectile that will be used by this Attack Effect. For the time being, we will use the FireOrb projectile included in the project.</li>
+<li>Speed: This value can be either the velocity of the projectile or the time it takes for the projectile to reach the target, depending on your script. In this case it means speed, set it to 5.</li>
+</ul>
+<p><img src="../resources/cattack/b2.png" alt="Inspector of the Witch Basic Attack Effect">
+<em>Inspector of the Witch Basic Attack Effect.</em></p>
+<p>4. It is necessary to associate the effect to the Witch character. Select the prefab in the project, and in its Inspector, change its Attack Effect to the newly created WitchBasicAttackEffect.</p>
+<p><img src="../resources/cattack/b3.png" alt="Associate the Witch Basic Attack Effect to the Witch">
+<em>Associate the Witch Basic Attack Effect to the Witch, changing its Attack Effect.</em></p>
+<p>5. Test the game, the witch should shoot orbs at the target.</p>
+<p><img src="../resources/cattack/b4.png" alt="Basic attack of the witch">
+<em>The witch throws orbs at her target, inflicting the correct damage.</em></p>
+<h2 id="create-an-special-attack-effect">Create an Special Attack Effect</h2>
+<p>A special attack is an attack performed by a character whenever he is within range of his target, and has a full energy bar. When the attack is performed, the energy bar is emptied and must be refilled by basic attacks or by taking damage.</p>
+<p>Similar to the creation of the basic attack, we will create a special attack. This will consist of a ranged attack, which will apply a percentage of the magic damage as damage, and will bounce indefinitely between enemies.</p>
+<p>1. Create a new C# script named WitchSpecialAttackEffect. Read the comments on each line carefully for a description:</p>
+<pre><code>using AutoBattleFramework.BattleBehaviour.GameActors;
+using AutoBattleFramework.Formulas;
+using AutoBattleFramework.Skills;
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
+
+/// &lt;summary&gt;
+/// Special attack effect for the witch character. Inflicts a percentage of the character&#39;s base damage as damage. 
+/// Once the target is damaged, another projectile is created and attacks another enemy, which creates another one, and so on indefinitely.
+/// &lt;/summary&gt;
+[CreateAssetMenu(fileName = &quot;WitchSpecialAttackEffect&quot;, menuName = &quot;Auto-Battle Framework/Effects/RangedEffect/WitchSpecialAttackEffect&quot;, order = 1)] //Allows the easy creation of the Scriptable Object.
+public class WitchSpecialAttackEffect : RangedEffect //Since it is a ranged attack, it inherits from the RangedEffect class. If it were melee, it would inherit from the MeleeEffect class.
+{
+    //Reference to the spawn position of the projectile.
+    Transform shootingPoint;
+
+    // Method called through the animation event Attack() or SpecialAttack() of the GameCharacter.
+    public override void Attack(GameCharacter ai, Transform shootingPoint)
+    {
+        this.ai = ai; // Save the attacking GameCharacter
+        this.shootingPoint = shootingPoint; // Save the attacking GameCharacter shooting point.
+        SpawnProjectile(); // Spawn the projectile.
+    }
+
+    // Creates a new Projectile and set its properties.
+    protected override Projectile SpawnProjectile()
+    {
+        Projectile proj = Instantiate(projectile) as Projectile; //Instantiate the projectile
+        proj.transform.position = shootingPoint.transform.position; // Move the projectile to the shooting point.
+        proj.transform.LookAt(ai.TargetEnemy.EnemyShootingPoint); // Aim the projectile to the target.
+        proj.SetTarget(ai, ai.TargetEnemy, speed, this); // Set source GameCharacter, the target of the projectile, the speed and this AttackEffect.
+        return proj;
+    }
+
+    // Method called when the projectile hits its target.
+    public override void OnHit(GameCharacter target)
+    {
+        Vector3 nextPosition = target.EnemyShootingPoint.position;  //Get the position of the projectile when it hit the target.
+        float damage = ai.CurrentStats.MagicDamage * 0.2f; // Applies 20% of the magic damage of the character.
+
+        BattleFormulas.SpecialAttackDamage(BattleFormulas.DamageType.Magic, damage, ai.TargetEnemy, ai); // Damages the target.
+
+        SpawnProjectileRebound(nextPosition); // Spawn a new projectile in the last known position.
+    }
+
+    // Creates a new Projectile when the last one hits the target.
+    Projectile SpawnProjectileRebound(Vector3 nextPosition)
+    {
+        // Get a list of possible targets. They must be alive.
+        List&lt;GameCharacter&gt; targets = null;
+        if (AutoBattleFramework.BattleBehaviour.Battle.Instance.Team1.Contains(ai))
+        {
+            targets = AutoBattleFramework.BattleBehaviour.Battle.Instance.Team2;
+        }
+        else
+        {
+            targets = AutoBattleFramework.BattleBehaviour.Battle.Instance.Team1;
+        }
+        targets = targets.Where(x =&gt; x.State != GameCharacter.AIState.Dead).ToList();
+
+
+        if (targets.Count &gt; 0 || ai.State != GameCharacter.AIState.Dead)
+        {
+            Projectile proj = Instantiate(projectile) as Projectile; //Create the projectile.
+            proj.transform.position = nextPosition; //Set the position to the last known position.
+
+            GameCharacter randomTarget = targets[Random.Range(0, targets.Count)]; //Select a random target.
+
+            proj.transform.LookAt(randomTarget.EnemyShootingPoint); // Aim the projectile to the target.
+            proj.SetTarget(ai, randomTarget, speed, this); // Set the source and target character, the speeds and this Attack Effect.
+            return proj;
+        }
+        return null;
+    }
+}
+</code></pre><p>2. Right click on a project folder, and click on &quot;Create/Auto-Battle Framework/Effects/Ranged Effect/WitchSpecialAttackEffect&quot;. This will create a new Scriptable Object of the Attack Effect.</p>
+<p><img src="../resources/cattack/s1.png" alt="Create the Special Attack Effect">
+<em>Create the Witch Special Attack Effect.</em></p>
+<p>3. Select the new WitchSpecialAttackEffect. The following fields are required in the inspector:</p>
+<ul>
+<li>Effect Image: Sprite representing the effect. Select the wireless-network sprite included in the package.</li>
+<li>Effect Description: Description of this Attack Effect. Enter &quot;Creates an orb that applies 20% of magic damage to the attacker. Bounces indefinitely between enemies.&quot;.</li>
+<li>Double Animation: If the attack consists of two animations (e.g. load arrow and release arrow), check this option. Leave it unchecked.</li>
+<li>Damage Type: The type of damage the attack will inflict. The type of damage does not matter, since it is fixed in the script to do magic damage.</li>
+<li>Projetile: The prefab of the projectile that will be used by this Attack Effect. For the time being, we will use the FireOrb project included in the project.</li>
+<li>Speed: This value can be either the velocity of the projectile or the time it takes for the projectile to reach the target, depending on your script. In this case it means speed, set it to 5.</li>
+</ul>
+<p><img src="../resources/cattack/s2.png" alt="Inspector of the Witch Special Attack Effect">
+<em>Inspector of the Witch Special Attack Effect.</em></p>
+<p>4. It is necessary to associate the effect to the Witch character. Select the prefab in the project, and in its Inspector, change its Special Attack Effect to the newly created WitchSpecialAttackEffect.</p>
+<p><img src="../resources/cattack/s3.png" alt="Associate the Witch Special Attack Effect to the Witch">
+<em>Associate the Witch Special Attack Effect to the Witch, changin its Attack Effect.</em></p>
+<p>5. Test the game, the special attack should throw orbs that bounce on him between enemies. Note that you will need several enemies to see if it works correctly. See also the description of the special attack.</p>
+<p><img src="../resources/cattack/s4.png" alt="Special Attack of the Witch">
+<em>The witch throws orbs at her target, then bounces to another target. The icon and description are correct.</em></p>
+<p>As the projectile is used by both the Wizard character and the Witch, the following section shows how to <a href="cprojectile.html">Create a new Projectile</a> for the witch.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Auto-Battle Framework documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.6/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="../styles/plugin-featherlight.js"></script>
+  </body>
+</html>

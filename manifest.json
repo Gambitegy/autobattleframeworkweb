@@ -1,0 +1,3043 @@
+{
+  "sitemap": {
+    "fileOptions": {
+      "api/*": {
+        "baseUrl": "https://normanderwan.github.io/DocFxForUnity/",
+        "changefreq": "daily"
+      }
+    },
+    "baseUrl": "https://normanderwan.github.io/DocFxForUnity/",
+    "changefreq": "weekly"
+  },
+  "homepages": [],
+  "source_base_path": "C:/Users/Javi/AutoBattleFramework/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleBehaviour.Battle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleBehaviour.Battle.html",
+          "hash": "7ZiWshc5acpZadtycG3eR9fYCXfVwkJFufWEyFcA6WU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleBehaviour.BossSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleBehaviour.BossSize.html",
+          "hash": "qdqwEDEi8uICpdIrKv/2Cf4ILW6ri7Hq0T2j2wBzxwo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleBehaviour.CharacterGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleBehaviour.CharacterGroup.html",
+          "hash": "x+0m9cCt5zOtu8i7zX2Lvi/ChXm/MotIjcMSCeibf90="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleBehaviour.Fusion.FusionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleBehaviour.Fusion.FusionManager.html",
+          "hash": "sQjyJyuQ9N5jTrH3Ani6hyhf54PXXzOPvfECntDiyPM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleBehaviour.Fusion.GameCharacterFusion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleBehaviour.Fusion.GameCharacterFusion.html",
+          "hash": "SFWFTahYSovjNN/OEBNEBfSthMvZUazB/tbSgXhGPos="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleBehaviour.Fusion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleBehaviour.Fusion.html",
+          "hash": "v4Esfqt04POo0mA8y1ERK2Xl/GciomgWMHnZDiSRtwc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleBehaviour.GameActors.GameActor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleBehaviour.GameActors.GameActor.html",
+          "hash": "HktNpEMPRtR5zKokwKjMdbhzHX0rSe/Z10hpI9gyJGY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.AIState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.AIState.html",
+          "hash": "/kZrG6cfbv69ityNnzamKQAHoYHlGfk0P9XFup81n7g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html",
+          "hash": "9fjTO4jTgCuCLtZ+9iKDwhBy8ZYsV+qPybKqIFGG6Ts="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleBehaviour.GameActors.GameItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleBehaviour.GameActors.GameItem.html",
+          "hash": "URAvOU5AmzlAnoTRxFgW+e8QFkc+Y19tdq+8yIbO5B4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleBehaviour.GameActors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleBehaviour.GameActors.html",
+          "hash": "s7e9RTJrUihElPn19XVIa+IiDz+ziTVVnLP4RVieibI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleBehaviour.ScriptableBattlePosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleBehaviour.ScriptableBattlePosition.html",
+          "hash": "z/V+oKlIhxyeUoLaldtBfahcDXjEM5UQOqIDzLs+E6A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.html",
+          "hash": "3uljklpfrSjurezKiuBtw5xzbo9YZLuTSPaBxGnPqqw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleBehaviour.States.BattleState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleBehaviour.States.BattleState.html",
+          "hash": "/CYpCgwMYMcg5GP31RjZq73bOuAkE1MFdGEsQkJKFEk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleBehaviour.States.ChangeStageState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleBehaviour.States.ChangeStageState.html",
+          "hash": "45f8wxCCro3JIUNnx2hVRJq5GYQUo0uLwIgDgx1LqXQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleBehaviour.States.FightState.LoseCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleBehaviour.States.FightState.LoseCondition.html",
+          "hash": "NmqLKO5qPsRHQLlO0kiSEo2C06xxmM+AfsE0huU83LU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleBehaviour.States.FightState.WinCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleBehaviour.States.FightState.WinCondition.html",
+          "hash": "AP2j1aB506GEFVlXbQr8FWqXaydA8oQyOzOFU+ekklM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleBehaviour.States.FightState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleBehaviour.States.FightState.html",
+          "hash": "E/CHEjHg6+3R7wynVmgrSlx615k670GT18o5SmKBvq4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleBehaviour.States.PreparationState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleBehaviour.States.PreparationState.html",
+          "hash": "Fq4aMvydoFB8lsGRi1M8o/DSRw+GT2qeBPJIu2Su7fE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleBehaviour.States.ResetSceneState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleBehaviour.States.ResetSceneState.html",
+          "hash": "2jTj4mpGX2BHZfYUghQbJns2YISz7mCJJuehnAIJy/A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleBehaviour.States.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleBehaviour.States.html",
+          "hash": "X4DxUFhkV47m0VIZsNav1GKJCBSuAPGcNIjs1cDdRpI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleBehaviour.html",
+          "hash": "7jIuHs6hoN05IpnKg4NDgFbX5iZ5vkjnpwJvqH+rp1w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleUI.CharacterEnergyUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleUI.CharacterEnergyUI.html",
+          "hash": "raed7y9Da3gyVtVLV7LLU4iq3KF2NAiqOkRBGE4Fvs8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleUI.CharacterHealthUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleUI.CharacterHealthUI.html",
+          "hash": "CJ7FSOfhwgHbZPmzNWsMdwMiqouukN6WDDh+KWyIZuc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleUI.CharacterStatsUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleUI.CharacterStatsUI.html",
+          "hash": "cUgQ6q7jlq6BndbKmfzCA99xnHylZtqEnow0Cwl+3S8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleUI.DamagePopup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleUI.DamagePopup.html",
+          "hash": "USVxNqTiqpev8fvOHZEigts+tM9LnwDWL6/wNJA7qxs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleUI.ItemDescriptionUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleUI.ItemDescriptionUI.html",
+          "hash": "OQaLoB2/fZ+Ngwaxi6RyeTV7FMxCwEsra2w9TOsPVKc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleUI.ShopExpBarUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleUI.ShopExpBarUI.html",
+          "hash": "34oTL16yPUKRpk21GbLNT/cPt8pZ6MQ4ItA8rPCZukM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleUI.StageUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleUI.StageUI.html",
+          "hash": "PzGHDPco1yUymv8834yD7dqw853c2apT9djLxgTV/fI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleUI.TraitDescriptionUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleUI.TraitDescriptionUI.html",
+          "hash": "tFsHnPbqk0nuCgxfjt/w/W/ZQYzWVSemitapV85ycVs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleUI.TraitListUI.OrderBy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleUI.TraitListUI.OrderBy.html",
+          "hash": "lUZYQ2Gkkag/JE82htb5iuc02aFmriOCrCrB9UeXAqM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleUI.TraitListUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleUI.TraitListUI.html",
+          "hash": "RJANqee4Bjbx64oSIYN9nHl1BpE3qryF3sp/AenxGlQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleUI.TraitStatsUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleUI.TraitStatsUI.html",
+          "hash": "1gL9wBpL1/wp8++wfXqrIlyxxs16q9z8iO7UA3TfgLA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleUI.TraitUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleUI.TraitUI.html",
+          "hash": "Oiic6TsWSvqHhQa8DWMszYHX1LJtQA6i3BAsymo/ua4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.BattleUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.BattleUI.html",
+          "hash": "5DSNe/blEJ/YyXuSQZbLwJ9amXAzm5J4PKws0EzdLUU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Battlefield.BattleGrid.GridType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Battlefield.BattleGrid.GridType.html",
+          "hash": "1tH5O46n22xc9BYMlOmg1IG6agE5H/n1OZF/Sj2nLog="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Battlefield.BattleGrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Battlefield.BattleGrid.html",
+          "hash": "RGQaMcUEb1HHkCLb92XGfBU/TRfolEsVq+5ADF1WvSI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Battlefield.Bench.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Battlefield.Bench.html",
+          "hash": "osSKk9tnOj5es9r40ETHF0/3bZ6r22Uc+AASfdAXdqg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Battlefield.GridCell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Battlefield.GridCell.html",
+          "hash": "2QU3nCZi3wK6Mv8mbICEUg3rsIUD3i6WXdt9s9Yxtrw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Battlefield.GridCellEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Battlefield.GridCellEffect.html",
+          "hash": "paDt1Sg2694IZ4K+TCLvSP+dfWtYvo+s4cx9guI1/+c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Battlefield.SellZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Battlefield.SellZone.html",
+          "hash": "qCYsXtFtzE08R/O+gp/L0UfpWLUE0zRWD2JYQzeVE2A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Battlefield.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Battlefield.html",
+          "hash": "pnQz5+3EA03at7iHnDYa3B5eNOfZ92FkQD7kF0LEL4s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.EditorScripts.BattleGridEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.EditorScripts.BattleGridEditor.html",
+          "hash": "m8Y12SC3Vg9lg3sZ5g1DdKs74Wq0Ma/0X21nyZHTcfc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.EditorScripts.BattlePositionEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.EditorScripts.BattlePositionEditor.html",
+          "hash": "/f4ks9Jr6/ugZBwvR6un1s6rQSXck72KYP5PuirL4ks="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.EditorScripts.BenchEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.EditorScripts.BenchEditor.html",
+          "hash": "or74/B7/F/mqoC+ID416sCbOj48oPITA6p7M7XlUi7o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.EditorScripts.MenuActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.EditorScripts.MenuActions.html",
+          "hash": "LMhfS4F9OlGXovv5YU7rNBFzCH2tAyFoYm27g4JGCV0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.EditorScripts.ReadOnlyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.EditorScripts.ReadOnlyDrawer.html",
+          "hash": "+obck2wYouhW1rlYaOEUDNJDMotri+Iq47SZ8y1AHUU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.EditorScripts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.EditorScripts.html",
+          "hash": "ourcCqq0WKP1VsN2pLIr7ctygbi2zd68C3TYlKss4jc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Formulas.BattleFormulas.DamageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Formulas.BattleFormulas.DamageType.html",
+          "hash": "ViYAoDFpnWICpzSn8JyDftlr22uamnoTfMV20Eb9z+E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Formulas.BattleFormulas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Formulas.BattleFormulas.html",
+          "hash": "0i/JBY/PKdn/SErIJ5Ie87fkoLBW5mi8cnQwrWZW2xE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Formulas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Formulas.html",
+          "hash": "eeCrwqb6wSrByRjFqSuJsTY61F+jM2UNGzPY4mGav+E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Movement.ApproximateAstarMovement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Movement.ApproximateAstarMovement.html",
+          "hash": "20Upc1GV/eEun3eyQmfnv2yyFEkU72qVCN1U4sovw0w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Movement.Astar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Movement.Astar.html",
+          "hash": "XC8eTvwzbC0JYwOUaMnn2SP2dwXJ5AE3GAgNLIZbRtI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Movement.ExactAstarMovement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Movement.ExactAstarMovement.html",
+          "hash": "HSC9zSCzlvqUICTO2NYqu9r0yt40sp5LqKZ1Q+OPB6U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Movement.IBattleMovement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Movement.IBattleMovement.html",
+          "hash": "GEj8OJAAEmjq+Q5pzEX6FwN6LWifTIXWSJ/6SXNEb5w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Movement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Movement.html",
+          "hash": "b7vwtTVt/2doJmYEkUzuB1BzTxZri+OAdkTgblfRuBQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Shop.ScriptableShopItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Shop.ScriptableShopItem.html",
+          "hash": "2uuFQyi8I16FLfoWGVM875/76LXijABYGxOSKY5zHJE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Shop.ShopCharacter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Shop.ShopCharacter.html",
+          "hash": "uZIYB5cny2CCLe07dri9Hf+ja8GZgxmuNtlqb7JGW3c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Shop.ShopGUI.CurrencyUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Shop.ShopGUI.CurrencyUI.html",
+          "hash": "auV30InhcD6WwCfsZymNB/3d5vsk5j4H6Puzo/8ShaM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Shop.ShopGUI.EquippedItemDescriptionUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Shop.ShopGUI.EquippedItemDescriptionUI.html",
+          "hash": "O7MKD+lyHzLqcHD0E5k2kAvgaSU4MOL8wjpvRCyc5m4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Shop.ShopGUI.ShopItemUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Shop.ShopGUI.ShopItemUI.html",
+          "hash": "CCxYTvHZWroF6yQVc0v90Cv8FUPbLXdfE5ePHeFY2y4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Shop.ShopGUI.ShopUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Shop.ShopGUI.ShopUI.html",
+          "hash": "fLMHQYx04aJFvYcSBVn3OlSu021v2lJunpVvRAW00P0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Shop.ShopGUI.SpecialAttackDescriptionUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Shop.ShopGUI.SpecialAttackDescriptionUI.html",
+          "hash": "WdAfAQgaUgWrw/CKxx29g94AUEbetHD7lqw1nPHgOuE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Shop.ShopGUI.Timer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Shop.ShopGUI.Timer.html",
+          "hash": "q4dSsZgTf6KO5IUo4LqlZAfiG4YZIZwKSsiauoLykTc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Shop.ShopGUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Shop.ShopGUI.html",
+          "hash": "j8acetmqg/2LmRxEi7PBzANG485HpnR4F9KlewKPtf4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Shop.ShopGameItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Shop.ShopGameItem.html",
+          "hash": "6JsFDK5UfPjNDaYi5ysXwEXLCJSqjypeWdebBR0k4hc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Shop.ShopItemInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Shop.ShopItemInfo.html",
+          "hash": "UZzOns2NdzEHWW1z9ZNtc+xWU8dZBcWTGkLF8Msy9LQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Shop.ShopLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Shop.ShopLevel.html",
+          "hash": "7T+IyBpAXNFslhA5fgBQRnW44YCyAOyj9iuoODoLt4g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Shop.ShopLevelManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Shop.ShopLevelManager.html",
+          "hash": "Z6Ue+1ttlexHeDt2fsFtcnWi5w1R45WETbmkZwFrotI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Shop.ShopList.IShopList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Shop.ShopList.IShopList.html",
+          "hash": "eWmtNCJvjpMMPummG/Dfif4KsaprBM2jSheDUUY8Lmk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Shop.ShopList.ScriptableDeckList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Shop.ShopList.ScriptableDeckList.html",
+          "hash": "+kvULbEH9pD6jrcibopmxgPY4hoT61L5lNskoAP/oq4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Shop.ShopList.ScriptableGroupItemList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Shop.ShopList.ScriptableGroupItemList.html",
+          "hash": "QkXWF0e3jHvUKWei13EZYpxHMea1+0ZRvOn+e0fxd/8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Shop.ShopList.ScriptableIndividualItemList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Shop.ShopList.ScriptableIndividualItemList.html",
+          "hash": "lzh76EpoubxDsiW0Hv+hBlyd1ei+s3Lj8iWO+HuhQsI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Shop.ShopList.ShopItemList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Shop.ShopList.ShopItemList.html",
+          "hash": "Ncf77qxlaKFXgjTaJYp0gKz6Iwcj2t/N+uMBIqQPH7c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Shop.ShopList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Shop.ShopList.html",
+          "hash": "R/JA5yGiI4FlMoiTwqD/u3Zjx5sma/eaO9dTwvL9R2Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Shop.ShopManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Shop.ShopManager.html",
+          "hash": "Q1RS9fkaDwNthOUokNa/EuRqQ5tXuGHcIEFg/bOdJ/E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Shop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Shop.html",
+          "hash": "SIOLx6VQ/v85pDM+9+OiQNFqTCAAoy7eNhO7ErBYX50="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Skills.ApplyBuffOnHitEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Skills.ApplyBuffOnHitEffect.html",
+          "hash": "3EN0OZnsC8SgjKKinWzHLrzZgpeMQsijz6N7kl9tADs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Skills.ApplyDebuffOnHitEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Skills.ApplyDebuffOnHitEffect.html",
+          "hash": "B3BgZosND95eS//dCbwTZcKM0UHXuGMidZS7iU+SqY0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Skills.ArrowEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Skills.ArrowEffect.html",
+          "hash": "RDRiJKYdXqDmRqDi5xP58f251OpQs+RxSv29/uYy0c0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Skills.BuffEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Skills.BuffEffect.html",
+          "hash": "HFUDYw9gi+0hYt0X1EOGfXvqU9wPvs7+k331pbRpWzY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Skills.BuffEffectInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Skills.BuffEffectInfo.html",
+          "hash": "84oP5BG1WY3uwKmmC8Na+z+UVxpFjcoQ3Fnohb8xTaE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Skills.FixedDamageOverTimeEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Skills.FixedDamageOverTimeEffect.html",
+          "hash": "ZFOAEqEb76Y0aFxjatU1NkwmX2TYCUgLGwaRaPnAxmA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Skills.HealthMeteoriteAllEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Skills.HealthMeteoriteAllEffect.html",
+          "hash": "0eVWxJ73MMVRFwxAWtWk/BJSiMoMaMq5D4BEEbBTAlw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Skills.HealthStealEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Skills.HealthStealEffect.html",
+          "hash": "QhRdGuPP2x5QDhMtr2zUeJ6YIqtCD6nejirMqb27iN8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Skills.IAttackEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Skills.IAttackEffect.html",
+          "hash": "13y88XqeQQ1Pl7mpLvhCwLcBKDEAmrtvYTLcSc0cEUo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Skills.MeleeEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Skills.MeleeEffect.html",
+          "hash": "CzkoJLaVeUWRruFvmW/03G1rFMuRn8kOkU24fARH5s4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Skills.MeteoriteEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Skills.MeteoriteEffect.html",
+          "hash": "/hoYv2sPeBQB9x6ijUJazerTuWtFDzch4v5/gvzUv6c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Skills.OnHitEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Skills.OnHitEffect.html",
+          "hash": "xuQjLnP7Uu5HuaQWVChGiGbS+eSmbpm35X2HwIdx33E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Skills.Projectile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Skills.Projectile.html",
+          "hash": "IaOd6bSCe6IgozQkUK+AzVdDX0aGwdVRYUINoz4mmIM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Skills.RangedEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Skills.RangedEffect.html",
+          "hash": "hAfz84CiEwS9k3baHdv3cp2rO9iy52DoFJar/b4pqBY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Skills.SimpleBuffEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Skills.SimpleBuffEffect.html",
+          "hash": "Tvc1FzNVMdGevi+Lylkc6IKyUL9oV85COXS+PPK54g8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Skills.SwordEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Skills.SwordEffect.html",
+          "hash": "NnDMLBaGMDYft7h4123j0CwCK8ZOEhXlNIRkiy7Lwqk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Skills.VariableDamageOverTimeEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Skills.VariableDamageOverTimeEffect.html",
+          "hash": "1V4miDB1yKUPNlWb0+CSJ1TPC28IhMG5i3cC8tDB7Aw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Skills.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Skills.html",
+          "hash": "fkylUs0MwGbPkjci02VAuDQMoVeL36gVvzvCQf782qA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Stats.CharacterStats.CharacterStat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Stats.CharacterStats.CharacterStat.html",
+          "hash": "dwhGy61FSlKHYiB/uYgja/PWtfPaUYsRpMr3RxHGmR0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Stats.CharacterStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Stats.CharacterStats.html",
+          "hash": "3zb+sDr9AbWN8qI/Xzn3ESgZzFVlPMjGHI25gXDr0G4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Stats.ItemModificator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Stats.ItemModificator.html",
+          "hash": "lex5+6B1zH3R1o9U7Gl8doQ7zRHRalJadVaADUV3qSE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Stats.StatModificator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Stats.StatModificator.html",
+          "hash": "xKOrcTX+k7ufHctpfkr2D3x20Aw9ZAUyP0IpCd7brKw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Stats.StatsModificator.ModificatorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Stats.StatsModificator.ModificatorType.html",
+          "hash": "8y9RS2xEtIDFV/rk/gjYf+9j84WZYhW5fuUz2RZkwm8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Stats.StatsModificator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Stats.StatsModificator.html",
+          "hash": "kJoPvTQFhb9Xbly7K1VUMRMbNizFjdcruK4N/ndJFzk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Stats.Trait.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Stats.Trait.html",
+          "hash": "aBXEpUCVj51KNa/xak0FG9StaK8PFbFICNpckTJmezc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Stats.TraitOption.TraitTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Stats.TraitOption.TraitTarget.html",
+          "hash": "AUwlJbT0ZigQmWjwLLGvUDbmppkygDYCcMAcEWvUcP8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Stats.TraitOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Stats.TraitOption.html",
+          "hash": "/W5Iw49Ck+9LKpVbDl4vviGruVMCs+93tIq1JNnZjqs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Stats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Stats.html",
+          "hash": "UDI6q+0BD+1yX6FWfO6RVBoxx0KnP3lAK3vvQCSBPx0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Utility.AutoBattleSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Utility.AutoBattleSettings.html",
+          "hash": "/eWNjc320akgFdkE2QreLO1uiOKep3sQpp7NDl9zetU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Utility.ReadOnlyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Utility.ReadOnlyAttribute.html",
+          "hash": "ApxcMXlg1CqImjSlHk7rcPLja95xuJqYgjaz87PMGM8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Utility.UIUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Utility.UIUtility.html",
+          "hash": "qi9+TEItoMKwWfQY109JgVxzemmOlYHDpWtWtE+EpPs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Utility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Utility.html",
+          "hash": "9Z6d4NnYDqwl+GVXfULJLzx/IcC1tBjVwxK6R4jhaNg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "7AK8LCf7KvXpcJDkDXkjmb6d9kz4qA71/Ne3H3wqwCk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/Introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/Introduction.html",
+          "hash": "pKMPg88Y2QJ3PuBqOXEgh/QE2M5x5twNcq/f8quauBI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/battlegrid.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/battlegrid.html",
+          "hash": "Xeb2RHS3uZ0Am8ZrtlfLd+SSCwMUC9oxVtvXrmexglk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/battlestage.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/battlestage.html",
+          "hash": "BItjusYAALCZBAn2D4rAbnyKmGUxY8FPyLdqjQH4aBk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/cattack.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/cattack.html",
+          "hash": "xPvP8moW1YBgeBch5UTFeuXqc7wn54vxFE0aKoJ6TH4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/cbuff.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/cbuff.html",
+          "hash": "IECzmUP+uenIBsfD/UXBr5N+ZsBrnEn/BoWF/LVY1OQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/ccharacter.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/ccharacter.html",
+          "hash": "KDoObZ5FAsTF1WzM5ECs9ivMPi9XKB+sDl1QW7u0fUI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/changestagestate.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/changestagestate.html",
+          "hash": "r1As/y1PNcN7sjPmRO0msGBSnX6TirscRA87Msity7c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/citem.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/citem.html",
+          "hash": "Jh8fQwFurRbhNhAbXUchzUKufAdMbJHPbNLgjeUEros="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/citemlist.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/citemlist.html",
+          "hash": "T2wglmdKi54Vk1ZzOBPFktUD2j2oKPpT69UdwmPNKX4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/clevelup.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/clevelup.html",
+          "hash": "ALwQMSSacRSx7aj709KNxqntYvod6fuS53ML2BBdpOk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/conhit.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/conhit.html",
+          "hash": "LwHvAGXUuXnuDNOalYIxY/20IVKm3jWwETpbW22lwN8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/cprojectile.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/cprojectile.html",
+          "hash": "lJO7b65wD55zy0voM1h2eCNhDnf2bNfhDP1utB5VZ8U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/cstage.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/cstage.html",
+          "hash": "Ecbmcoa8Fe8E19RruBL2pAvNr/h6q5kz9xCH2Os+rcA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/cstate.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/cstate.html",
+          "hash": "l8JrXwzlikHV85yenCm8HtMuCb64r4zkt08y5wtQHgU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/ctrait.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/ctrait.html",
+          "hash": "PH5X6FPodw8byO9vuz/hyhq6GXa7x2h0RWw8qATfebg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/description.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/description.html",
+          "hash": "+8ULy0HRfZVw61AO6A4hGihUsUkNNAPGNJxkSU4QBdk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/editui.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/editui.html",
+          "hash": "8cAQMe8JeNdyA6Xfj7SUPVredcw2cPgtUfyRmBxDo8U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/fightstate.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/fightstate.html",
+          "hash": "bGtjt3xQ3fi3HzMkqrxHWArjoTgYxBlQsMC19sORqyU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/fusionmanager.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/fusionmanager.html",
+          "hash": "/MfvqI1BxDktL2iC1excNCpH/BPdzld0I8iv92XvO9I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/install.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/install.html",
+          "hash": "fjeGJ4fckV3/zhZ+RXHwIipUdTdoCcFSG8sc/ej+gTo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/preparationstate.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/preparationstate.html",
+          "hash": "Jlx8TwyYe4CW/eMeTYH2Tpmm4qyQHQLpFVZkkBZz9kg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/scene.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/scene.html",
+          "hash": "WOcxWHZbwnHohi7lO4Nq7oh79ilwG46y81TkOkbH6EA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/shopmanager.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/shopmanager.html",
+          "hash": "ia9/y1+vbpdiaKNdtozeneeJ0nqAyBkAkTny25kBFjc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview/started.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview/started.html",
+          "hash": "tK+QPVavOifsi5N7Kd/an7Mle4IaTLYiBpdpxt+Ud4M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ABFLogo.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ABFLogo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/BDescription.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/BDescription.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ExampleManual.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ExampleManual.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ExampleScriptingApi.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ExampleScriptingApi.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/battlegrid/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/battlegrid/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/battlegrid/2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/battlegrid/2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/battlegrid/3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/battlegrid/3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/battlegrid/4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/battlegrid/4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/battlegrid/5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/battlegrid/5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/battlegrid/6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/battlegrid/6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/battlegrid/7.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/battlegrid/7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/battlegrid/8.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/battlegrid/8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/battlepositions.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/battlepositions.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cattack/b1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cattack/b1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cattack/b2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cattack/b2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cattack/b3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cattack/b3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cattack/b4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cattack/b4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cattack/s1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cattack/s1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cattack/s2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cattack/s2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cattack/s3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cattack/s3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cattack/s4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cattack/s4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cbuff/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cbuff/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cbuff/2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cbuff/2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cbuff/3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cbuff/3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cbuff/4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cbuff/4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cbuff/d1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cbuff/d1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cbuff/d2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cbuff/d2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cbuff/d3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cbuff/d3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cbuff/d4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cbuff/d4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cbuff/d5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cbuff/d5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ccharacter/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ccharacter/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ccharacter/10.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ccharacter/10.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ccharacter/2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ccharacter/2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ccharacter/3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ccharacter/3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ccharacter/4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ccharacter/4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ccharacter/5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ccharacter/5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ccharacter/6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ccharacter/6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ccharacter/7.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ccharacter/7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ccharacter/8.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ccharacter/8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ccharacter/9.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ccharacter/9.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/changestage/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/changestage/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/changestage/2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/changestage/2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/changestage/3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/changestage/3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/citem/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/citem/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/citem/10.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/citem/10.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/citem/2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/citem/2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/citem/3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/citem/3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/citem/4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/citem/4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/citem/5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/citem/5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/citem/6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/citem/6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/citem/7.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/citem/7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/citem/8.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/citem/8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/citem/9.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/citem/9.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/citemlist/d1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/citemlist/d1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/citemlist/d2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/citemlist/d2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/citemlist/e1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/citemlist/e1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/citemlist/g1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/citemlist/g1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/citemlist/g2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/citemlist/g2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/citemlist/i1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/citemlist/i1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/citemlist/i2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/citemlist/i2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/clevelup/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/clevelup/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/clevelup/2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/clevelup/2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/clevelup/3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/clevelup/3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/clevelup/4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/clevelup/4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/clevelup/5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/clevelup/5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/clevelup/6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/clevelup/6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/clevelup/7.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/clevelup/7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/clevelup/8.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/clevelup/8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/clevelup/9.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/clevelup/9.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/conhit/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/conhit/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/conhit/2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/conhit/2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/conhit/3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/conhit/3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/conhit/4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/conhit/4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cprojectile/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cprojectile/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cprojectile/10.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cprojectile/10.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cprojectile/2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cprojectile/2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cprojectile/3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cprojectile/3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cprojectile/4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cprojectile/4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cprojectile/5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cprojectile/5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cprojectile/6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cprojectile/6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cprojectile/7.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cprojectile/7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cprojectile/8.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cprojectile/8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cprojectile/9.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cprojectile/9.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cstage/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cstage/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cstage/2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cstage/2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cstage/3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cstage/3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cstage/4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cstage/4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cstate/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cstate/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cstate/2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cstate/2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/cstate/3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/cstate/3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ctrait/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ctrait/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ctrait/2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ctrait/2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ctrait/3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ctrait/3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ctrait/4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ctrait/4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ctrait/5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ctrait/5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ctrait/6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ctrait/6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/customfunctions.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/customfunctions.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/fight/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/fight/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/fight/2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/fight/2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/fight/3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/fight/3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/mobile.jpeg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/mobile.jpeg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/preparation/bp1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/preparation/bp1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/preparation/bp2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/preparation/bp2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/preparation/bp3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/preparation/bp3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/preparation/bp4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/preparation/bp4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/preparation/bp5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/preparation/bp5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/preparation/bp6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/preparation/bp6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/preparation/p1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/preparation/p1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/preparation/p2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/preparation/p2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/preparation/p3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/preparation/p3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/screenshot.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/screenshot.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/scriptableobjects.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/scriptableobjects.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/shopinspector.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/shopinspector.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/shopitemui.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/shopitemui.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/started/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/started/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/started/2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/started/2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/started/3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/started/3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/started/4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/started/4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/started/5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/started/5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/started/6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/started/6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/stats.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/stats.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 25,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 109,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,374 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Create a new Projectile | Auto-Battle Framework documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Create a new Projectile | Auto-Battle Framework documentation ">
+    <meta name="generator" content="docfx 2.59.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.6/release/featherlight.min.css" type="text/css" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../overview/Introduction.html" title="Manual">Manual</a>
+                      </li>
+                      <li>
+                          <a href="../api/AutoBattleFramework.BattleBehaviour.html" title="Scripting API">Scripting API</a>
+                      </li>
+                      <li>
+                          <a href="https://gambitegy.github.io/" title="Contact">Contact</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">Overview</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Introduction.html" title="Introduction" class="">Introduction</a>
+                          </li>
+                          <li class="">
+                            <a href="install.html" title="Install Auto-Battle Framework" class="">Install Auto-Battle Framework</a>
+                          </li>
+                          <li class="">
+                            <a href="description.html" title="Description of the systems" class="">Description of the systems</a>
+                          </li>
+                          <li class="">
+                            <a href="scene.html" title="Description of the sample scene" class="">Description of the sample scene</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">Tutorials</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="started.html" title="Getting started" class="">Getting started</a>
+                          </li>
+                          <li class="">
+                            <a href="battlegrid.html" title="Customizing the Battle Grid" class="">Customizing the Battle Grid</a>
+                          </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="ccharacter.html" title="Create a new Game Character" class="">Create a new Game Character</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="ctrait.html" title="Create a new Trait" class="">Create a new Trait</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="cattack.html" title="Create a new Attack Effect" class="">Create a new Attack Effect</a>
+                              
+                              <ul class="nav level3">
+                                <li class="active">
+                                  <a href="cprojectile.html" title="Create a new Projectile" class="active">Create a new Projectile</a>
+                                </li>
+                                <li class="">
+                                  <a href="cbuff.html" title="Create a new Buff Effect" class="">Create a new Buff Effect</a>
+                                </li>
+                                <li class="">
+                                  <a href="conhit.html" title="Create a new On-Hit Effect" class="">Create a new On-Hit Effect</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="fusionmanager.html" title="Fusion Manager" class="">Fusion Manager</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="clevelup.html" title="Level Up a Game Character" class="">Level Up a Game Character</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <a href="citem.html" title="Create a new Game Item" class="">Create a new Game Item</a>
+                          </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="shopmanager.html" title="Shop Manager" class="">Shop Manager</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="citemlist.html" title="Create a new Item List" class="">Create a new Item List</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="battlestage.html" title="Battle Stage" class="">Battle Stage</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="preparationstate.html" title="Create a new Preparation State" class="">Create a new Preparation State</a>
+                                </li>
+                                <li class="">
+                                  <a href="fightstate.html" title="Create a new Fight State" class="">Create a new Fight State</a>
+                                </li>
+                                <li class="">
+                                  <a href="changestagestate.html" title="Create a new Change Stage State" class="">Create a new Change Stage State</a>
+                                </li>
+                                <li class="">
+                                  <a href="cstate.html" title="Create a new Battle State" class="">Create a new Battle State</a>
+                                </li>
+                                <li class="">
+                                  <a href="cstage.html" title="Create a new Battle Stage" class="">Create a new Battle Stage</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <a href="editui.html" title="Customize the UI" class="">Customize the UI</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="create-a-new-projectile">Create a new Projectile</h1>
+
+<p>In this section we will create a new projectile for each the Attack Effects created in <a href="cattack.html">Create a new Attack Effect</a>. The main characteristic of the projectile is that its trajectory will be upward, and half way up it will fall on its target.</p>
+<p>A projectile is simply a GameObject with a component of or inheriting from the Projectile class.</p>
+<p>For this new projectile we will start from the FireOrb projectile, in &quot;Auto-Battle Framework/Prefabs/Projectiles&quot;. This is simply a Particle System, simulating a fire orb, with the associated Projectile component.</p>
+<p>1. Drag the FireOrb prefab to the scene. Rename it to &quot;WitchOrb&quot;. Remove its Projectile component.</p>
+<p><img src="../resources/cprojectile/1.png" alt="Drag and rename FireOrb to WitchOrb">
+<em>Drag the FireOrb prefab and rename it to WitchOrb. Remove its Projectile component.</em></p>
+<p>2. Select the WitchOrb object. Let&#39;s give it a pink appearance to differentiate it from the original.</p>
+<ul>
+<li>Set the Start Color to pink. We have used FB18CB (hexadecimal).</li>
+<li>In Color over Lifetime, change the gradient colors. We have used for the first one FA00FF, for the second one FF7400 and for the third one FA00FF.</li>
+</ul>
+<p><img src="../resources/cprojectile/2.png" alt="Set the colors of the orb">
+<em>Set the Start Color and Color Over Lifetime of WitchOrb.</em></p>
+<p>3. Drag WitchOrb to a project folder to save a prefab. Be sure to create it as Original Prefab.</p>
+<p><img src="../resources/cprojectile/3.png" alt="Save the orb as an Original Prefab">
+<em>Save the orb as an Original Prefab.</em></p>
+<p>4. In the same way we will create another orb. Select WitchOrb in the scene, rename it to WitchOrbBig.  Let&#39;s give it a red appearance and make it a bit bigger.</p>
+<ul>
+<li>Set the Start Color to red. We have used FB4318 (hexadecimal).</li>
+<li>Set Start Size to 1.2.</li>
+<li>In Color over Lifetime, change the gradient colors. We have used for the first one FF0008, for the second one FF7400 and for the third one FF9C00.</li>
+</ul>
+<p><img src="../resources/cprojectile/4.png" alt="Set the colors of the orb">
+<em>Set the Start Color, Start Size and Color Over Lifetime of WitchOrbBig.</em></p>
+<p>5. Drag WitchOrbBig to a project folder to save a prefab. Be sure to create it as Original Prefab. Then remove the WitchOrbBig object from the scene.</p>
+<p><img src="../resources/cprojectile/5.png" alt="Save the orb as an Original Prefab">
+<em>Save the orb as an Original Prefab.</em></p>
+<p>6. Create a new C# script called WitchProjectile. Read the comments of the script to understand how it works.</p>
+<ul>
+<li>Note that the most important method is Movement, in which the position of the projectile must be defined and the inherited OnHit method must be called at the moment of impact.</li>
+</ul>
+<pre><code>using UnityEngine;
+
+namespace AutoBattleFramework.Skills
+{
+    /// &lt;summary&gt;
+    /// Behavior of projectiles created by the Witch character. Its trajectory will be upward, and half way up it will fall on its target.
+    /// &lt;/summary&gt;
+    public class WitchProjectile : Projectile //Make sure it inherits from the Projectile class.
+    {
+        //Intermediate points of the projectile trajectory. Calculated in CalculatePoints.
+        Vector3 mid1 = Vector3.zero;
+        Vector3 mid2 = Vector3.zero;
+        bool calculatedPoints = false; //If the intermediate points have been calculated.
+
+        //Approximate height to which the projectile will rise before falling on its target. 
+        public float midHeight = 2f;
+
+        float elapsed = 0f; //Time elapsed since the creation of the projectile. This makes the Speed variable inherited from Projectile mean time, not speed. 
+
+        //The projectile movement method is overwritten.Instead of a straight line, its trajectory will be curved.
+        //Note that this function is called in the Update.
+        public override void Movement()
+        {
+            //Calculate the intermediate points only once. 
+            if (!calculatedPoints)
+            {
+                CalculatePoints();
+            }
+            elapsed += Time.deltaTime; //Update the elapsed time.
+            float i = elapsed / speed; //Value used to interpolate.
+
+            //Calculate the position of the projectile on the Bezier curve.
+            transform.position = GetPointOnBezierCurve(transform.position,mid1,mid2,target.EnemyShootingPoint.position,i);
+
+            //Apply the OnHit method of the AttackEffect and the projectile is destroyed.
+            if (i &gt;= 1)
+            {
+                OnHit();
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Calculate the mid points of the Bezier curve.
+        /// &lt;/summary&gt;
+        void CalculatePoints()
+        {
+            var dist = Vector3.Distance(transform.position, target.EnemyShootingPoint.position);
+            mid1 = transform.TransformPoint(Vector3.forward * dist *0.33f + new Vector3(0, midHeight, 0));
+            mid2 = transform.TransformPoint(Vector3.forward * dist *0.66f + new Vector3(0, midHeight, 0));
+            calculatedPoints = true;
+
+        }
+
+        /// &lt;summary&gt;
+        /// Get the point of the Bezier curve, using a value to interpolate.
+        /// &lt;/summary&gt;
+        /// &lt;param name=&quot;p0&quot;&gt;First position&lt;/param&gt;
+        /// &lt;param name=&quot;p1&quot;&gt;Second position&lt;/param&gt;
+        /// &lt;param name=&quot;p2&quot;&gt;Third position&lt;/param&gt;
+        /// &lt;param name=&quot;p3&quot;&gt;Last position.&lt;/param&gt;
+        /// &lt;param name=&quot;t&quot;&gt;Interpolation value.&lt;/param&gt;
+        /// &lt;returns&gt;Point on Bezier Curve.&lt;/returns&gt;
+        Vector3 GetPointOnBezierCurve(Vector3 p0, Vector3 p1, Vector3 p2, Vector3 p3, float t)
+        {
+            Vector3 a = Lerp(p0, p1, t);
+            Vector3 b = Lerp(p1, p2, t);
+            Vector3 c = Lerp(p2, p3, t);
+            Vector3 d = Lerp(a, b, t);
+            Vector3 e = Lerp(b, c, t);
+            Vector3 pointOnCurve = Lerp(d, e, t);
+
+            return pointOnCurve;
+        }
+
+        /// &lt;summary&gt;
+        /// Lerp two vectors given an interpolation value.
+        /// &lt;/summary&gt;
+        /// &lt;param name=&quot;a&quot;&gt;First Vector&lt;/param&gt;
+        /// &lt;param name=&quot;b&quot;&gt;Second Vector&lt;/param&gt;
+        /// &lt;param name=&quot;t&quot;&gt;Interpolate value&lt;/param&gt;
+        /// &lt;returns&gt;Lerped vector&lt;/returns&gt;
+        Vector3 Lerp(Vector3 a, Vector3 b, float t)
+        {
+            return (1f - t) * a + t * b;
+        }
+    }
+}
+</code></pre><p>7. Select the WitchOrb prefab and add the Witch Projectile component. In its Inspector set Mid Height to 2.</p>
+<p><img src="../resources/cprojectile/6.png" alt="Add the Witch Projectile component to the WitchOrb prefab.">
+<em>Add the Witch Projectile component to the WitchOrb prefab.</em></p>
+<p>8. Select the WitchOrbBig prefab and add the Witch Projectile component. In its Inspector set Mid Height to 1.</p>
+<p><img src="../resources/cprojectile/7.png" alt="Add the Witch Projectile component to the WitchOrbBig prefab.">
+<em>Add the Witch Projectile component to the WitchOrbBig prefab.</em></p>
+<p>9. Select the WitchBasicAttackEffect created in <a href="cattack.html">Create a new Attack Effect</a>. In its inspector, attach the WitchOrb prefab to Projectile. Since the Speed variable refers to time in WitchProjectile, set this to 0.5.</p>
+<p><img src="../resources/cprojectile/8.png" alt="Attach the WitchOrb prefab to WitchBasicAttackEffect.">
+<em>[Attach the WitchOrb prefab to WitchBasicAttackEffect.</em></p>
+<p>10. In the same way, select the WitchSpecialAttackEffect created in <a href="cattack.html">Create a new Attack Effect</a>. In its inspector, attach the WitchOrbBig prefab to Projectile. Set the speed to 0.5.</p>
+<p><img src="../resources/cprojectile/9.png" alt="Attach the WitchOrb prefab to WitchBasicAttackEffect.">
+<em>[Attach the WitchOrb prefab to WitchBasicAttackEffect.</em></p>
+<p>11. Test the game, the basic attack should launch a pink orb upward and land on its target. The special attack should be red, not go upwards as much as the basic attack and bounce between enemies.</p>
+<p><img src="../resources/cprojectile/10.png" alt="The witch launches pink and red orbs.">
+<em>The witch sends pink and red orbs towards her enemies, with a parabolic trajectory.</em></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Auto-Battle Framework documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.6/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="../styles/plugin-featherlight.js"></script>
+  </body>
+</html>

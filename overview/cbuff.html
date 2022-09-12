@@ -1,0 +1,397 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Create a new Buff Effect | Auto-Battle Framework documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Create a new Buff Effect | Auto-Battle Framework documentation ">
+    <meta name="generator" content="docfx 2.59.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.6/release/featherlight.min.css" type="text/css" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../overview/Introduction.html" title="Manual">Manual</a>
+                      </li>
+                      <li>
+                          <a href="../api/AutoBattleFramework.BattleBehaviour.html" title="Scripting API">Scripting API</a>
+                      </li>
+                      <li>
+                          <a href="https://gambitegy.github.io/" title="Contact">Contact</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">Overview</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Introduction.html" title="Introduction" class="">Introduction</a>
+                          </li>
+                          <li class="">
+                            <a href="install.html" title="Install Auto-Battle Framework" class="">Install Auto-Battle Framework</a>
+                          </li>
+                          <li class="">
+                            <a href="description.html" title="Description of the systems" class="">Description of the systems</a>
+                          </li>
+                          <li class="">
+                            <a href="scene.html" title="Description of the sample scene" class="">Description of the sample scene</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">Tutorials</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="started.html" title="Getting started" class="">Getting started</a>
+                          </li>
+                          <li class="">
+                            <a href="battlegrid.html" title="Customizing the Battle Grid" class="">Customizing the Battle Grid</a>
+                          </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="ccharacter.html" title="Create a new Game Character" class="">Create a new Game Character</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="ctrait.html" title="Create a new Trait" class="">Create a new Trait</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="cattack.html" title="Create a new Attack Effect" class="">Create a new Attack Effect</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="cprojectile.html" title="Create a new Projectile" class="">Create a new Projectile</a>
+                                </li>
+                                <li class="active">
+                                  <a href="cbuff.html" title="Create a new Buff Effect" class="active">Create a new Buff Effect</a>
+                                </li>
+                                <li class="">
+                                  <a href="conhit.html" title="Create a new On-Hit Effect" class="">Create a new On-Hit Effect</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="fusionmanager.html" title="Fusion Manager" class="">Fusion Manager</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="clevelup.html" title="Level Up a Game Character" class="">Level Up a Game Character</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <a href="citem.html" title="Create a new Game Item" class="">Create a new Game Item</a>
+                          </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="shopmanager.html" title="Shop Manager" class="">Shop Manager</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="citemlist.html" title="Create a new Item List" class="">Create a new Item List</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="battlestage.html" title="Battle Stage" class="">Battle Stage</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="preparationstate.html" title="Create a new Preparation State" class="">Create a new Preparation State</a>
+                                </li>
+                                <li class="">
+                                  <a href="fightstate.html" title="Create a new Fight State" class="">Create a new Fight State</a>
+                                </li>
+                                <li class="">
+                                  <a href="changestagestate.html" title="Create a new Change Stage State" class="">Create a new Change Stage State</a>
+                                </li>
+                                <li class="">
+                                  <a href="cstate.html" title="Create a new Battle State" class="">Create a new Battle State</a>
+                                </li>
+                                <li class="">
+                                  <a href="cstage.html" title="Create a new Battle Stage" class="">Create a new Battle Stage</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <a href="editui.html" title="Customize the UI" class="">Customize the UI</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="create-a-new-buff-effect">Create a new Buff Effect</h1>
+
+<p>A Buff Effect is a temporary effect applied to a character.</p>
+<p>Since a Buff Effect inherits from IAttackEffect, Buffs can be applied in the following cases:</p>
+<ul>
+<li><p>When attacking: The effect of a Buff can be obtained when performing an attack. To do so, add the BuffEffect to the Attack Effects list of Modificator in a Trait or another AttackEffect. To apply it on an item, add it to the Attack Effects list of an Item Modificator.</p>
+</li>
+<li><p>On hit: You can obtain the effect of a Buff when an attack manages to hit the opponent. When the target of the attack is the one that gains the Buff, it is called Debuff.</p>
+<ul>
+<li>To apply a Buff, create a new ApplyBuff Scriptable Object. To do this, right click on the project and click on &quot;Create/Auto-Battle Framework/OnHitEffect/ApplyBuff&quot;, and bind the BuffEffect in the Effect variable.</li>
+<li>To apply a Debuff, create a new ApplyDebuff Scriptable Object. To do this, right click on the project and click on &quot;Create/Auto-Battle Framework/OnHitEffect/ApplyDebuff&quot;, and bind the BuffEffect in the Effect variable.</li>
+<li>Add the ApplyBuff or ApplyDebuff to the On Hit Effects list of an Attack Effect. It can also be added to the Attack Effects list of Modificator in a Trait or other Buff Effect, or to an Item Modificator in the case of an item.</li>
+</ul>
+</li>
+<li><p>If you need to apply a Buff in any other situation, simply use this line:</p>
+<pre><code>///If effect is a BuffEffect
+effect.Attack(this, null);
+</code></pre></li>
+</ul>
+<p><br>
+Next, we will create a BuffEffect for the Witch Trait created in <a href="ctrait.html">Create a new Trait</a>, which will heal the character over time. Witches will gain this Buff when the second Trait Option is applied, i.e., when 3 witches are found on the battlefield. It will be applied on every attack, and if applied again with maximum stacks, it will heal the character even more. This higher healing will also be applied when the Buff runs out.</p>
+<p>1. Create a new C# script called RegenerationBuff. Read the script comments for more information.</p>
+<pre><code>using UnityEngine;
+using AutoBattleFramework.Formulas;
+
+namespace AutoBattleFramework.Skills
+{
+    /// &lt;summary&gt;
+    /// Heals the owner of the buff over time. When the buff ends, or is reapplied when at full stacks, heals the character by FinalHealTick.
+    /// &lt;/summary&gt;
+    [CreateAssetMenu(fileName = &quot;RegenerationBuff&quot;, menuName = &quot;Auto-Battle Framework/Effects/BuffEffect/RegenerationBuff&quot;, order = 1)] //Allows the creation of the Scriptable Object.
+    public class RegenerationBuff : BuffEffect //Inherits from BuffEffect
+    {
+        /// &lt;summary&gt;
+        /// How often damage is applied, in seconds.
+        /// &lt;/summary&gt;
+        public float Tick = 1f;
+
+        /// &lt;summary&gt;
+        /// Amount of healing to be applied.
+        /// &lt;/summary&gt;
+        public float HealTicks;
+
+        /// &lt;summary&gt;
+        /// Amount of healing when the buff ends.
+        /// &lt;/summary&gt;
+        public float FinalHealTick;
+
+        /// &lt;summary&gt;
+        /// When the last &lt;see cref=&quot;Tick&quot;/&gt; was applied.
+        /// &lt;/summary&gt;
+        float lastTick = 0f;
+
+        /// &lt;summary&gt;
+        /// Displayed color of the damage. Will override &lt;see cref=&quot;BattleBehaviour.Battle.EffectColor&quot;/&gt;.
+        /// &lt;/summary&gt;
+        public Color color;
+
+        /// &lt;summary&gt;
+        /// When the buff ends, heals the character by FinalHealTick.
+        /// &lt;/summary&gt;
+        protected override void OnBuffEnd(BuffEffectInfo info)
+        {
+            BattleFormulas.RecieveDamage(ai, -FinalHealTick * info.stacks, DamageType, color);
+        }
+
+        /// &lt;summary&gt;
+        /// Set &lt;see cref=&quot;lastTick&quot;/&gt; to zero.
+        /// &lt;/summary&gt;
+        protected override void OnBuffStart(BuffEffectInfo info)
+        {
+            lastTick = 0f;
+        }
+
+        /// &lt;summary&gt;
+        /// If the elapsed time since the last tick is greater, it heals the owner of the buff.
+        /// &lt;/summary&gt;
+        protected override void OnBuffUpdate(BuffEffectInfo info)
+        {
+            if (lastTick + Tick &lt; info.elapsedTime) // Do the next tick.
+            { 
+                lastTick = lastTick + Tick; // Save the last tick time.
+                BattleFormulas.RecieveDamage(info.character, -HealTicks * info.stacks, DamageType, color); //Heal the character.
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// When the buff is applied again at max stacks, heals the character by FinalHealTick.
+        /// &lt;/summary&gt;
+        protected override void OnRepeatedBuff(BuffEffectInfo info)
+        {
+            if (info.stacks == maxStacks)
+            {
+                BattleFormulas.RecieveDamage(info.character, -FinalHealTick * info.stacks, DamageType, color);
+            }
+        }
+    }
+}
+</code></pre><p>2. Right click on a project folder, and click on &quot;Create/Auto-Battle Framework/Effects/BuffEffect/RegenerationEffect&quot;. This will create a new Scriptable Object of RegenerationEffect.</p>
+<p><img src="../resources/cbuff/1.png" alt="Create the Regeneration Effect">
+<em>Create the Regeneration Effect.</em></p>
+<p>3. Select the RegenerationBuff and fill in the following fields in its Inspector:</p>
+<ul>
+<li>Damage Type: The type of damage. Set it to Effect.</li>
+<li>Max Stacks: the maximum number of stacks the buff allows. Set it to 3.</li>
+<li>Duration: The maximum time the buff is applied, in seconds. Set to 4.</li>
+<li>Restart Time When Repeated: Resets the buff duration time when a buff stack is added. Activate it.</li>
+<li>Tick: Seconds that must elapse until the buff effect is applied again. Set it to 1.</li>
+<li>Heal Ticks: Amount of life to heal with each tick. Set it to 30.</li>
+<li>Final Heal Tick: Amount of life to heal at the end of the buff or when reapplying it again when the maximum stacks are reached. Set it to 100.</li>
+<li>Color: Color of the damage popup when healing the character. Set a greenish color, make sure the alpha is at maximum.</li>
+</ul>
+<p><img src="../resources/cbuff/2.png" alt="Set the variables of the Regeneration Buff">
+<em>Set the variables of the Regeneration Buff.</em></p>
+<p>4. Select the Witch Trait created in <a href="ctrait.html">Create a new Trait</a>.</p>
+<ul>
+<li>Edit the Trait description to &quot;Witches gain magic damage&quot;.</li>
+<li>Remove all Attack and On Hit effects from all your Trait Options.</li>
+<li>Edit the description of the first Trait Option to &quot;Gain 20 Magic damage.&quot;.</li>
+<li>Edit the description of the second Trait Option to &quot;Gain 50 Magic damage and regenerate HP over time.&quot;.</li>
+<li>Add RegenerationBuff to the Attack Effects list of the second Trait Option.</li>
+</ul>
+<p><img src="../resources/cbuff/3.png" alt="Set Regeneration to the second Trait Option of the Witch Trait">
+<em>Set Regeneration to the second Trait Option of the Witch Trait.</em></p>
+<p>5. Test the game and gather three witches. Note that until you gather three witches, they do not regenerate health.</p>
+<p><img src="../resources/cbuff/4.png" alt="When three witches are gathered, they gain the regeneration buff when attacking">
+<em>When three witches are gathered, they gain the regeneration buff when attacking.</em></p>
+<h2 id="create-a-new-debuff">Create a new Debuff</h2>
+<p>We will create a Debuff by reusing the Regeneration Buff created in the previous section.</p>
+<p>This time, when a witch performs her special attack and hits the enemy, she will apply a Debuff that will do damage over time, and if it is reapplied or runs out, it will do extra damage.</p>
+<p>1. Right click on a project folder, and click on &quot;Create/Auto-Battle Framework/Effects/BuffEffect/RegenerationEffect&quot;. This will create a new Scriptable Object of RegenerationEffect. Rename it to DegenerationEffect.</p>
+<p><img src="../resources/cbuff/1.png" alt="Create the Regeneration Effect. Rename it to DegenerationEffect">
+<em>Create the Regeneration Effect. Rename it to DegenerationEffect.</em></p>
+<p>2. Select the RegenerationBuff and fill in the following fields in its Inspector:</p>
+<ul>
+<li>Damage Type: The type of damage. Set it to Effect.</li>
+<li>Max Stacks: the maximum number of stacks the buff allows. Set it to 3.</li>
+<li>Duration: The maximum time the buff is applied, in seconds. Set to 4.</li>
+<li>Restart Time When Repeated: Resets the buff duration time when a buff stack is added. Activate it.</li>
+<li>Tick: Seconds that must elapse until the buff effect is applied again. Set it to 1.</li>
+<li>Heal Ticks: Amount of life to &quot;heal&quot;&quot; with each tick. Set it to -30, so it damages instead.</li>
+<li>Final Heal Tick: Amount of life to heal at the end of the buff or when reapplying it again when the maximum stacks are reached. Set it to -50, so it damages instead.</li>
+<li>Color: Color of the damage popup when healing the character. Set a dark color, make sure the alpha is at maximum.</li>
+</ul>
+<p><img src="../resources/cbuff/d1.png" alt="Set the variables of the Degeneration Buff">
+<em>Set the variables of the Degeneration Buff.</em></p>
+<p>3. Right click on the project and click on &quot;Create/Auto-Battle Framework/OnHitEffect/ApplyDebuff&quot; to create a new ApplyDebuff Scriptable Object, rename it to &quot;ApplyDegenerationDebuff&quot;. </p>
+<p><img src="../resources/cbuff/d2.png" alt="Create the ApplyDebuff Scriptable Object. Rename it to ApplyDegenerationDebuff">
+<em>Create the ApplyDebuff Scriptable Object. Rename it to ApplyDegenerationDebuff.</em></p>
+<p>4. Select ApplyDegenerationDebuff and bind the DegeneratonEffect in the Effect variable in the Inspector.</p>
+<p><img src="../resources/cbuff/d3.png" alt="Add DegenerationEffect to ApplyDegenerationDebuff">
+<em>Add DegenerationEffect to ApplyDegenerationDebuff.</em></p>
+<p>5. Select the WitchSpecialAttackEffect, created in <a href="cattack.html">Create a new Attack Effect</a>, and add ApplyDegenerationDebuff to the On Hit Effects list.
+<img src="../resources/cbuff/d4.png" alt="Add ApplyDegenerationDebuff to the On-Hit Effects list of WithcSpecialAttackEffect">
+<em>Add ApplyDegenerationDebuff to the On-Hit Effects list of WitchSpecialAttackEffect.</em></p>
+<p>6. Test the game. Note that when the witch makes her special attack, extra damage is applied after a while.</p>
+<p><img src="../resources/cbuff/d5.png" alt="When the witch makes her special attack, extra damage is applied after a while.">
+<em>When the witch makes her special attack, extra damage is applied after a while (150 black damage popup).</em></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Auto-Battle Framework documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.6/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="../styles/plugin-featherlight.js"></script>
+  </body>
+</html>
