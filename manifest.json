@@ -1371,7 +1371,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/battlegrid.html",
-          "hash": "Xeb2RHS3uZ0Am8ZrtlfLd+SSCwMUC9oxVtvXrmexglk="
+          "hash": "8RyIX/nwbU7v8HXDvgE9NkxER3Kp0OXGyyrBVv85kmM="
         }
       },
       "is_incremental": false,
@@ -1419,7 +1419,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/ccharacter.html",
-          "hash": "KDoObZ5FAsTF1WzM5ECs9ivMPi9XKB+sDl1QW7u0fUI="
+          "hash": "DzdgYQZSjFeKN/ljKdqzgn228gx/m3hFhhYSft5iPqI="
         }
       },
       "is_incremental": false,
@@ -1611,7 +1611,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/scene.html",
-          "hash": "WOcxWHZbwnHohi7lO4Nq7oh79ilwG46y81TkOkbH6EA="
+          "hash": "Pvgno4HKMPbhkwDMQOh3Ly2QviViJFt2hLGyGlRaCMk="
         }
       },
       "is_incremental": false,
@@ -1669,28 +1669,6 @@
       "output": {
         "resource": {
           "relative_path": "resources/BDescription.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "resources/ExampleManual.png",
-      "output": {
-        "resource": {
-          "relative_path": "resources/ExampleManual.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "resources/ExampleScriptingApi.png",
-      "output": {
-        "resource": {
-          "relative_path": "resources/ExampleScriptingApi.png"
         }
       },
       "is_incremental": false,
