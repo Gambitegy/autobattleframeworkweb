@@ -3309,51 +3309,6 @@ references:
   isSpec: "True"
   fullName: AutoBattleFramework.Movement.ApproximateAstarMovement.MoveTo
   nameWithType: ApproximateAstarMovement.MoveTo
-- uid: AutoBattleFramework.Movement.Astar
-  name: Astar
-  href: api/AutoBattleFramework.Movement.Astar.html
-  commentId: T:AutoBattleFramework.Movement.Astar
-  fullName: AutoBattleFramework.Movement.Astar
-  nameWithType: Astar
-- uid: AutoBattleFramework.Movement.Astar.find(GridCell,GridCell,Battle,System.Boolean)
-  name: find(GridCell, GridCell, Battle, Boolean)
-  href: api/AutoBattleFramework.Movement.Astar.html#AutoBattleFramework_Movement_Astar_find_GridCell_GridCell_Battle_System_Boolean_
-  commentId: M:AutoBattleFramework.Movement.Astar.find(GridCell,GridCell,Battle,System.Boolean)
-  fullName: AutoBattleFramework.Movement.Astar.find(GridCell, GridCell, Battle, System.Boolean)
-  nameWithType: Astar.find(GridCell, GridCell, Battle, Boolean)
-- uid: AutoBattleFramework.Movement.Astar.find*
-  name: find
-  href: api/AutoBattleFramework.Movement.Astar.html#AutoBattleFramework_Movement_Astar_find_
-  commentId: Overload:AutoBattleFramework.Movement.Astar.find
-  isSpec: "True"
-  fullName: AutoBattleFramework.Movement.Astar.find
-  nameWithType: Astar.find
-- uid: AutoBattleFramework.Movement.Astar.FindNeighbors4x(GridCell,BattleGrid)
-  name: FindNeighbors4x(GridCell, BattleGrid)
-  href: api/AutoBattleFramework.Movement.Astar.html#AutoBattleFramework_Movement_Astar_FindNeighbors4x_GridCell_BattleGrid_
-  commentId: M:AutoBattleFramework.Movement.Astar.FindNeighbors4x(GridCell,BattleGrid)
-  fullName: AutoBattleFramework.Movement.Astar.FindNeighbors4x(GridCell, BattleGrid)
-  nameWithType: Astar.FindNeighbors4x(GridCell, BattleGrid)
-- uid: AutoBattleFramework.Movement.Astar.FindNeighbors4x*
-  name: FindNeighbors4x
-  href: api/AutoBattleFramework.Movement.Astar.html#AutoBattleFramework_Movement_Astar_FindNeighbors4x_
-  commentId: Overload:AutoBattleFramework.Movement.Astar.FindNeighbors4x
-  isSpec: "True"
-  fullName: AutoBattleFramework.Movement.Astar.FindNeighbors4x
-  nameWithType: Astar.FindNeighbors4x
-- uid: AutoBattleFramework.Movement.Astar.FindNeighbors6x(GridCell,BattleGrid)
-  name: FindNeighbors6x(GridCell, BattleGrid)
-  href: api/AutoBattleFramework.Movement.Astar.html#AutoBattleFramework_Movement_Astar_FindNeighbors6x_GridCell_BattleGrid_
-  commentId: M:AutoBattleFramework.Movement.Astar.FindNeighbors6x(GridCell,BattleGrid)
-  fullName: AutoBattleFramework.Movement.Astar.FindNeighbors6x(GridCell, BattleGrid)
-  nameWithType: Astar.FindNeighbors6x(GridCell, BattleGrid)
-- uid: AutoBattleFramework.Movement.Astar.FindNeighbors6x*
-  name: FindNeighbors6x
-  href: api/AutoBattleFramework.Movement.Astar.html#AutoBattleFramework_Movement_Astar_FindNeighbors6x_
-  commentId: Overload:AutoBattleFramework.Movement.Astar.FindNeighbors6x
-  isSpec: "True"
-  fullName: AutoBattleFramework.Movement.Astar.FindNeighbors6x
-  nameWithType: Astar.FindNeighbors6x
 - uid: AutoBattleFramework.Movement.ExactAstarMovement
   name: ExactAstarMovement
   href: api/AutoBattleFramework.Movement.ExactAstarMovement.html
@@ -3483,6 +3438,51 @@ references:
   isSpec: "True"
   fullName: AutoBattleFramework.Movement.IBattleMovement.SetTargetAndMove
   nameWithType: IBattleMovement.SetTargetAndMove
+- uid: AutoBattleFramework.Movement.PathFinding2D
+  name: PathFinding2D
+  href: api/AutoBattleFramework.Movement.PathFinding2D.html
+  commentId: T:AutoBattleFramework.Movement.PathFinding2D
+  fullName: AutoBattleFramework.Movement.PathFinding2D
+  nameWithType: PathFinding2D
+- uid: AutoBattleFramework.Movement.PathFinding2D.find(GridCell,GridCell,Battle,System.Boolean)
+  name: find(GridCell, GridCell, Battle, Boolean)
+  href: api/AutoBattleFramework.Movement.PathFinding2D.html#AutoBattleFramework_Movement_PathFinding2D_find_GridCell_GridCell_Battle_System_Boolean_
+  commentId: M:AutoBattleFramework.Movement.PathFinding2D.find(GridCell,GridCell,Battle,System.Boolean)
+  fullName: AutoBattleFramework.Movement.PathFinding2D.find(GridCell, GridCell, Battle, System.Boolean)
+  nameWithType: PathFinding2D.find(GridCell, GridCell, Battle, Boolean)
+- uid: AutoBattleFramework.Movement.PathFinding2D.find*
+  name: find
+  href: api/AutoBattleFramework.Movement.PathFinding2D.html#AutoBattleFramework_Movement_PathFinding2D_find_
+  commentId: Overload:AutoBattleFramework.Movement.PathFinding2D.find
+  isSpec: "True"
+  fullName: AutoBattleFramework.Movement.PathFinding2D.find
+  nameWithType: PathFinding2D.find
+- uid: AutoBattleFramework.Movement.PathFinding2D.FindNeighbors4x(GridCell,BattleGrid)
+  name: FindNeighbors4x(GridCell, BattleGrid)
+  href: api/AutoBattleFramework.Movement.PathFinding2D.html#AutoBattleFramework_Movement_PathFinding2D_FindNeighbors4x_GridCell_BattleGrid_
+  commentId: M:AutoBattleFramework.Movement.PathFinding2D.FindNeighbors4x(GridCell,BattleGrid)
+  fullName: AutoBattleFramework.Movement.PathFinding2D.FindNeighbors4x(GridCell, BattleGrid)
+  nameWithType: PathFinding2D.FindNeighbors4x(GridCell, BattleGrid)
+- uid: AutoBattleFramework.Movement.PathFinding2D.FindNeighbors4x*
+  name: FindNeighbors4x
+  href: api/AutoBattleFramework.Movement.PathFinding2D.html#AutoBattleFramework_Movement_PathFinding2D_FindNeighbors4x_
+  commentId: Overload:AutoBattleFramework.Movement.PathFinding2D.FindNeighbors4x
+  isSpec: "True"
+  fullName: AutoBattleFramework.Movement.PathFinding2D.FindNeighbors4x
+  nameWithType: PathFinding2D.FindNeighbors4x
+- uid: AutoBattleFramework.Movement.PathFinding2D.FindNeighbors6x(GridCell,BattleGrid)
+  name: FindNeighbors6x(GridCell, BattleGrid)
+  href: api/AutoBattleFramework.Movement.PathFinding2D.html#AutoBattleFramework_Movement_PathFinding2D_FindNeighbors6x_GridCell_BattleGrid_
+  commentId: M:AutoBattleFramework.Movement.PathFinding2D.FindNeighbors6x(GridCell,BattleGrid)
+  fullName: AutoBattleFramework.Movement.PathFinding2D.FindNeighbors6x(GridCell, BattleGrid)
+  nameWithType: PathFinding2D.FindNeighbors6x(GridCell, BattleGrid)
+- uid: AutoBattleFramework.Movement.PathFinding2D.FindNeighbors6x*
+  name: FindNeighbors6x
+  href: api/AutoBattleFramework.Movement.PathFinding2D.html#AutoBattleFramework_Movement_PathFinding2D_FindNeighbors6x_
+  commentId: Overload:AutoBattleFramework.Movement.PathFinding2D.FindNeighbors6x
+  isSpec: "True"
+  fullName: AutoBattleFramework.Movement.PathFinding2D.FindNeighbors6x
+  nameWithType: PathFinding2D.FindNeighbors6x
 - uid: AutoBattleFramework.Shop
   name: AutoBattleFramework.Shop
   href: api/AutoBattleFramework.Shop.html

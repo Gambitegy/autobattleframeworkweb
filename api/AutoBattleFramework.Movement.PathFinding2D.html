@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ApplyBuffOnHitEffect
+    <title>Class PathFinding2D
    | Auto-Battle Framework documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ApplyBuffOnHitEffect
+    <meta name="title" content="Class PathFinding2D
    | Auto-Battle Framework documentation ">
     <meta name="generator" content="docfx 2.59.3.0">
     
@@ -284,8 +284,8 @@
                           <li class="">
                             <a href="AutoBattleFramework.Movement.IBattleMovement.html" title="IBattleMovement" class="">IBattleMovement</a>
                           </li>
-                          <li class="">
-                            <a href="AutoBattleFramework.Movement.PathFinding2D.html" title="PathFinding2D" class="">PathFinding2D</a>
+                          <li class="active">
+                            <a href="AutoBattleFramework.Movement.PathFinding2D.html" title="PathFinding2D" class="active">PathFinding2D</a>
                           </li>
                         </ul>  </li>
                     <li class="">
@@ -365,8 +365,8 @@
                       <a href="AutoBattleFramework.Skills.html" title="AutoBattleFramework.Skills" class="">AutoBattleFramework.Skills</a>
                         
                         <ul class="nav level2">
-                          <li class="active">
-                            <a href="AutoBattleFramework.Skills.ApplyBuffOnHitEffect.html" title="ApplyBuffOnHitEffect" class="active">ApplyBuffOnHitEffect</a>
+                          <li class="">
+                            <a href="AutoBattleFramework.Skills.ApplyBuffOnHitEffect.html" title="ApplyBuffOnHitEffect" class="">ApplyBuffOnHitEffect</a>
                           </li>
                           <li class="">
                             <a href="AutoBattleFramework.Skills.ApplyDebuffOnHitEffect.html" title="ApplyDebuffOnHitEffect" class="">ApplyDebuffOnHitEffect</a>
@@ -472,71 +472,38 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="AutoBattleFramework.Skills.ApplyBuffOnHitEffect">
+            <article class="content wrap" id="_content" data-uid="AutoBattleFramework.Movement.PathFinding2D">
   
   
-  <h1 id="AutoBattleFramework_Skills_ApplyBuffOnHitEffect" data-uid="AutoBattleFramework.Skills.ApplyBuffOnHitEffect" class="text-break">Class ApplyBuffOnHitEffect
+  <h1 id="AutoBattleFramework_Movement_PathFinding2D" data-uid="AutoBattleFramework.Movement.PathFinding2D" class="text-break">Class PathFinding2D
   </h1>
-  <div class="markdown level0 summary"><p>When an attack with this effects hits a GameCharacter, applies a <a class="xref" href="AutoBattleFramework.Skills.BuffEffect.html">BuffEffect</a> on that GameCharacter. Use it to apply negative effects such as stat reduction, or effect damage such as poison or burns.</p>
+  <div class="markdown level0 summary"><p>A* algorithm, used by <a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html">GameCharacter</a> to move through the <a class="xref" href="AutoBattleFramework.Battlefield.BattleGrid.html">BattleGrid</a>.
+This script is a modification of UnityPathFinding2D, under MIT license. The original script can be found at: <a href="https://github.com/folospace/UnityPathFinding2D">https://github.com/folospace/UnityPathFinding2D</a></p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="AutoBattleFramework.Skills.OnHitEffect.html">OnHitEffect</a></div>
-    <div class="level2"><span class="xref">ApplyBuffOnHitEffect</span></div>
+    <div class="level1"><span class="xref">PathFinding2D</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="AutoBattleFramework.Skills.OnHitEffect.html#AutoBattleFramework_Skills_OnHitEffect_InstantiateOnHitEffect">OnHitEffect.InstantiateOnHitEffect()</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="AutoBattleFramework.Skills.html">AutoBattleFramework.Skills</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AutoBattleFramework.Movement.html">AutoBattleFramework.Movement</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="AutoBattleFramework_Skills_ApplyBuffOnHitEffect_syntax">Syntax</h5>
+  <h5 id="AutoBattleFramework_Movement_PathFinding2D_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ApplyBuffOnHitEffect : OnHitEffect</code></pre>
+    <pre><code class="lang-csharp hljs">public class PathFinding2D</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="AutoBattleFramework_Skills_ApplyBuffOnHitEffect_effect" data-uid="AutoBattleFramework.Skills.ApplyBuffOnHitEffect.effect">effect</h4>
-  <div class="markdown level1 summary"><p>Buff the will be applied to the defender.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BuffEffect effect</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AutoBattleFramework.Skills.BuffEffect.html">BuffEffect</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="AutoBattleFramework_Skills_ApplyBuffOnHitEffect_OnHit_" data-uid="AutoBattleFramework.Skills.ApplyBuffOnHitEffect.OnHit*"></a>
-  <h4 id="AutoBattleFramework_Skills_ApplyBuffOnHitEffect_OnHit_GameCharacter_GameCharacter_System_Single_" data-uid="AutoBattleFramework.Skills.ApplyBuffOnHitEffect.OnHit(GameCharacter,GameCharacter,System.Single)">OnHit(GameCharacter, GameCharacter, Single)</h4>
-  <div class="markdown level1 summary"><p>Applies the buff when the attack hits.</p>
+  <a id="AutoBattleFramework_Movement_PathFinding2D_find_" data-uid="AutoBattleFramework.Movement.PathFinding2D.find*"></a>
+  <h4 id="AutoBattleFramework_Movement_PathFinding2D_find_GridCell_GridCell_Battle_System_Boolean_" data-uid="AutoBattleFramework.Movement.PathFinding2D.find(GridCell,GridCell,Battle,System.Boolean)">find(GridCell, GridCell, Battle, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Get the path from an initial cell to a target cell.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnHit(GameCharacter defender, GameCharacter attacker, float damage)</code></pre>
+    <pre><code class="lang-csharp hljs">public static List&lt;GridCell&gt; find(GridCell from, GridCell to, Battle battle, bool GetPathWithoutObstacles = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -549,27 +516,149 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GameCharacter</span></td>
-        <td><span class="parametername">defender</span></td>
-        <td><p>GameCharacter recieving the attack. The <a class="xref" href="AutoBattleFramework.Skills.BuffEffect.html">BuffEffect</a> will be applied to this GameCharacter.</p>
+        <td><span class="xref">GridCell</span></td>
+        <td><span class="parametername">from</span></td>
+        <td><p>Initial cell</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">GameCharacter</span></td>
-        <td><span class="parametername">attacker</span></td>
-        <td><p>GameCharacter that is attacking.</p>
+        <td><span class="xref">GridCell</span></td>
+        <td><span class="parametername">to</span></td>
+        <td><p>Target cell</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">damage</span></td>
-        <td><p>Fixed amount of damage. In this case it is not necessary.</p>
+        <td><span class="xref">Battle</span></td>
+        <td><span class="parametername">battle</span></td>
+        <td><p>Current battle</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">GetPathWithoutObstacles</span></td>
+        <td><p>Optional parameter. Set it to true to ignore other GameCharacters. Useful to find the distance between cells.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="AutoBattleFramework.Skills.OnHitEffect.html#AutoBattleFramework_Skills_OnHitEffect_OnHit_GameCharacter_GameCharacter_System_Single_">OnHitEffect.OnHit(GameCharacter, GameCharacter, Single)</a></div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">GridCell</span>&gt;</td>
+        <td><p>List of cells that build a path from the initial to the final cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AutoBattleFramework_Movement_PathFinding2D_FindNeighbors4x_" data-uid="AutoBattleFramework.Movement.PathFinding2D.FindNeighbors4x*"></a>
+  <h4 id="AutoBattleFramework_Movement_PathFinding2D_FindNeighbors4x_GridCell_BattleGrid_" data-uid="AutoBattleFramework.Movement.PathFinding2D.FindNeighbors4x(GridCell,BattleGrid)">FindNeighbors4x(GridCell, BattleGrid)</h4>
+  <div class="markdown level1 summary"><p>Find the neighbors cells of a given cell, used in Squared grid types.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;GridCell&gt; FindNeighbors4x(GridCell cell, BattleGrid grid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GridCell</span></td>
+        <td><span class="parametername">cell</span></td>
+        <td><p>Cell to look for neighbors.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">BattleGrid</span></td>
+        <td><span class="parametername">grid</span></td>
+        <td><p>Current grid of cells.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">GridCell</span>&gt;</td>
+        <td><p>List of neighbor cells.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AutoBattleFramework_Movement_PathFinding2D_FindNeighbors6x_" data-uid="AutoBattleFramework.Movement.PathFinding2D.FindNeighbors6x*"></a>
+  <h4 id="AutoBattleFramework_Movement_PathFinding2D_FindNeighbors6x_GridCell_BattleGrid_" data-uid="AutoBattleFramework.Movement.PathFinding2D.FindNeighbors6x(GridCell,BattleGrid)">FindNeighbors6x(GridCell, BattleGrid)</h4>
+  <div class="markdown level1 summary"><p>Find the neighbors cells of a given cell, used in Hex grid types.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;GridCell&gt; FindNeighbors6x(GridCell cell, BattleGrid grid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GridCell</span></td>
+        <td><span class="parametername">cell</span></td>
+        <td><p>Cell to look for neighbors.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">BattleGrid</span></td>
+        <td><span class="parametername">grid</span></td>
+        <td><p>Current grid of cells.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">GridCell</span>&gt;</td>
+        <td><p>List of neighbor cells.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
