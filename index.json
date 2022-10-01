@@ -544,6 +544,11 @@
     "title": "Class UIUtility | Auto-Battle Framework documentation",
     "keywords": "Class UIUtility Inheritance Object UIUtility Namespace : AutoBattleFramework.Utility Assembly : cs.temp.dll.dll Syntax public class UIUtility Methods KeepInsideScreen(RectTransform) Prevents the panel to go off-screen. Declaration public static void KeepInsideScreen(RectTransform rect) Parameters Type Name Description RectTransform rect"
   },
+  "changelog/1.0.1.html": {
+    "href": "changelog/1.0.1.html",
+    "title": "1.0.1 (Submitted for review) | Auto-Battle Framework documentation",
+    "keywords": "1.0.1 (Submitted for review) Fixed a bug related to missing prefabs references related to Stage UI. Fixed a bug related to over time damage, the enemy was still receiving damage even when dead."
+  },
   "index.html": {
     "href": "index.html",
     "title": "Auto-Battle Framework | Auto-Battle Framework documentation",
