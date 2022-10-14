@@ -54,7 +54,7 @@
                           <a href="../api/AutoBattleFramework.BattleBehaviour.html" title="Scripting API">Scripting API</a>
                       </li>
                       <li>
-                          <a href="../changelog/1.0.1.html" title="Changelog">Changelog</a>
+                          <a href="../changelog/changelog.html" title="Changelog">Changelog</a>
                       </li>
                       <li>
                           <a href="https://gambitegy.github.io/" title="Contact">Contact</a>
@@ -116,6 +116,9 @@
                           <li class="">
                             <a href="AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.html" title="ScriptableBattleStage" class="">ScriptableBattleStage</a>
                           </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.TeamData.html" title="TeamData" class="">TeamData</a>
+                          </li>
                         </ul>  </li>
                     <li class="">
                       <span class="expand-stub"></span>
@@ -145,6 +148,15 @@
                           </li>
                           <li class="">
                             <a href="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.html" title="GameItem" class="">GameItem</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AutoBattleFramework.BattleBehaviour.Multiplayer.html" title="AutoBattleFramework.BattleBehaviour.Multiplayer" class="">AutoBattleFramework.BattleBehaviour.Multiplayer</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html" title="IPlayer" class="">IPlayer</a>
                           </li>
                         </ul>  </li>
                     <li class="">
@@ -255,7 +267,10 @@
                             <a href="AutoBattleFramework.EditorScripts.BenchEditor.html" title="BenchEditor" class="">BenchEditor</a>
                           </li>
                           <li class="">
-                            <a href="AutoBattleFramework.EditorScripts.MenuActions.html" title="MenuActions" class="">MenuActions</a>
+                            <a href="AutoBattleFramework.EditorScripts.GameCharacterEditor.html" title="GameCharacterEditor" class="">GameCharacterEditor</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.EditorScripts.NGO_MenuActions.html" title="NGO_MenuActions" class="">NGO_MenuActions</a>
                           </li>
                           <li class="">
                             <a href="AutoBattleFramework.EditorScripts.ReadOnlyDrawer.html" title="ReadOnlyDrawer" class="">ReadOnlyDrawer</a>
@@ -541,18 +556,74 @@ public class ItemModificator : StatsModificator</code></pre>
       </tr>
     </tbody>
   </table>
+  
+  
+  <h4 id="AutoBattleFramework_Stats_ItemModificator_traits" data-uid="AutoBattleFramework.Stats.ItemModificator.traits">traits</h4>
+  <div class="markdown level1 summary"><p>List of Traits that will be applied to the character when the item is equipped.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Trait&gt; traits</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="AutoBattleFramework.Stats.Trait.html">Trait</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="AutoBattleFramework_Stats_ItemModificator_AddItemModificator_" data-uid="AutoBattleFramework.Stats.ItemModificator.AddItemModificator*"></a>
   <h4 id="AutoBattleFramework_Stats_ItemModificator_AddItemModificator_GameCharacter_" data-uid="AutoBattleFramework.Stats.ItemModificator.AddItemModificator(GameCharacter)">AddItemModificator(GameCharacter)</h4>
-  <div class="markdown level1 summary"><p>Adds the item&apos;s modificator to the character&apos;s <a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html#AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_itemModificators">itemModificators</a>.</p>
+  <div class="markdown level1 summary"><p>Adds the item&apos;s modificator to the character&apos;s <a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html#AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_itemModificators">itemModificators</a>.
+Adds the traits in <a class="xref" href="AutoBattleFramework.Stats.ItemModificator.html#AutoBattleFramework_Stats_ItemModificator_traits">traits</a> to <a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html#AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_traits">traits</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void AddItemModificator(GameCharacter character)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameCharacter</span></td>
+        <td><span class="parametername">character</span></td>
+        <td><p>Character to be equipped with the item</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AutoBattleFramework_Stats_ItemModificator_RemoveItemModificator_" data-uid="AutoBattleFramework.Stats.ItemModificator.RemoveItemModificator*"></a>
+  <h4 id="AutoBattleFramework_Stats_ItemModificator_RemoveItemModificator_GameCharacter_" data-uid="AutoBattleFramework.Stats.ItemModificator.RemoveItemModificator(GameCharacter)">RemoveItemModificator(GameCharacter)</h4>
+  <div class="markdown level1 summary"><p>Removes the item&apos;s modificator from the character&apos;s <a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html#AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_itemModificators">itemModificators</a>.
+Removes the traits in <a class="xref" href="AutoBattleFramework.Stats.ItemModificator.html#AutoBattleFramework_Stats_ItemModificator_traits">traits</a> from <a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html#AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_traits">traits</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveItemModificator(GameCharacter character)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

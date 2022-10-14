@@ -54,7 +54,7 @@
                           <a href="../api/AutoBattleFramework.BattleBehaviour.html" title="Scripting API">Scripting API</a>
                       </li>
                       <li>
-                          <a href="../changelog/1.0.1.html" title="Changelog">Changelog</a>
+                          <a href="../changelog/changelog.html" title="Changelog">Changelog</a>
                       </li>
                       <li>
                           <a href="https://gambitegy.github.io/" title="Contact">Contact</a>
@@ -116,6 +116,9 @@
                           <li class="">
                             <a href="AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.html" title="ScriptableBattleStage" class="">ScriptableBattleStage</a>
                           </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.TeamData.html" title="TeamData" class="">TeamData</a>
+                          </li>
                         </ul>  </li>
                     <li class="">
                       <span class="expand-stub"></span>
@@ -145,6 +148,15 @@
                           </li>
                           <li class="">
                             <a href="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.html" title="GameItem" class="">GameItem</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AutoBattleFramework.BattleBehaviour.Multiplayer.html" title="AutoBattleFramework.BattleBehaviour.Multiplayer" class="">AutoBattleFramework.BattleBehaviour.Multiplayer</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html" title="IPlayer" class="">IPlayer</a>
                           </li>
                         </ul>  </li>
                     <li class="">
@@ -255,7 +267,10 @@
                             <a href="AutoBattleFramework.EditorScripts.BenchEditor.html" title="BenchEditor" class="">BenchEditor</a>
                           </li>
                           <li class="">
-                            <a href="AutoBattleFramework.EditorScripts.MenuActions.html" title="MenuActions" class="">MenuActions</a>
+                            <a href="AutoBattleFramework.EditorScripts.GameCharacterEditor.html" title="GameCharacterEditor" class="">GameCharacterEditor</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.EditorScripts.NGO_MenuActions.html" title="NGO_MenuActions" class="">NGO_MenuActions</a>
                           </li>
                           <li class="">
                             <a href="AutoBattleFramework.EditorScripts.ReadOnlyDrawer.html" title="ReadOnlyDrawer" class="">ReadOnlyDrawer</a>
@@ -500,7 +515,8 @@ Contains the references to all the main systems.</p>
   
   
   <h4 id="AutoBattleFramework_BattleBehaviour_Battle_ApplyTeam2TraitModificators" data-uid="AutoBattleFramework.BattleBehaviour.Battle.ApplyTeam2TraitModificators">ApplyTeam2TraitModificators</h4>
-  <div class="markdown level1 summary"><p>If the enemy team also applies trait modificators to their members.</p>
+  <div class="markdown level1 summary"><p>If the enemy team also applies trait modificators to their members.
+Used only in single player for the enemy traits.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -624,7 +640,7 @@ Contains the references to all the main systems.</p>
   
   
   <h4 id="AutoBattleFramework_BattleBehaviour_Battle_fusionManager" data-uid="AutoBattleFramework.BattleBehaviour.Battle.fusionManager">fusionManager</h4>
-  <div class="markdown level1 summary"><p>The fusion manager. When a new character is added to <a class="xref" href="AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_Team1">Team1</a> or to <a class="xref" href="AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_Team1Bench">Team1Bench</a>, it checks if fusions are available, and if so, performs the merge.</p>
+  <div class="markdown level1 summary"><p>The fusion manager. When a new character is added to a team or a bench, it checks if fusions are available, and if so, performs the merge.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -697,13 +713,15 @@ Contains the references to all the main systems.</p>
   </table>
   
   
-  <h4 id="AutoBattleFramework_BattleBehaviour_Battle_ItemBench" data-uid="AutoBattleFramework.BattleBehaviour.Battle.ItemBench">ItemBench</h4>
-  <div class="markdown level1 summary"><p>Bench of items not equipped to characters.</p>
+  <h4 id="AutoBattleFramework_BattleBehaviour_Battle_ItemBenches" data-uid="AutoBattleFramework.BattleBehaviour.Battle.ItemBenches">ItemBenches</h4>
+  <div class="markdown level1 summary"><p>List of player item benches.
+In single player mode, the first index corresponds to the player&apos;s bench, and the second to the enemy&apos;s bench.
+In multiplayer, The first in the list will belong to player 1, the second to player 2 and so on.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Bench ItemBench</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;Bench&gt; ItemBenches</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -715,7 +733,7 @@ Contains the references to all the main systems.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Bench</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">Bench</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -822,6 +840,33 @@ Contains the references to all the main systems.</p>
   </table>
   
   
+  <h4 id="AutoBattleFramework_BattleBehaviour_Battle_SellZones" data-uid="AutoBattleFramework.BattleBehaviour.Battle.SellZones">SellZones</h4>
+  <div class="markdown level1 summary"><p>List of player item benches.
+In single player mode, the first index corresponds to the player&apos;s bench, and the second to the enemy&apos;s bench.
+In multiplayer, The first in the list will belong to player 1, the second to player 2 and so on.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;SellZone&gt; SellZones</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">SellZone</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="AutoBattleFramework_BattleBehaviour_Battle_shopManager" data-uid="AutoBattleFramework.BattleBehaviour.Battle.shopManager">shopManager</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -870,12 +915,39 @@ Contains the references to all the main systems.</p>
   </table>
   
   
-  <h4 id="AutoBattleFramework_BattleBehaviour_Battle_Team1" data-uid="AutoBattleFramework.BattleBehaviour.Battle.Team1">Team1</h4>
+  <h4 id="AutoBattleFramework_BattleBehaviour_Battle_TeamBenches" data-uid="AutoBattleFramework.BattleBehaviour.Battle.TeamBenches">TeamBenches</h4>
+  <div class="markdown level1 summary"><p>List of player character benches.
+In single player mode, the first index corresponds to the player&apos;s bench, and the second to the enemy&apos;s bench.
+In multiplayer, The first in the list will belong to player 1, the second to player 2 and so on.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Bench&gt; TeamBenches</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">Bench</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AutoBattleFramework_BattleBehaviour_Battle_teams" data-uid="AutoBattleFramework.BattleBehaviour.Battle.teams">teams</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;GameCharacter&gt; Team1</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;TeamData&gt; teams</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -887,44 +959,19 @@ Contains the references to all the main systems.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">GameCharacter</span>&gt;</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="AutoBattleFramework.BattleBehaviour.TeamData.html">TeamData</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="AutoBattleFramework_BattleBehaviour_Battle_Team1Bench" data-uid="AutoBattleFramework.BattleBehaviour.Battle.Team1Bench">Team1Bench</h4>
-  <div class="markdown level1 summary"><p>Bench of player characters.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Bench Team1Bench</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Bench</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="AutoBattleFramework_BattleBehaviour_Battle_Team1TraitListUI" data-uid="AutoBattleFramework.BattleBehaviour.Battle.Team1TraitListUI">Team1TraitListUI</h4>
+  <h4 id="AutoBattleFramework_BattleBehaviour_Battle_TeamTraitListUI" data-uid="AutoBattleFramework.BattleBehaviour.Battle.TeamTraitListUI">TeamTraitListUI</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TraitListUI Team1TraitListUI</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;TraitListUI&gt; TeamTraitListUI</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -936,57 +983,7 @@ Contains the references to all the main systems.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TraitListUI</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="AutoBattleFramework_BattleBehaviour_Battle_Team2" data-uid="AutoBattleFramework.BattleBehaviour.Battle.Team2">Team2</h4>
-  <div class="markdown level1 summary"><p>List of enemy characters currently in play.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;GameCharacter&gt; Team2</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">GameCharacter</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="AutoBattleFramework_BattleBehaviour_Battle_Team2TraitListUI" data-uid="AutoBattleFramework.BattleBehaviour.Battle.Team2TraitListUI">Team2TraitListUI</h4>
-  <div class="markdown level1 summary"><p>Reference to the trait list interface for <a class="xref" href="AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_Team2">Team2</a>. If the bonus of a trait is applied, a panel describing that trait (<a class="xref" href="AutoBattleFramework.BattleUI.TraitUI.html">TraitUI</a>) will be added to the list.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TraitListUI Team2TraitListUI</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TraitListUI</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">TraitListUI</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1019,7 +1016,8 @@ Contains the references to all the main systems.</p>
   
   
   <h4 id="AutoBattleFramework_BattleBehaviour_Battle_TraitCheckForDistinctCharacters" data-uid="AutoBattleFramework.BattleBehaviour.Battle.TraitCheckForDistinctCharacters">TraitCheckForDistinctCharacters</h4>
-  <div class="markdown level1 summary"><p>If you want only characters that are different from each other to count towards the trait bonus.</p>
+  <div class="markdown level1 summary"><p>If you want only characters that are different from each other to count towards the trait bonus.
+Used only in single player. In multiplayer the traits are always checked.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1043,12 +1041,12 @@ Contains the references to all the main systems.</p>
   </table>
   
   
-  <h4 id="AutoBattleFramework_BattleBehaviour_Battle_TraitsToCheckTeam1" data-uid="AutoBattleFramework.BattleBehaviour.Battle.TraitsToCheckTeam1">TraitsToCheckTeam1</h4>
+  <h4 id="AutoBattleFramework_BattleBehaviour_Battle_TraitsToCheck" data-uid="AutoBattleFramework.BattleBehaviour.Battle.TraitsToCheck">TraitsToCheck</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;Trait&gt; TraitsToCheckTeam1</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;Trait&gt; TraitsToCheck</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1068,7 +1066,8 @@ Contains the references to all the main systems.</p>
   
   
   <h4 id="AutoBattleFramework_BattleBehaviour_Battle_TraitsToCheckTeam2" data-uid="AutoBattleFramework.BattleBehaviour.Battle.TraitsToCheckTeam2">TraitsToCheckTeam2</h4>
-  <div class="markdown level1 summary"><p>List of traits that the system must check to apply the bonuses of each trait.</p>
+  <div class="markdown level1 summary"><p>In single player, the enemy checks his traits using this list.
+In multiplayer this list is not used.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1268,7 +1267,7 @@ Contains the references to all the main systems.</p>
   
   <a id="AutoBattleFramework_BattleBehaviour_Battle_GetMaxCharactersInTeam_" data-uid="AutoBattleFramework.BattleBehaviour.Battle.GetMaxCharactersInTeam*"></a>
   <h4 id="AutoBattleFramework_BattleBehaviour_Battle_GetMaxCharactersInTeam" data-uid="AutoBattleFramework.BattleBehaviour.Battle.GetMaxCharactersInTeam">GetMaxCharactersInTeam()</h4>
-  <div class="markdown level1 summary"><p>Returns the maximum number of characters in play for <a class="xref" href="AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_Team1">Team1</a>.</p>
+  <div class="markdown level1 summary"><p>Returns the maximum number of characters in play for a player.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1295,7 +1294,7 @@ Contains the references to all the main systems.</p>
   <a id="AutoBattleFramework_BattleBehaviour_Battle_SetBattleOrBenchState_" data-uid="AutoBattleFramework.BattleBehaviour.Battle.SetBattleOrBenchState*"></a>
   <h4 id="AutoBattleFramework_BattleBehaviour_Battle_SetBattleOrBenchState_GameCharacter_" data-uid="AutoBattleFramework.BattleBehaviour.Battle.SetBattleOrBenchState(GameCharacter)">SetBattleOrBenchState(GameCharacter)</h4>
   <div class="markdown level1 summary"><p>Set the GameCharacter <a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html#AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_State">State</a> depending on whether it is on the bench (Benched status) or in play (NoTarget status).
-If it is in play, adds it to <a class="xref" href="AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_Team1">Team1</a>.</p>
+If it is in play, adds it to team list.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1335,7 +1334,7 @@ If it is in play, adds it to <a class="xref" href="AutoBattleFramework.BattleBeh
   
   <a id="AutoBattleFramework_BattleBehaviour_Battle_TraitCheck_" data-uid="AutoBattleFramework.BattleBehaviour.Battle.TraitCheck*"></a>
   <h4 id="AutoBattleFramework_BattleBehaviour_Battle_TraitCheck_System_Collections_Generic_List_GameCharacter__System_Collections_Generic_List_GameCharacter__System_Collections_Generic_List_Trait__TraitListUI_System_Boolean_" data-uid="AutoBattleFramework.BattleBehaviour.Battle.TraitCheck(System.Collections.Generic.List{GameCharacter},System.Collections.Generic.List{GameCharacter},System.Collections.Generic.List{Trait},TraitListUI,System.Boolean)">TraitCheck(List&lt;GameCharacter&gt;, List&lt;GameCharacter&gt;, List&lt;Trait&gt;, TraitListUI, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Checks if a <a class="xref" href="AutoBattleFramework.Stats.Trait.html">Trait</a> is active in the game and applies the <a class="xref" href="AutoBattleFramework.Stats.StatModificator.html">StatModificator</a> from the activated <a class="xref" href="AutoBattleFramework.Stats.TraitOption.html">TraitOption</a> to the characters in <a class="xref" href="AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_Team1">Team1</a></p>
+  <div class="markdown level1 summary"><p>Checks if a <a class="xref" href="AutoBattleFramework.Stats.Trait.html">Trait</a> is active in the game and applies the <a class="xref" href="AutoBattleFramework.Stats.StatModificator.html">StatModificator</a> from the activated <a class="xref" href="AutoBattleFramework.Stats.TraitOption.html">TraitOption</a> to the characters in the team.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

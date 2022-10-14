@@ -1,0 +1,976 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BuffEffect
+   | Auto-Battle Framework documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BuffEffect
+   | Auto-Battle Framework documentation ">
+    <meta name="generator" content="docfx 2.59.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.6/release/featherlight.min.css" type="text/css" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../overview/Introduction.html" title="Manual">Manual</a>
+                      </li>
+                      <li>
+                          <a href="../api/AutoBattleFramework.BattleBehaviour.html" title="Scripting API">Scripting API</a>
+                      </li>
+                      <li>
+                          <a href="../changelog/1.0.1.html" title="Changelog">Changelog</a>
+                      </li>
+                      <li>
+                          <a href="https://gambitegy.github.io/" title="Contact">Contact</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AutoBattleFramework.BattleBehaviour.html" title="AutoBattleFramework.BattleBehaviour" class="">AutoBattleFramework.BattleBehaviour</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.Battle.html" title="Battle" class="">Battle</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.BossSize.html" title="BossSize" class="">BossSize</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.CharacterGroup.html" title="CharacterGroup" class="">CharacterGroup</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.ScriptableBattlePosition.html" title="ScriptableBattlePosition" class="">ScriptableBattlePosition</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.html" title="ScriptableBattleStage" class="">ScriptableBattleStage</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AutoBattleFramework.BattleBehaviour.Fusion.html" title="AutoBattleFramework.BattleBehaviour.Fusion" class="">AutoBattleFramework.BattleBehaviour.Fusion</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.Fusion.FusionManager.html" title="FusionManager" class="">FusionManager</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.Fusion.GameCharacterFusion.html" title="GameCharacterFusion" class="">GameCharacterFusion</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AutoBattleFramework.BattleBehaviour.GameActors.html" title="AutoBattleFramework.BattleBehaviour.GameActors" class="">AutoBattleFramework.BattleBehaviour.GameActors</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.GameActors.GameActor.html" title="GameActor" class="">GameActor</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html" title="GameCharacter" class="">GameCharacter</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.AIState.html" title="GameCharacter.AIState" class="">GameCharacter.AIState</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.html" title="GameItem" class="">GameItem</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AutoBattleFramework.BattleBehaviour.States.html" title="AutoBattleFramework.BattleBehaviour.States" class="">AutoBattleFramework.BattleBehaviour.States</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.States.BattleState.html" title="BattleState" class="">BattleState</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.States.ChangeStageState.html" title="ChangeStageState" class="">ChangeStageState</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.States.FightState.html" title="FightState" class="">FightState</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.States.FightState.LoseCondition.html" title="FightState.LoseCondition" class="">FightState.LoseCondition</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.States.FightState.WinCondition.html" title="FightState.WinCondition" class="">FightState.WinCondition</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.States.PreparationState.html" title="PreparationState" class="">PreparationState</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.States.ResetSceneState.html" title="ResetSceneState" class="">ResetSceneState</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AutoBattleFramework.Battlefield.html" title="AutoBattleFramework.Battlefield" class="">AutoBattleFramework.Battlefield</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AutoBattleFramework.Battlefield.BattleGrid.html" title="BattleGrid" class="">BattleGrid</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Battlefield.BattleGrid.GridType.html" title="BattleGrid.GridType" class="">BattleGrid.GridType</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Battlefield.Bench.html" title="Bench" class="">Bench</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Battlefield.GridCell.html" title="GridCell" class="">GridCell</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Battlefield.GridCellEffect.html" title="GridCellEffect" class="">GridCellEffect</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Battlefield.SellZone.html" title="SellZone" class="">SellZone</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AutoBattleFramework.BattleUI.html" title="AutoBattleFramework.BattleUI" class="">AutoBattleFramework.BattleUI</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleUI.CharacterEnergyUI.html" title="CharacterEnergyUI" class="">CharacterEnergyUI</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleUI.CharacterHealthUI.html" title="CharacterHealthUI" class="">CharacterHealthUI</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleUI.CharacterStatsUI.html" title="CharacterStatsUI" class="">CharacterStatsUI</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleUI.DamagePopup.html" title="DamagePopup" class="">DamagePopup</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleUI.ItemDescriptionUI.html" title="ItemDescriptionUI" class="">ItemDescriptionUI</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleUI.ShopExpBarUI.html" title="ShopExpBarUI" class="">ShopExpBarUI</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleUI.StageUI.html" title="StageUI" class="">StageUI</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleUI.TraitDescriptionUI.html" title="TraitDescriptionUI" class="">TraitDescriptionUI</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleUI.TraitListUI.html" title="TraitListUI" class="">TraitListUI</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleUI.TraitListUI.OrderBy.html" title="TraitListUI.OrderBy" class="">TraitListUI.OrderBy</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleUI.TraitStatsUI.html" title="TraitStatsUI" class="">TraitStatsUI</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleUI.TraitUI.html" title="TraitUI" class="">TraitUI</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AutoBattleFramework.EditorScripts.html" title="AutoBattleFramework.EditorScripts" class="">AutoBattleFramework.EditorScripts</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AutoBattleFramework.EditorScripts.BattleGridEditor.html" title="BattleGridEditor" class="">BattleGridEditor</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.EditorScripts.BattlePositionEditor.html" title="BattlePositionEditor" class="">BattlePositionEditor</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.EditorScripts.BenchEditor.html" title="BenchEditor" class="">BenchEditor</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.EditorScripts.MenuActions.html" title="MenuActions" class="">MenuActions</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.EditorScripts.ReadOnlyDrawer.html" title="ReadOnlyDrawer" class="">ReadOnlyDrawer</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AutoBattleFramework.Formulas.html" title="AutoBattleFramework.Formulas" class="">AutoBattleFramework.Formulas</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AutoBattleFramework.Formulas.BattleFormulas.html" title="BattleFormulas" class="">BattleFormulas</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Formulas.BattleFormulas.DamageType.html" title="BattleFormulas.DamageType" class="">BattleFormulas.DamageType</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AutoBattleFramework.Movement.html" title="AutoBattleFramework.Movement" class="">AutoBattleFramework.Movement</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AutoBattleFramework.Movement.ApproximateAstarMovement.html" title="ApproximateAstarMovement" class="">ApproximateAstarMovement</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Movement.ExactAstarMovement.html" title="ExactAstarMovement" class="">ExactAstarMovement</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Movement.IBattleMovement.html" title="IBattleMovement" class="">IBattleMovement</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Movement.PathFinding2D.html" title="PathFinding2D" class="">PathFinding2D</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AutoBattleFramework.Shop.html" title="AutoBattleFramework.Shop" class="">AutoBattleFramework.Shop</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AutoBattleFramework.Shop.ScriptableShopItem.html" title="ScriptableShopItem" class="">ScriptableShopItem</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Shop.ShopCharacter.html" title="ShopCharacter" class="">ShopCharacter</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Shop.ShopGameItem.html" title="ShopGameItem" class="">ShopGameItem</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Shop.ShopItemInfo.html" title="ShopItemInfo" class="">ShopItemInfo</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Shop.ShopLevel.html" title="ShopLevel" class="">ShopLevel</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Shop.ShopLevelManager.html" title="ShopLevelManager" class="">ShopLevelManager</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Shop.ShopManager.html" title="ShopManager" class="">ShopManager</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AutoBattleFramework.Shop.ShopGUI.html" title="AutoBattleFramework.Shop.ShopGUI" class="">AutoBattleFramework.Shop.ShopGUI</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AutoBattleFramework.Shop.ShopGUI.CurrencyUI.html" title="CurrencyUI" class="">CurrencyUI</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Shop.ShopGUI.EquippedItemDescriptionUI.html" title="EquippedItemDescriptionUI" class="">EquippedItemDescriptionUI</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Shop.ShopGUI.ShopItemUI.html" title="ShopItemUI" class="">ShopItemUI</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Shop.ShopGUI.ShopUI.html" title="ShopUI" class="">ShopUI</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Shop.ShopGUI.SpecialAttackDescriptionUI.html" title="SpecialAttackDescriptionUI" class="">SpecialAttackDescriptionUI</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Shop.ShopGUI.Timer.html" title="Timer" class="">Timer</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AutoBattleFramework.Shop.ShopList.html" title="AutoBattleFramework.Shop.ShopList" class="">AutoBattleFramework.Shop.ShopList</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AutoBattleFramework.Shop.ShopList.IShopList.html" title="IShopList" class="">IShopList</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Shop.ShopList.ScriptableDeckList.html" title="ScriptableDeckList" class="">ScriptableDeckList</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Shop.ShopList.ScriptableGroupItemList.html" title="ScriptableGroupItemList" class="">ScriptableGroupItemList</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Shop.ShopList.ScriptableIndividualItemList.html" title="ScriptableIndividualItemList" class="">ScriptableIndividualItemList</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Shop.ShopList.ShopItemList.html" title="ShopItemList" class="">ShopItemList</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AutoBattleFramework.Skills.html" title="AutoBattleFramework.Skills" class="">AutoBattleFramework.Skills</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AutoBattleFramework.Skills.ApplyBuffOnHitEffect.html" title="ApplyBuffOnHitEffect" class="">ApplyBuffOnHitEffect</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Skills.ApplyDebuffOnHitEffect.html" title="ApplyDebuffOnHitEffect" class="">ApplyDebuffOnHitEffect</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Skills.ArrowEffect.html" title="ArrowEffect" class="">ArrowEffect</a>
+                          </li>
+                          <li class="active">
+                            <a href="AutoBattleFramework.Skills.BuffEffect.html" title="BuffEffect" class="active">BuffEffect</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Skills.BuffEffectInfo.html" title="BuffEffectInfo" class="">BuffEffectInfo</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Skills.FixedDamageOverTimeEffect.html" title="FixedDamageOverTimeEffect" class="">FixedDamageOverTimeEffect</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Skills.HealthMeteoriteAllEffect.html" title="HealthMeteoriteAllEffect" class="">HealthMeteoriteAllEffect</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Skills.HealthStealEffect.html" title="HealthStealEffect" class="">HealthStealEffect</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Skills.IAttackEffect.html" title="IAttackEffect" class="">IAttackEffect</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Skills.MeleeEffect.html" title="MeleeEffect" class="">MeleeEffect</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Skills.MeteoriteEffect.html" title="MeteoriteEffect" class="">MeteoriteEffect</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Skills.OnHitEffect.html" title="OnHitEffect" class="">OnHitEffect</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Skills.Projectile.html" title="Projectile" class="">Projectile</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Skills.RangedEffect.html" title="RangedEffect" class="">RangedEffect</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Skills.SimpleBuffEffect.html" title="SimpleBuffEffect" class="">SimpleBuffEffect</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Skills.SwordEffect.html" title="SwordEffect" class="">SwordEffect</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Skills.VariableDamageOverTimeEffect.html" title="VariableDamageOverTimeEffect" class="">VariableDamageOverTimeEffect</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AutoBattleFramework.Stats.html" title="AutoBattleFramework.Stats" class="">AutoBattleFramework.Stats</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AutoBattleFramework.Stats.CharacterStats.html" title="CharacterStats" class="">CharacterStats</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Stats.CharacterStats.CharacterStat.html" title="CharacterStats.CharacterStat" class="">CharacterStats.CharacterStat</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Stats.ItemModificator.html" title="ItemModificator" class="">ItemModificator</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Stats.StatModificator.html" title="StatModificator" class="">StatModificator</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Stats.StatsModificator.html" title="StatsModificator" class="">StatsModificator</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Stats.StatsModificator.ModificatorType.html" title="StatsModificator.ModificatorType" class="">StatsModificator.ModificatorType</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Stats.Trait.html" title="Trait" class="">Trait</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Stats.TraitOption.html" title="TraitOption" class="">TraitOption</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Stats.TraitOption.TraitTarget.html" title="TraitOption.TraitTarget" class="">TraitOption.TraitTarget</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AutoBattleFramework.Utility.html" title="AutoBattleFramework.Utility" class="">AutoBattleFramework.Utility</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AutoBattleFramework.Utility.AutoBattleSettings.html" title="AutoBattleSettings" class="">AutoBattleSettings</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Utility.ReadOnlyAttribute.html" title="ReadOnlyAttribute" class="">ReadOnlyAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.Utility.UIUtility.html" title="UIUtility" class="">UIUtility</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AutoBattleFramework.Skills.BuffEffect">
+  
+  
+  <h1 id="AutoBattleFramework_Skills_BuffEffect" data-uid="AutoBattleFramework.Skills.BuffEffect" class="text-break">Class BuffEffect
+  </h1>
+  <div class="markdown level0 summary"><p>It represents an effect that modifies statistics or adds new effects, temporarily.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="AutoBattleFramework.Skills.IAttackEffect.html">IAttackEffect</a></div>
+    <div class="level2"><span class="xref">BuffEffect</span></div>
+      <div class="level3"><a class="xref" href="AutoBattleFramework.Skills.FixedDamageOverTimeEffect.html">FixedDamageOverTimeEffect</a></div>
+      <div class="level3"><a class="xref" href="AutoBattleFramework.Skills.SimpleBuffEffect.html">SimpleBuffEffect</a></div>
+      <div class="level3"><a class="xref" href="AutoBattleFramework.Skills.VariableDamageOverTimeEffect.html">VariableDamageOverTimeEffect</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AutoBattleFramework.Skills.IAttackEffect.html#AutoBattleFramework_Skills_IAttackEffect_ai">IAttackEffect.ai</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoBattleFramework.Skills.IAttackEffect.html#AutoBattleFramework_Skills_IAttackEffect_EffectImage">IAttackEffect.EffectImage</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoBattleFramework.Skills.IAttackEffect.html#AutoBattleFramework_Skills_IAttackEffect_EffectDescription">IAttackEffect.EffectDescription</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoBattleFramework.Skills.IAttackEffect.html#AutoBattleFramework_Skills_IAttackEffect_DoubleAnimation">IAttackEffect.DoubleAnimation</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoBattleFramework.Skills.IAttackEffect.html#AutoBattleFramework_Skills_IAttackEffect_DamageType">IAttackEffect.DamageType</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoBattleFramework.Skills.IAttackEffect.html#AutoBattleFramework_Skills_IAttackEffect_OnHitEffects">IAttackEffect.OnHitEffects</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AutoBattleFramework.Skills.html">AutoBattleFramework.Skills</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="AutoBattleFramework_Skills_BuffEffect_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class BuffEffect : IAttackEffect</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="AutoBattleFramework_Skills_BuffEffect_duration" data-uid="AutoBattleFramework.Skills.BuffEffect.duration">duration</h4>
+  <div class="markdown level1 summary"><p>Duration of the buff, in seconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float duration</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AutoBattleFramework_Skills_BuffEffect_maxStacks" data-uid="AutoBattleFramework.Skills.BuffEffect.maxStacks">maxStacks</h4>
+  <div class="markdown level1 summary"><p>If the buff is applied multiple times, the max number of the same effect that can be applied.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int maxStacks</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AutoBattleFramework_Skills_BuffEffect_modificator" data-uid="AutoBattleFramework.Skills.BuffEffect.modificator">modificator</h4>
+  <div class="markdown level1 summary"><p>Modification of the stats and/or aggregation of new effects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StatsModificator modificator</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StatsModificator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AutoBattleFramework_Skills_BuffEffect_RestartTimeWhenRepeated" data-uid="AutoBattleFramework.Skills.BuffEffect.RestartTimeWhenRepeated">RestartTimeWhenRepeated</h4>
+  <div class="markdown level1 summary"><p>If the buff is applied when it already exists, it should reset the time.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RestartTimeWhenRepeated</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="AutoBattleFramework_Skills_BuffEffect_AddModificator_" data-uid="AutoBattleFramework.Skills.BuffEffect.AddModificator*"></a>
+  <h4 id="AutoBattleFramework_Skills_BuffEffect_AddModificator_AutoBattleFramework_Skills_BuffEffectInfo_StatsModificator_" data-uid="AutoBattleFramework.Skills.BuffEffect.AddModificator(AutoBattleFramework.Skills.BuffEffectInfo,StatsModificator)">AddModificator(BuffEffectInfo, StatsModificator)</h4>
+  <div class="markdown level1 summary"><p>Add the buff to the GameCharacter and applies its effects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AddModificator(BuffEffectInfo info, StatsModificator modificator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoBattleFramework.Skills.BuffEffectInfo.html">BuffEffectInfo</a></td>
+        <td><span class="parametername">info</span></td>
+        <td><p>Buff information.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">StatsModificator</span></td>
+        <td><span class="parametername">modificator</span></td>
+        <td><p>Temporal stats modificator.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AutoBattleFramework_Skills_BuffEffect_Attack_" data-uid="AutoBattleFramework.Skills.BuffEffect.Attack*"></a>
+  <h4 id="AutoBattleFramework_Skills_BuffEffect_Attack_GameCharacter_Transform_" data-uid="AutoBattleFramework.Skills.BuffEffect.Attack(GameCharacter,Transform)">Attack(GameCharacter, Transform)</h4>
+  <div class="markdown level1 summary"><p>Applies the buff to the GameCharacter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Attack(GameCharacter ai, Transform shootingPoint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameCharacter</span></td>
+        <td><span class="parametername">ai</span></td>
+        <td><p>GameCharacter that will recieve the buff.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">shootingPoint</span></td>
+        <td><p>It should be null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AutoBattleFramework.Skills.IAttackEffect.html#AutoBattleFramework_Skills_IAttackEffect_Attack_GameCharacter_Transform_">IAttackEffect.Attack(GameCharacter, Transform)</a></div>
+  
+  
+  <a id="AutoBattleFramework_Skills_BuffEffect_OnBuffEnd_" data-uid="AutoBattleFramework.Skills.BuffEffect.OnBuffEnd*"></a>
+  <h4 id="AutoBattleFramework_Skills_BuffEffect_OnBuffEnd_AutoBattleFramework_Skills_BuffEffectInfo_" data-uid="AutoBattleFramework.Skills.BuffEffect.OnBuffEnd(AutoBattleFramework.Skills.BuffEffectInfo)">OnBuffEnd(BuffEffectInfo)</h4>
+  <div class="markdown level1 summary"><p>Method that is called once when the buff will end.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void OnBuffEnd(BuffEffectInfo info)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoBattleFramework.Skills.BuffEffectInfo.html">BuffEffectInfo</a></td>
+        <td><span class="parametername">info</span></td>
+        <td><p>Buff information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AutoBattleFramework_Skills_BuffEffect_OnBuffStart_" data-uid="AutoBattleFramework.Skills.BuffEffect.OnBuffStart*"></a>
+  <h4 id="AutoBattleFramework_Skills_BuffEffect_OnBuffStart_AutoBattleFramework_Skills_BuffEffectInfo_" data-uid="AutoBattleFramework.Skills.BuffEffect.OnBuffStart(AutoBattleFramework.Skills.BuffEffectInfo)">OnBuffStart(BuffEffectInfo)</h4>
+  <div class="markdown level1 summary"><p>Method that is called once when the buff will be applied.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void OnBuffStart(BuffEffectInfo info)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoBattleFramework.Skills.BuffEffectInfo.html">BuffEffectInfo</a></td>
+        <td><span class="parametername">info</span></td>
+        <td><p>Buff information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AutoBattleFramework_Skills_BuffEffect_OnBuffUpdate_" data-uid="AutoBattleFramework.Skills.BuffEffect.OnBuffUpdate*"></a>
+  <h4 id="AutoBattleFramework_Skills_BuffEffect_OnBuffUpdate_AutoBattleFramework_Skills_BuffEffectInfo_" data-uid="AutoBattleFramework.Skills.BuffEffect.OnBuffUpdate(AutoBattleFramework.Skills.BuffEffectInfo)">OnBuffUpdate(BuffEffectInfo)</h4>
+  <div class="markdown level1 summary"><p>Method that is called while the buff is applied.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void OnBuffUpdate(BuffEffectInfo info)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoBattleFramework.Skills.BuffEffectInfo.html">BuffEffectInfo</a></td>
+        <td><span class="parametername">info</span></td>
+        <td><p>Buff information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AutoBattleFramework_Skills_BuffEffect_OnHit_" data-uid="AutoBattleFramework.Skills.BuffEffect.OnHit*"></a>
+  <h4 id="AutoBattleFramework_Skills_BuffEffect_OnHit_GameCharacter_" data-uid="AutoBattleFramework.Skills.BuffEffect.OnHit(GameCharacter)">OnHit(GameCharacter)</h4>
+  <div class="markdown level1 summary"><p>When the buff hits, calls <a class="xref" href="AutoBattleFramework.Skills.BuffEffect.html#AutoBattleFramework_Skills_BuffEffect_OnBuffStart_AutoBattleFramework_Skills_BuffEffectInfo_">OnBuffStart(BuffEffectInfo)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnHit(GameCharacter target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameCharacter</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>The target of the character or projectile.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AutoBattleFramework.Skills.IAttackEffect.html#AutoBattleFramework_Skills_IAttackEffect_OnHit_GameCharacter_">IAttackEffect.OnHit(GameCharacter)</a></div>
+  
+  
+  <a id="AutoBattleFramework_Skills_BuffEffect_OnRepeatedBuff_" data-uid="AutoBattleFramework.Skills.BuffEffect.OnRepeatedBuff*"></a>
+  <h4 id="AutoBattleFramework_Skills_BuffEffect_OnRepeatedBuff_AutoBattleFramework_Skills_BuffEffectInfo_" data-uid="AutoBattleFramework.Skills.BuffEffect.OnRepeatedBuff(AutoBattleFramework.Skills.BuffEffectInfo)">OnRepeatedBuff(BuffEffectInfo)</h4>
+  <div class="markdown level1 summary"><p>Method that is called once when the buff is applied and there is another instance of the buff previously applied.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void OnRepeatedBuff(BuffEffectInfo info)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoBattleFramework.Skills.BuffEffectInfo.html">BuffEffectInfo</a></td>
+        <td><span class="parametername">info</span></td>
+        <td><p>Buff information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AutoBattleFramework_Skills_BuffEffect_RemoveBuff_" data-uid="AutoBattleFramework.Skills.BuffEffect.RemoveBuff*"></a>
+  <h4 id="AutoBattleFramework_Skills_BuffEffect_RemoveBuff_AutoBattleFramework_Skills_BuffEffectInfo_" data-uid="AutoBattleFramework.Skills.BuffEffect.RemoveBuff(AutoBattleFramework.Skills.BuffEffectInfo)">RemoveBuff(BuffEffectInfo)</h4>
+  <div class="markdown level1 summary"><p>Remove the buff from the GameCharacter and removes its effects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveBuff(BuffEffectInfo info)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoBattleFramework.Skills.BuffEffectInfo.html">BuffEffectInfo</a></td>
+        <td><span class="parametername">info</span></td>
+        <td><p>Buff information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AutoBattleFramework_Skills_BuffEffect_RemoveModificator_" data-uid="AutoBattleFramework.Skills.BuffEffect.RemoveModificator*"></a>
+  <h4 id="AutoBattleFramework_Skills_BuffEffect_RemoveModificator_AutoBattleFramework_Skills_BuffEffectInfo_StatsModificator_" data-uid="AutoBattleFramework.Skills.BuffEffect.RemoveModificator(AutoBattleFramework.Skills.BuffEffectInfo,StatsModificator)">RemoveModificator(BuffEffectInfo, StatsModificator)</h4>
+  <div class="markdown level1 summary"><p>Remove the buff from the GameCharacter and removes its effects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void RemoveModificator(BuffEffectInfo info, StatsModificator modificator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoBattleFramework.Skills.BuffEffectInfo.html">BuffEffectInfo</a></td>
+        <td><span class="parametername">info</span></td>
+        <td><p>Buff information.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">StatsModificator</span></td>
+        <td><span class="parametername">modificator</span></td>
+        <td><p>Temporal stats modificator to be removed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AutoBattleFramework_Skills_BuffEffect_UpdateBuff_" data-uid="AutoBattleFramework.Skills.BuffEffect.UpdateBuff*"></a>
+  <h4 id="AutoBattleFramework_Skills_BuffEffect_UpdateBuff_AutoBattleFramework_Skills_BuffEffectInfo_" data-uid="AutoBattleFramework.Skills.BuffEffect.UpdateBuff(AutoBattleFramework.Skills.BuffEffectInfo)">UpdateBuff(BuffEffectInfo)</h4>
+  <div class="markdown level1 summary"><p>It checks that the buff is still active, updates the elapsed time and calls <a class="xref" href="AutoBattleFramework.Skills.BuffEffect.html#AutoBattleFramework_Skills_BuffEffect_OnBuffEnd_AutoBattleFramework_Skills_BuffEffectInfo_">OnBuffEnd(BuffEffectInfo)</a> and <a class="xref" href="AutoBattleFramework.Skills.BuffEffect.html#AutoBattleFramework_Skills_BuffEffect_OnBuffUpdate_AutoBattleFramework_Skills_BuffEffectInfo_">OnBuffUpdate(BuffEffectInfo)</a> methods when the time is right.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateBuff(BuffEffectInfo info)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoBattleFramework.Skills.BuffEffectInfo.html">BuffEffectInfo</a></td>
+        <td><span class="parametername">info</span></td>
+        <td><p>Buff information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Auto-Battle Framework documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.6/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="../styles/plugin-featherlight.js"></script>
+  </body>
+</html>

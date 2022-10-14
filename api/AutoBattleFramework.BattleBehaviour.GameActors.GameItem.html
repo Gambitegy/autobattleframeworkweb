@@ -54,7 +54,7 @@
                           <a href="../api/AutoBattleFramework.BattleBehaviour.html" title="Scripting API">Scripting API</a>
                       </li>
                       <li>
-                          <a href="../changelog/1.0.1.html" title="Changelog">Changelog</a>
+                          <a href="../changelog/changelog.html" title="Changelog">Changelog</a>
                       </li>
                       <li>
                           <a href="https://gambitegy.github.io/" title="Contact">Contact</a>
@@ -116,6 +116,9 @@
                           <li class="">
                             <a href="AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.html" title="ScriptableBattleStage" class="">ScriptableBattleStage</a>
                           </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.TeamData.html" title="TeamData" class="">TeamData</a>
+                          </li>
                         </ul>  </li>
                     <li class="">
                       <span class="expand-stub"></span>
@@ -145,6 +148,15 @@
                           </li>
                           <li class="active">
                             <a href="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.html" title="GameItem" class="active">GameItem</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AutoBattleFramework.BattleBehaviour.Multiplayer.html" title="AutoBattleFramework.BattleBehaviour.Multiplayer" class="">AutoBattleFramework.BattleBehaviour.Multiplayer</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html" title="IPlayer" class="">IPlayer</a>
                           </li>
                         </ul>  </li>
                     <li class="">
@@ -255,7 +267,10 @@
                             <a href="AutoBattleFramework.EditorScripts.BenchEditor.html" title="BenchEditor" class="">BenchEditor</a>
                           </li>
                           <li class="">
-                            <a href="AutoBattleFramework.EditorScripts.MenuActions.html" title="MenuActions" class="">MenuActions</a>
+                            <a href="AutoBattleFramework.EditorScripts.GameCharacterEditor.html" title="GameCharacterEditor" class="">GameCharacterEditor</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.EditorScripts.NGO_MenuActions.html" title="NGO_MenuActions" class="">NGO_MenuActions</a>
                           </li>
                           <li class="">
                             <a href="AutoBattleFramework.EditorScripts.ReadOnlyDrawer.html" title="ReadOnlyDrawer" class="">ReadOnlyDrawer</a>
@@ -519,6 +534,9 @@
       <a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameActor.html#AutoBattleFramework_BattleBehaviour_GameActors_GameActor_isDragged">GameActor.isDragged</a>
     </div>
     <div>
+      <a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameActor.html#AutoBattleFramework_BattleBehaviour_GameActors_GameActor_networkObject">GameActor.networkObject</a>
+    </div>
+    <div>
       <a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameActor.html#AutoBattleFramework_BattleBehaviour_GameActors_GameActor_getInitialPosition">GameActor.getInitialPosition()</a>
     </div>
     <div>
@@ -538,6 +556,9 @@
     </div>
     <div>
       <a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameActor.html#AutoBattleFramework_BattleBehaviour_GameActors_GameActor_GetCurrentCell">GameActor.GetCurrentCell()</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameActor.html#AutoBattleFramework_BattleBehaviour_GameActors_GameActor_GetTeamIndex">GameActor.GetTeamIndex()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.html">AutoBattleFramework.BattleBehaviour.GameActors</a></h6>
@@ -577,6 +598,35 @@
   </h3>
   
   
+  <a id="AutoBattleFramework_BattleBehaviour_GameActors_GameItem_AddItemModificator_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.AddItemModificator*"></a>
+  <h4 id="AutoBattleFramework_BattleBehaviour_GameActors_GameItem_AddItemModificator_AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.AddItemModificator(AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter)">AddItemModificator(GameCharacter)</h4>
+  <div class="markdown level1 summary"><p>Adds the item&apos;s <a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.html#AutoBattleFramework_BattleBehaviour_GameActors_GameItem_itemModificator">itemModificator</a> to the character&apos;s <a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html#AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_itemModificators">itemModificators</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void AddItemModificator(GameCharacter character)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html">GameCharacter</a></td>
+        <td><span class="parametername">character</span></td>
+        <td><p>Character to be equipped with the item</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AutoBattleFramework_BattleBehaviour_GameActors_GameItem_AfterBought_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.AfterBought*"></a>
   <h4 id="AutoBattleFramework_BattleBehaviour_GameActors_GameItem_AfterBought" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.AfterBought">AfterBought()</h4>
   <div class="markdown level1 summary"><p>The items does nothing after being bought</p>
@@ -592,7 +642,7 @@
   
   <a id="AutoBattleFramework_BattleBehaviour_GameActors_GameItem_Buy_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.Buy*"></a>
   <h4 id="AutoBattleFramework_BattleBehaviour_GameActors_GameItem_Buy_AutoBattleFramework_BattleBehaviour_GameActors_GameActor_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.Buy(AutoBattleFramework.BattleBehaviour.GameActors.GameActor)">Buy(GameActor)</h4>
-  <div class="markdown level1 summary"><p>When the object is purchased, it is created in an empty slot in the <a class="xref" href="AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_ItemBench">ItemBench</a>.</p>
+  <div class="markdown level1 summary"><p>When the object is purchased, it is created in an empty slot in the <a class="xref" href="AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_ItemBenches">ItemBenches</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -628,7 +678,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameActor.html">GameActor</a></td>
-        <td><p>Bough item in the <a class="xref" href="AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_ItemBench">ItemBench</a>.</p>
+        <td><p>Bough item in the <a class="xref" href="AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_ItemBenches">ItemBenches</a>.</p>
 </td>
       </tr>
     </tbody>
@@ -718,7 +768,7 @@
   
   <a id="AutoBattleFramework_BattleBehaviour_GameActors_GameItem_OnMouseUpAction_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.OnMouseUpAction*"></a>
   <h4 id="AutoBattleFramework_BattleBehaviour_GameActors_GameItem_OnMouseUpAction" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.OnMouseUpAction">OnMouseUpAction()</h4>
-  <div class="markdown level1 summary"><p>Allows an item to be equipped to a character, to be moved within the <a class="xref" href="AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_ItemBench">ItemBench</a> or to exchange its position with that of another item.
+  <div class="markdown level1 summary"><p>Allows an item to be equipped to a character, to be moved within the <a class="xref" href="AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_ItemBenches">ItemBenches</a> or to exchange its position with that of another item.
 In Android, if the item is dragged to the same cell, shows the description of the item.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -741,6 +791,38 @@ In Android, if the item is dragged to the same cell, shows the description of th
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameActor.html#AutoBattleFramework_BattleBehaviour_GameActors_GameActor_Sell">GameActor.Sell()</a></div>
+  
+  
+  <a id="AutoBattleFramework_BattleBehaviour_GameActors_GameItem_SetVariablesOnBuy_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.SetVariablesOnBuy*"></a>
+  <h4 id="AutoBattleFramework_BattleBehaviour_GameActors_GameItem_SetVariablesOnBuy_AutoBattleFramework_BattleBehaviour_GameActors_GameItem_IPlayer_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.SetVariablesOnBuy(AutoBattleFramework.BattleBehaviour.GameActors.GameItem,IPlayer)">SetVariablesOnBuy(GameItem, IPlayer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void SetVariablesOnBuy(GameItem item, IPlayer player = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.html">GameItem</a></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IPlayer</span></td>
+        <td><span class="parametername">player</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="AutoBattleFramework_BattleBehaviour_GameActors_GameItem_ShowUI_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.ShowUI*"></a>
@@ -790,6 +872,16 @@ In Android, if the item is dragged to the same cell, shows the description of th
   <div><a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameActor.html#AutoBattleFramework_BattleBehaviour_GameActors_GameActor_ShowUI_System_Boolean_">GameActor.ShowUI(Boolean)</a></div>
   
   
+  <a id="AutoBattleFramework_BattleBehaviour_GameActors_GameItem_Start_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.Start*"></a>
+  <h4 id="AutoBattleFramework_BattleBehaviour_GameActors_GameItem_Start" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Start()</code></pre>
+  </div>
+  
+  
   <a id="AutoBattleFramework_BattleBehaviour_GameActors_GameItem_SwapItemsInCells_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.SwapItemsInCells*"></a>
   <h4 id="AutoBattleFramework_BattleBehaviour_GameActors_GameItem_SwapItemsInCells_GridCell_GridCell_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.SwapItemsInCells(GridCell,GridCell)">SwapItemsInCells(GridCell, GridCell)</h4>
   <div class="markdown level1 summary"><p>If an item is dragged to the position where another item is located, they exchange their positions.</p>
@@ -823,6 +915,16 @@ In Android, if the item is dragged to the same cell, shows the description of th
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="AutoBattleFramework_BattleBehaviour_GameActors_GameItem_Update_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.Update*"></a>
+  <h4 id="AutoBattleFramework_BattleBehaviour_GameActors_GameItem_Update" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.Update">Update()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Update()</code></pre>
+  </div>
 </article>
           </div>
           

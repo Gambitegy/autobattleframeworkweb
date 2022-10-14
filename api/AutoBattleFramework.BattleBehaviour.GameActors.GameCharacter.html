@@ -54,7 +54,7 @@
                           <a href="../api/AutoBattleFramework.BattleBehaviour.html" title="Scripting API">Scripting API</a>
                       </li>
                       <li>
-                          <a href="../changelog/1.0.1.html" title="Changelog">Changelog</a>
+                          <a href="../changelog/changelog.html" title="Changelog">Changelog</a>
                       </li>
                       <li>
                           <a href="https://gambitegy.github.io/" title="Contact">Contact</a>
@@ -116,6 +116,9 @@
                           <li class="">
                             <a href="AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.html" title="ScriptableBattleStage" class="">ScriptableBattleStage</a>
                           </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.TeamData.html" title="TeamData" class="">TeamData</a>
+                          </li>
                         </ul>  </li>
                     <li class="">
                       <span class="expand-stub"></span>
@@ -145,6 +148,15 @@
                           </li>
                           <li class="">
                             <a href="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.html" title="GameItem" class="">GameItem</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AutoBattleFramework.BattleBehaviour.Multiplayer.html" title="AutoBattleFramework.BattleBehaviour.Multiplayer" class="">AutoBattleFramework.BattleBehaviour.Multiplayer</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html" title="IPlayer" class="">IPlayer</a>
                           </li>
                         </ul>  </li>
                     <li class="">
@@ -255,7 +267,10 @@
                             <a href="AutoBattleFramework.EditorScripts.BenchEditor.html" title="BenchEditor" class="">BenchEditor</a>
                           </li>
                           <li class="">
-                            <a href="AutoBattleFramework.EditorScripts.MenuActions.html" title="MenuActions" class="">MenuActions</a>
+                            <a href="AutoBattleFramework.EditorScripts.GameCharacterEditor.html" title="GameCharacterEditor" class="">GameCharacterEditor</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.EditorScripts.NGO_MenuActions.html" title="NGO_MenuActions" class="">NGO_MenuActions</a>
                           </li>
                           <li class="">
                             <a href="AutoBattleFramework.EditorScripts.ReadOnlyDrawer.html" title="ReadOnlyDrawer" class="">ReadOnlyDrawer</a>
@@ -519,6 +534,9 @@
       <a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameActor.html#AutoBattleFramework_BattleBehaviour_GameActors_GameActor_isDragged">GameActor.isDragged</a>
     </div>
     <div>
+      <a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameActor.html#AutoBattleFramework_BattleBehaviour_GameActors_GameActor_networkObject">GameActor.networkObject</a>
+    </div>
+    <div>
       <a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameActor.html#AutoBattleFramework_BattleBehaviour_GameActors_GameActor_getInitialPosition">GameActor.getInitialPosition()</a>
     </div>
     <div>
@@ -538,6 +556,9 @@
     </div>
     <div>
       <a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameActor.html#AutoBattleFramework_BattleBehaviour_GameActors_GameActor_GetCurrentCell">GameActor.GetCurrentCell()</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameActor.html#AutoBattleFramework_BattleBehaviour_GameActors_GameActor_GetTeamIndex">GameActor.GetTeamIndex()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.html">AutoBattleFramework.BattleBehaviour.GameActors</a></h6>
@@ -1093,6 +1114,35 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_DamageVisualOnly_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.DamageVisualOnly*"></a>
+  <h4 id="AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_DamageVisualOnly" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.DamageVisualOnly">DamageVisualOnly</h4>
+  <div class="markdown level1 summary"><p>The damage done by this character is only visual. It does not do damage or activate effects.
+In single player, the damage can�t be visual only.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool DamageVisualOnly { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -1146,7 +1196,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Attack()</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void Attack()</code></pre>
   </div>
   
   
@@ -1244,7 +1294,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DamagePopup CreateDamagePopup(string text, Color color)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual DamagePopup CreateDamagePopup(string text, Color color)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1405,7 +1455,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void MoveCharacterTo(GridCell cell)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void MoveCharacterTo(GridCell cell)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1461,7 +1511,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnDestroy()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void OnDestroy()</code></pre>
   </div>
   
   
@@ -1493,7 +1543,8 @@
   
   <a id="AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_OnMouseOverAction_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.OnMouseOverAction*"></a>
   <h4 id="AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_OnMouseOverAction" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.OnMouseOverAction">OnMouseOverAction()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>When right click, show the character UI.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1505,7 +1556,7 @@
   
   <a id="AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_OnMouseUpAction_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.OnMouseUpAction*"></a>
   <h4 id="AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_OnMouseUpAction" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.OnMouseUpAction">OnMouseUpAction()</h4>
-  <div class="markdown level1 summary"><p>Allows an character, to be moved within the <a class="xref" href="AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_Team1Bench">Team1Bench</a>, within the <a class="xref" href="AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_Team1">Team1</a> inside the battle grid, or to exchange its position with that of another character.
+  <div class="markdown level1 summary"><p>Allows an character, to be moved within the <a class="xref" href="AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_TeamBenches">TeamBenches</a>, within the <a class="xref" href="AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_teams">teams</a> inside the battle grid, or to exchange its position with that of another character.
 In Android, if the character is dragged to the same cell, shows the description of the character.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1519,7 +1570,7 @@ In Android, if the character is dragged to the same cell, shows the description 
   
   <a id="AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_Sell_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.Sell*"></a>
   <h4 id="AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_Sell" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.Sell">Sell()</h4>
-  <div class="markdown level1 summary"><p>Sell the character and gain <a class="xref" href="AutoBattleFramework.Shop.ShopManager.html#AutoBattleFramework_Shop_ShopManager_currency">currency</a>.</p>
+  <div class="markdown level1 summary"><p>the character and gain <a class="xref" href="AutoBattleFramework.Shop.ShopManager.html#AutoBattleFramework_Shop_ShopManager_currency">currency</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1528,6 +1579,41 @@ In Android, if the character is dragged to the same cell, shows the description 
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameActor.html#AutoBattleFramework_BattleBehaviour_GameActors_GameActor_Sell">GameActor.Sell()</a></div>
+  
+  
+  <a id="AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_SetVariablesOnSpawn_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.SetVariablesOnSpawn*"></a>
+  <h4 id="AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_SetVariablesOnSpawn_AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_IPlayer_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.SetVariablesOnSpawn(AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter,IPlayer)">SetVariablesOnSpawn(GameCharacter, IPlayer)</h4>
+  <div class="markdown level1 summary"><p>When spawned, apply traits, set state, and rotation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void SetVariablesOnSpawn(GameCharacter character, IPlayer player = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html">GameCharacter</a></td>
+        <td><span class="parametername">character</span></td>
+        <td><p>Character spawned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IPlayer</span></td>
+        <td><span class="parametername">player</span></td>
+        <td><p>Multiplayer only. Player prefab in multiplayer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_ShowUI_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.ShowUI*"></a>
@@ -1613,7 +1699,17 @@ In Android, if the character is dragged to the same cell, shows the description 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SpecialAttack()</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void SpecialAttack()</code></pre>
+  </div>
+  
+  
+  <a id="AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_Start_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.Start*"></a>
+  <h4 id="AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_Start" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Start()</code></pre>
   </div>
   
   
@@ -1650,6 +1746,43 @@ In Android, if the character is dragged to the same cell, shows the description 
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_UnequipItemModificator_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.UnequipItemModificator*"></a>
+  <h4 id="AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_UnequipItemModificator_System_Int32_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.UnequipItemModificator(System.Int32)">UnequipItemModificator(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void UnequipItemModificator(int itemModificatorIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">itemModificatorIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_Update_" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.Update*"></a>
+  <h4 id="AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_Update" data-uid="AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.Update">Update()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Update()</code></pre>
+  </div>
 </article>
           </div>
           

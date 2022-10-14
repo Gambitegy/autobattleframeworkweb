@@ -113,12 +113,12 @@ references:
   isSpec: "True"
   fullName: AutoBattleFramework.BattleBehaviour.Battle.Instance
   nameWithType: Battle.Instance
-- uid: AutoBattleFramework.BattleBehaviour.Battle.ItemBench
-  name: ItemBench
-  href: api/AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_ItemBench
-  commentId: F:AutoBattleFramework.BattleBehaviour.Battle.ItemBench
-  fullName: AutoBattleFramework.BattleBehaviour.Battle.ItemBench
-  nameWithType: Battle.ItemBench
+- uid: AutoBattleFramework.BattleBehaviour.Battle.ItemBenches
+  name: ItemBenches
+  href: api/AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_ItemBenches
+  commentId: F:AutoBattleFramework.BattleBehaviour.Battle.ItemBenches
+  fullName: AutoBattleFramework.BattleBehaviour.Battle.ItemBenches
+  nameWithType: Battle.ItemBenches
 - uid: AutoBattleFramework.BattleBehaviour.Battle.itemDescriptionUI
   name: itemDescriptionUI
   href: api/AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_itemDescriptionUI
@@ -143,6 +143,12 @@ references:
   commentId: F:AutoBattleFramework.BattleBehaviour.Battle.PhysicalDamageColor
   fullName: AutoBattleFramework.BattleBehaviour.Battle.PhysicalDamageColor
   nameWithType: Battle.PhysicalDamageColor
+- uid: AutoBattleFramework.BattleBehaviour.Battle.SellZones
+  name: SellZones
+  href: api/AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_SellZones
+  commentId: F:AutoBattleFramework.BattleBehaviour.Battle.SellZones
+  fullName: AutoBattleFramework.BattleBehaviour.Battle.SellZones
+  nameWithType: Battle.SellZones
 - uid: AutoBattleFramework.BattleBehaviour.Battle.SetBattleOrBenchState(GameCharacter)
   name: SetBattleOrBenchState(GameCharacter)
   href: api/AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_SetBattleOrBenchState_GameCharacter_
@@ -168,36 +174,24 @@ references:
   commentId: F:AutoBattleFramework.BattleBehaviour.Battle.stage
   fullName: AutoBattleFramework.BattleBehaviour.Battle.stage
   nameWithType: Battle.stage
-- uid: AutoBattleFramework.BattleBehaviour.Battle.Team1
-  name: Team1
-  href: api/AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_Team1
-  commentId: F:AutoBattleFramework.BattleBehaviour.Battle.Team1
-  fullName: AutoBattleFramework.BattleBehaviour.Battle.Team1
-  nameWithType: Battle.Team1
-- uid: AutoBattleFramework.BattleBehaviour.Battle.Team1Bench
-  name: Team1Bench
-  href: api/AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_Team1Bench
-  commentId: F:AutoBattleFramework.BattleBehaviour.Battle.Team1Bench
-  fullName: AutoBattleFramework.BattleBehaviour.Battle.Team1Bench
-  nameWithType: Battle.Team1Bench
-- uid: AutoBattleFramework.BattleBehaviour.Battle.Team1TraitListUI
-  name: Team1TraitListUI
-  href: api/AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_Team1TraitListUI
-  commentId: F:AutoBattleFramework.BattleBehaviour.Battle.Team1TraitListUI
-  fullName: AutoBattleFramework.BattleBehaviour.Battle.Team1TraitListUI
-  nameWithType: Battle.Team1TraitListUI
-- uid: AutoBattleFramework.BattleBehaviour.Battle.Team2
-  name: Team2
-  href: api/AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_Team2
-  commentId: F:AutoBattleFramework.BattleBehaviour.Battle.Team2
-  fullName: AutoBattleFramework.BattleBehaviour.Battle.Team2
-  nameWithType: Battle.Team2
-- uid: AutoBattleFramework.BattleBehaviour.Battle.Team2TraitListUI
-  name: Team2TraitListUI
-  href: api/AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_Team2TraitListUI
-  commentId: F:AutoBattleFramework.BattleBehaviour.Battle.Team2TraitListUI
-  fullName: AutoBattleFramework.BattleBehaviour.Battle.Team2TraitListUI
-  nameWithType: Battle.Team2TraitListUI
+- uid: AutoBattleFramework.BattleBehaviour.Battle.TeamBenches
+  name: TeamBenches
+  href: api/AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_TeamBenches
+  commentId: F:AutoBattleFramework.BattleBehaviour.Battle.TeamBenches
+  fullName: AutoBattleFramework.BattleBehaviour.Battle.TeamBenches
+  nameWithType: Battle.TeamBenches
+- uid: AutoBattleFramework.BattleBehaviour.Battle.teams
+  name: teams
+  href: api/AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_teams
+  commentId: F:AutoBattleFramework.BattleBehaviour.Battle.teams
+  fullName: AutoBattleFramework.BattleBehaviour.Battle.teams
+  nameWithType: Battle.teams
+- uid: AutoBattleFramework.BattleBehaviour.Battle.TeamTraitListUI
+  name: TeamTraitListUI
+  href: api/AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_TeamTraitListUI
+  commentId: F:AutoBattleFramework.BattleBehaviour.Battle.TeamTraitListUI
+  fullName: AutoBattleFramework.BattleBehaviour.Battle.TeamTraitListUI
+  nameWithType: Battle.TeamTraitListUI
 - uid: AutoBattleFramework.BattleBehaviour.Battle.timer
   name: timer
   href: api/AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_timer
@@ -239,12 +233,12 @@ references:
   commentId: F:AutoBattleFramework.BattleBehaviour.Battle.TraitCheckForDistinctCharacters
   fullName: AutoBattleFramework.BattleBehaviour.Battle.TraitCheckForDistinctCharacters
   nameWithType: Battle.TraitCheckForDistinctCharacters
-- uid: AutoBattleFramework.BattleBehaviour.Battle.TraitsToCheckTeam1
-  name: TraitsToCheckTeam1
-  href: api/AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_TraitsToCheckTeam1
-  commentId: F:AutoBattleFramework.BattleBehaviour.Battle.TraitsToCheckTeam1
-  fullName: AutoBattleFramework.BattleBehaviour.Battle.TraitsToCheckTeam1
-  nameWithType: Battle.TraitsToCheckTeam1
+- uid: AutoBattleFramework.BattleBehaviour.Battle.TraitsToCheck
+  name: TraitsToCheck
+  href: api/AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_TraitsToCheck
+  commentId: F:AutoBattleFramework.BattleBehaviour.Battle.TraitsToCheck
+  fullName: AutoBattleFramework.BattleBehaviour.Battle.TraitsToCheck
+  nameWithType: Battle.TraitsToCheck
 - uid: AutoBattleFramework.BattleBehaviour.Battle.TraitsToCheckTeam2
   name: TraitsToCheckTeam2
   href: api/AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_TraitsToCheckTeam2
@@ -488,6 +482,19 @@ references:
   isSpec: "True"
   fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameActor.getInitialPosition
   nameWithType: GameActor.getInitialPosition
+- uid: AutoBattleFramework.BattleBehaviour.GameActors.GameActor.GetTeamIndex
+  name: GetTeamIndex()
+  href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameActor.html#AutoBattleFramework_BattleBehaviour_GameActors_GameActor_GetTeamIndex
+  commentId: M:AutoBattleFramework.BattleBehaviour.GameActors.GameActor.GetTeamIndex
+  fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameActor.GetTeamIndex()
+  nameWithType: GameActor.GetTeamIndex()
+- uid: AutoBattleFramework.BattleBehaviour.GameActors.GameActor.GetTeamIndex*
+  name: GetTeamIndex
+  href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameActor.html#AutoBattleFramework_BattleBehaviour_GameActors_GameActor_GetTeamIndex_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.GameActors.GameActor.GetTeamIndex
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameActor.GetTeamIndex
+  nameWithType: GameActor.GetTeamIndex
 - uid: AutoBattleFramework.BattleBehaviour.GameActors.GameActor.info
   name: info
   href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameActor.html#AutoBattleFramework_BattleBehaviour_GameActors_GameActor_info
@@ -513,6 +520,19 @@ references:
   commentId: F:AutoBattleFramework.BattleBehaviour.GameActors.GameActor.isDragged
   fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameActor.isDragged
   nameWithType: GameActor.isDragged
+- uid: AutoBattleFramework.BattleBehaviour.GameActors.GameActor.networkObject
+  name: networkObject
+  href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameActor.html#AutoBattleFramework_BattleBehaviour_GameActors_GameActor_networkObject
+  commentId: P:AutoBattleFramework.BattleBehaviour.GameActors.GameActor.networkObject
+  fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameActor.networkObject
+  nameWithType: GameActor.networkObject
+- uid: AutoBattleFramework.BattleBehaviour.GameActors.GameActor.networkObject*
+  name: networkObject
+  href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameActor.html#AutoBattleFramework_BattleBehaviour_GameActors_GameActor_networkObject_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.GameActors.GameActor.networkObject
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameActor.networkObject
+  nameWithType: GameActor.networkObject
 - uid: AutoBattleFramework.BattleBehaviour.GameActors.GameActor.OnDragObjectAction
   name: OnDragObjectAction()
   href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameActor.html#AutoBattleFramework_BattleBehaviour_GameActors_GameActor_OnDragObjectAction
@@ -833,6 +853,19 @@ references:
   commentId: F:AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.CurrentStats
   fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.CurrentStats
   nameWithType: GameCharacter.CurrentStats
+- uid: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.DamageVisualOnly
+  name: DamageVisualOnly
+  href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html#AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_DamageVisualOnly
+  commentId: P:AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.DamageVisualOnly
+  fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.DamageVisualOnly
+  nameWithType: GameCharacter.DamageVisualOnly
+- uid: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.DamageVisualOnly*
+  name: DamageVisualOnly
+  href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html#AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_DamageVisualOnly_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.DamageVisualOnly
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.DamageVisualOnly
+  nameWithType: GameCharacter.DamageVisualOnly
 - uid: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.EnemyShootingPoint
   name: EnemyShootingPoint
   href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html#AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_EnemyShootingPoint
@@ -1037,6 +1070,19 @@ references:
   isSpec: "True"
   fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.Sell
   nameWithType: GameCharacter.Sell
+- uid: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.SetVariablesOnSpawn(AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter,IPlayer)
+  name: SetVariablesOnSpawn(GameCharacter, IPlayer)
+  href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html#AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_SetVariablesOnSpawn_AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_IPlayer_
+  commentId: M:AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.SetVariablesOnSpawn(AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter,IPlayer)
+  fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.SetVariablesOnSpawn(AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter, IPlayer)
+  nameWithType: GameCharacter.SetVariablesOnSpawn(GameCharacter, IPlayer)
+- uid: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.SetVariablesOnSpawn*
+  name: SetVariablesOnSpawn
+  href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html#AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_SetVariablesOnSpawn_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.SetVariablesOnSpawn
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.SetVariablesOnSpawn
+  nameWithType: GameCharacter.SetVariablesOnSpawn
 - uid: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.ShowUI(System.Boolean)
   name: ShowUI(Boolean)
   href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html#AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_ShowUI_System_Boolean_
@@ -1082,6 +1128,19 @@ references:
   commentId: F:AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.SpecialAttackEffect
   fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.SpecialAttackEffect
   nameWithType: GameCharacter.SpecialAttackEffect
+- uid: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.Start
+  name: Start()
+  href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html#AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_Start
+  commentId: M:AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.Start
+  fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.Start()
+  nameWithType: GameCharacter.Start()
+- uid: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.Start*
+  name: Start
+  href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html#AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_Start_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.Start
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.Start
+  nameWithType: GameCharacter.Start
 - uid: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.StartingFightPosition
   name: StartingFightPosition
   href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html#AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_StartingFightPosition
@@ -1137,12 +1196,51 @@ references:
   commentId: F:AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.UIBarPosition
   fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.UIBarPosition
   nameWithType: GameCharacter.UIBarPosition
+- uid: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.UnequipItemModificator(System.Int32)
+  name: UnequipItemModificator(Int32)
+  href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html#AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_UnequipItemModificator_System_Int32_
+  commentId: M:AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.UnequipItemModificator(System.Int32)
+  fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.UnequipItemModificator(System.Int32)
+  nameWithType: GameCharacter.UnequipItemModificator(Int32)
+- uid: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.UnequipItemModificator*
+  name: UnequipItemModificator
+  href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html#AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_UnequipItemModificator_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.UnequipItemModificator
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.UnequipItemModificator
+  nameWithType: GameCharacter.UnequipItemModificator
+- uid: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.Update
+  name: Update()
+  href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html#AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_Update
+  commentId: M:AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.Update
+  fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.Update()
+  nameWithType: GameCharacter.Update()
+- uid: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.Update*
+  name: Update
+  href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html#AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_Update_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.Update
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.Update
+  nameWithType: GameCharacter.Update
 - uid: AutoBattleFramework.BattleBehaviour.GameActors.GameItem
   name: GameItem
   href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameItem.html
   commentId: T:AutoBattleFramework.BattleBehaviour.GameActors.GameItem
   fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameItem
   nameWithType: GameItem
+- uid: AutoBattleFramework.BattleBehaviour.GameActors.GameItem.AddItemModificator(AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter)
+  name: AddItemModificator(GameCharacter)
+  href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameItem.html#AutoBattleFramework_BattleBehaviour_GameActors_GameItem_AddItemModificator_AutoBattleFramework_BattleBehaviour_GameActors_GameCharacter_
+  commentId: M:AutoBattleFramework.BattleBehaviour.GameActors.GameItem.AddItemModificator(AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter)
+  fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameItem.AddItemModificator(AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter)
+  nameWithType: GameItem.AddItemModificator(GameCharacter)
+- uid: AutoBattleFramework.BattleBehaviour.GameActors.GameItem.AddItemModificator*
+  name: AddItemModificator
+  href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameItem.html#AutoBattleFramework_BattleBehaviour_GameActors_GameItem_AddItemModificator_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.GameActors.GameItem.AddItemModificator
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameItem.AddItemModificator
+  nameWithType: GameItem.AddItemModificator
 - uid: AutoBattleFramework.BattleBehaviour.GameActors.GameItem.AfterBought
   name: AfterBought()
   href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameItem.html#AutoBattleFramework_BattleBehaviour_GameActors_GameItem_AfterBought
@@ -1266,6 +1364,19 @@ references:
   isSpec: "True"
   fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameItem.Sell
   nameWithType: GameItem.Sell
+- uid: AutoBattleFramework.BattleBehaviour.GameActors.GameItem.SetVariablesOnBuy(AutoBattleFramework.BattleBehaviour.GameActors.GameItem,IPlayer)
+  name: SetVariablesOnBuy(GameItem, IPlayer)
+  href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameItem.html#AutoBattleFramework_BattleBehaviour_GameActors_GameItem_SetVariablesOnBuy_AutoBattleFramework_BattleBehaviour_GameActors_GameItem_IPlayer_
+  commentId: M:AutoBattleFramework.BattleBehaviour.GameActors.GameItem.SetVariablesOnBuy(AutoBattleFramework.BattleBehaviour.GameActors.GameItem,IPlayer)
+  fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameItem.SetVariablesOnBuy(AutoBattleFramework.BattleBehaviour.GameActors.GameItem, IPlayer)
+  nameWithType: GameItem.SetVariablesOnBuy(GameItem, IPlayer)
+- uid: AutoBattleFramework.BattleBehaviour.GameActors.GameItem.SetVariablesOnBuy*
+  name: SetVariablesOnBuy
+  href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameItem.html#AutoBattleFramework_BattleBehaviour_GameActors_GameItem_SetVariablesOnBuy_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.GameActors.GameItem.SetVariablesOnBuy
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameItem.SetVariablesOnBuy
+  nameWithType: GameItem.SetVariablesOnBuy
 - uid: AutoBattleFramework.BattleBehaviour.GameActors.GameItem.ShowUI(System.Boolean)
   name: ShowUI(Boolean)
   href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameItem.html#AutoBattleFramework_BattleBehaviour_GameActors_GameItem_ShowUI_System_Boolean_
@@ -1279,6 +1390,19 @@ references:
   isSpec: "True"
   fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameItem.ShowUI
   nameWithType: GameItem.ShowUI
+- uid: AutoBattleFramework.BattleBehaviour.GameActors.GameItem.Start
+  name: Start()
+  href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameItem.html#AutoBattleFramework_BattleBehaviour_GameActors_GameItem_Start
+  commentId: M:AutoBattleFramework.BattleBehaviour.GameActors.GameItem.Start
+  fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameItem.Start()
+  nameWithType: GameItem.Start()
+- uid: AutoBattleFramework.BattleBehaviour.GameActors.GameItem.Start*
+  name: Start
+  href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameItem.html#AutoBattleFramework_BattleBehaviour_GameActors_GameItem_Start_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.GameActors.GameItem.Start
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameItem.Start
+  nameWithType: GameItem.Start
 - uid: AutoBattleFramework.BattleBehaviour.GameActors.GameItem.SwapItemsInCells(GridCell,GridCell)
   name: SwapItemsInCells(GridCell, GridCell)
   href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameItem.html#AutoBattleFramework_BattleBehaviour_GameActors_GameItem_SwapItemsInCells_GridCell_GridCell_
@@ -1292,6 +1416,168 @@ references:
   isSpec: "True"
   fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameItem.SwapItemsInCells
   nameWithType: GameItem.SwapItemsInCells
+- uid: AutoBattleFramework.BattleBehaviour.GameActors.GameItem.Update
+  name: Update()
+  href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameItem.html#AutoBattleFramework_BattleBehaviour_GameActors_GameItem_Update
+  commentId: M:AutoBattleFramework.BattleBehaviour.GameActors.GameItem.Update
+  fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameItem.Update()
+  nameWithType: GameItem.Update()
+- uid: AutoBattleFramework.BattleBehaviour.GameActors.GameItem.Update*
+  name: Update
+  href: api/AutoBattleFramework.BattleBehaviour.GameActors.GameItem.html#AutoBattleFramework_BattleBehaviour_GameActors_GameItem_Update_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.GameActors.GameItem.Update
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.GameActors.GameItem.Update
+  nameWithType: GameItem.Update
+- uid: AutoBattleFramework.BattleBehaviour.Multiplayer
+  name: AutoBattleFramework.BattleBehaviour.Multiplayer
+  href: api/AutoBattleFramework.BattleBehaviour.Multiplayer.html
+  commentId: N:AutoBattleFramework.BattleBehaviour.Multiplayer
+  fullName: AutoBattleFramework.BattleBehaviour.Multiplayer
+  nameWithType: AutoBattleFramework.BattleBehaviour.Multiplayer
+- uid: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer
+  name: IPlayer
+  href: api/AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html
+  commentId: T:AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer
+  fullName: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer
+  nameWithType: IPlayer
+- uid: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.CharacterBench
+  name: CharacterBench
+  href: api/AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html#AutoBattleFramework_BattleBehaviour_Multiplayer_IPlayer_CharacterBench
+  commentId: F:AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.CharacterBench
+  fullName: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.CharacterBench
+  nameWithType: IPlayer.CharacterBench
+- uid: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.FusionMembers(System.Collections.Generic.List{GameCharacter},ShopCharacter)
+  name: FusionMembers(List<GameCharacter>, ShopCharacter)
+  href: api/AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html#AutoBattleFramework_BattleBehaviour_Multiplayer_IPlayer_FusionMembers_System_Collections_Generic_List_GameCharacter__ShopCharacter_
+  commentId: M:AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.FusionMembers(System.Collections.Generic.List{GameCharacter},ShopCharacter)
+  name.vb: FusionMembers(List(Of GameCharacter), ShopCharacter)
+  fullName: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.FusionMembers(System.Collections.Generic.List<GameCharacter>, ShopCharacter)
+  fullName.vb: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.FusionMembers(System.Collections.Generic.List(Of GameCharacter), ShopCharacter)
+  nameWithType: IPlayer.FusionMembers(List<GameCharacter>, ShopCharacter)
+  nameWithType.vb: IPlayer.FusionMembers(List(Of GameCharacter), ShopCharacter)
+- uid: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.FusionMembers*
+  name: FusionMembers
+  href: api/AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html#AutoBattleFramework_BattleBehaviour_Multiplayer_IPlayer_FusionMembers_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.FusionMembers
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.FusionMembers
+  nameWithType: IPlayer.FusionMembers
+- uid: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.GetPlayerById(System.UInt64)
+  name: GetPlayerById(UInt64)
+  href: api/AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html#AutoBattleFramework_BattleBehaviour_Multiplayer_IPlayer_GetPlayerById_System_UInt64_
+  commentId: M:AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.GetPlayerById(System.UInt64)
+  fullName: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.GetPlayerById(System.UInt64)
+  nameWithType: IPlayer.GetPlayerById(UInt64)
+- uid: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.GetPlayerById*
+  name: GetPlayerById
+  href: api/AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html#AutoBattleFramework_BattleBehaviour_Multiplayer_IPlayer_GetPlayerById_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.GetPlayerById
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.GetPlayerById
+  nameWithType: IPlayer.GetPlayerById
+- uid: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.instance
+  name: instance
+  href: api/AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html#AutoBattleFramework_BattleBehaviour_Multiplayer_IPlayer_instance
+  commentId: F:AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.instance
+  fullName: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.instance
+  nameWithType: IPlayer.instance
+- uid: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.IsPlayerHost
+  name: IsPlayerHost
+  href: api/AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html#AutoBattleFramework_BattleBehaviour_Multiplayer_IPlayer_IsPlayerHost
+  commentId: P:AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.IsPlayerHost
+  fullName: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.IsPlayerHost
+  nameWithType: IPlayer.IsPlayerHost
+- uid: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.IsPlayerHost*
+  name: IsPlayerHost
+  href: api/AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html#AutoBattleFramework_BattleBehaviour_Multiplayer_IPlayer_IsPlayerHost_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.IsPlayerHost
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.IsPlayerHost
+  nameWithType: IPlayer.IsPlayerHost
+- uid: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.ItemBench
+  name: ItemBench
+  href: api/AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html#AutoBattleFramework_BattleBehaviour_Multiplayer_IPlayer_ItemBench
+  commentId: F:AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.ItemBench
+  fullName: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.ItemBench
+  nameWithType: IPlayer.ItemBench
+- uid: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.NextStage
+  name: NextStage()
+  href: api/AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html#AutoBattleFramework_BattleBehaviour_Multiplayer_IPlayer_NextStage
+  commentId: M:AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.NextStage
+  fullName: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.NextStage()
+  nameWithType: IPlayer.NextStage()
+- uid: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.NextStage*
+  name: NextStage
+  href: api/AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html#AutoBattleFramework_BattleBehaviour_Multiplayer_IPlayer_NextStage_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.NextStage
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.NextStage
+  nameWithType: IPlayer.NextStage
+- uid: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.RemoveItemFromCharacterClient(System.UInt64,System.UInt16)
+  name: RemoveItemFromCharacterClient(UInt64, UInt16)
+  href: api/AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html#AutoBattleFramework_BattleBehaviour_Multiplayer_IPlayer_RemoveItemFromCharacterClient_System_UInt64_System_UInt16_
+  commentId: M:AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.RemoveItemFromCharacterClient(System.UInt64,System.UInt16)
+  fullName: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.RemoveItemFromCharacterClient(System.UInt64, System.UInt16)
+  nameWithType: IPlayer.RemoveItemFromCharacterClient(UInt64, UInt16)
+- uid: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.RemoveItemFromCharacterClient*
+  name: RemoveItemFromCharacterClient
+  href: api/AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html#AutoBattleFramework_BattleBehaviour_Multiplayer_IPlayer_RemoveItemFromCharacterClient_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.RemoveItemFromCharacterClient
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.RemoveItemFromCharacterClient
+  nameWithType: IPlayer.RemoveItemFromCharacterClient
+- uid: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.RemoveItemFromCharacterServer(System.UInt64,System.UInt16)
+  name: RemoveItemFromCharacterServer(UInt64, UInt16)
+  href: api/AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html#AutoBattleFramework_BattleBehaviour_Multiplayer_IPlayer_RemoveItemFromCharacterServer_System_UInt64_System_UInt16_
+  commentId: M:AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.RemoveItemFromCharacterServer(System.UInt64,System.UInt16)
+  fullName: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.RemoveItemFromCharacterServer(System.UInt64, System.UInt16)
+  nameWithType: IPlayer.RemoveItemFromCharacterServer(UInt64, UInt16)
+- uid: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.RemoveItemFromCharacterServer*
+  name: RemoveItemFromCharacterServer
+  href: api/AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html#AutoBattleFramework_BattleBehaviour_Multiplayer_IPlayer_RemoveItemFromCharacterServer_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.RemoveItemFromCharacterServer
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.RemoveItemFromCharacterServer
+  nameWithType: IPlayer.RemoveItemFromCharacterServer
+- uid: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.ResetCharactersPositionsClient
+  name: ResetCharactersPositionsClient()
+  href: api/AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html#AutoBattleFramework_BattleBehaviour_Multiplayer_IPlayer_ResetCharactersPositionsClient
+  commentId: M:AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.ResetCharactersPositionsClient
+  fullName: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.ResetCharactersPositionsClient()
+  nameWithType: IPlayer.ResetCharactersPositionsClient()
+- uid: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.ResetCharactersPositionsClient*
+  name: ResetCharactersPositionsClient
+  href: api/AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html#AutoBattleFramework_BattleBehaviour_Multiplayer_IPlayer_ResetCharactersPositionsClient_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.ResetCharactersPositionsClient
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.ResetCharactersPositionsClient
+  nameWithType: IPlayer.ResetCharactersPositionsClient
+- uid: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.SpawnGameActorServer(Unity.Collections.FixedString128Bytes,System.Single,System.Single,System.Single)
+  name: SpawnGameActorServer(Unity.Collections.FixedString128Bytes, Single, Single, Single)
+  href: api/AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html#AutoBattleFramework_BattleBehaviour_Multiplayer_IPlayer_SpawnGameActorServer_Unity_Collections_FixedString128Bytes_System_Single_System_Single_System_Single_
+  commentId: M:AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.SpawnGameActorServer(Unity.Collections.FixedString128Bytes,System.Single,System.Single,System.Single)
+  fullName: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.SpawnGameActorServer(Unity.Collections.FixedString128Bytes, System.Single, System.Single, System.Single)
+  nameWithType: IPlayer.SpawnGameActorServer(Unity.Collections.FixedString128Bytes, Single, Single, Single)
+- uid: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.SpawnGameActorServer*
+  name: SpawnGameActorServer
+  href: api/AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html#AutoBattleFramework_BattleBehaviour_Multiplayer_IPlayer_SpawnGameActorServer_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.SpawnGameActorServer
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.SpawnGameActorServer
+  nameWithType: IPlayer.SpawnGameActorServer
+- uid: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.TraitList
+  name: TraitList
+  href: api/AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html#AutoBattleFramework_BattleBehaviour_Multiplayer_IPlayer_TraitList
+  commentId: F:AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.TraitList
+  fullName: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.TraitList
+  nameWithType: IPlayer.TraitList
+- uid: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.TraitsToCheckTeam
+  name: TraitsToCheckTeam
+  href: api/AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html#AutoBattleFramework_BattleBehaviour_Multiplayer_IPlayer_TraitsToCheckTeam
+  commentId: F:AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.TraitsToCheckTeam
+  fullName: AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.TraitsToCheckTeam
+  nameWithType: IPlayer.TraitsToCheckTeam
 - uid: AutoBattleFramework.BattleBehaviour.ScriptableBattlePosition
   name: ScriptableBattlePosition
   href: api/AutoBattleFramework.BattleBehaviour.ScriptableBattlePosition.html
@@ -1710,6 +1996,12 @@ references:
   isSpec: "True"
   fullName: AutoBattleFramework.BattleBehaviour.States.FightState.OnTimerFinish
   nameWithType: FightState.OnTimerFinish
+- uid: AutoBattleFramework.BattleBehaviour.States.FightState.stageFinished
+  name: stageFinished
+  href: api/AutoBattleFramework.BattleBehaviour.States.FightState.html#AutoBattleFramework_BattleBehaviour_States_FightState_stageFinished
+  commentId: F:AutoBattleFramework.BattleBehaviour.States.FightState.stageFinished
+  fullName: AutoBattleFramework.BattleBehaviour.States.FightState.stageFinished
+  nameWithType: FightState.stageFinished
 - uid: AutoBattleFramework.BattleBehaviour.States.FightState.Update
   name: Update()
   href: api/AutoBattleFramework.BattleBehaviour.States.FightState.html#AutoBattleFramework_BattleBehaviour_States_FightState_Update
@@ -1931,6 +2223,18 @@ references:
   isSpec: "True"
   fullName: AutoBattleFramework.BattleBehaviour.States.ResetSceneState.Update
   nameWithType: ResetSceneState.Update
+- uid: AutoBattleFramework.BattleBehaviour.TeamData
+  name: TeamData
+  href: api/AutoBattleFramework.BattleBehaviour.TeamData.html
+  commentId: T:AutoBattleFramework.BattleBehaviour.TeamData
+  fullName: AutoBattleFramework.BattleBehaviour.TeamData
+  nameWithType: TeamData
+- uid: AutoBattleFramework.BattleBehaviour.TeamData.team
+  name: team
+  href: api/AutoBattleFramework.BattleBehaviour.TeamData.html#AutoBattleFramework_BattleBehaviour_TeamData_team
+  commentId: F:AutoBattleFramework.BattleBehaviour.TeamData.team
+  fullName: AutoBattleFramework.BattleBehaviour.TeamData.team
+  nameWithType: TeamData.team
 - uid: AutoBattleFramework.Battlefield
   name: AutoBattleFramework.Battlefield
   href: api/AutoBattleFramework.Battlefield.html
@@ -3106,12 +3410,31 @@ references:
   isSpec: "True"
   fullName: AutoBattleFramework.EditorScripts.BenchEditor.OnInspectorGUI
   nameWithType: BenchEditor.OnInspectorGUI
-- uid: AutoBattleFramework.EditorScripts.MenuActions
-  name: MenuActions
-  href: api/AutoBattleFramework.EditorScripts.MenuActions.html
-  commentId: T:AutoBattleFramework.EditorScripts.MenuActions
-  fullName: AutoBattleFramework.EditorScripts.MenuActions
-  nameWithType: MenuActions
+- uid: AutoBattleFramework.EditorScripts.GameCharacterEditor
+  name: GameCharacterEditor
+  href: api/AutoBattleFramework.EditorScripts.GameCharacterEditor.html
+  commentId: T:AutoBattleFramework.EditorScripts.GameCharacterEditor
+  fullName: AutoBattleFramework.EditorScripts.GameCharacterEditor
+  nameWithType: GameCharacterEditor
+- uid: AutoBattleFramework.EditorScripts.GameCharacterEditor.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: api/AutoBattleFramework.EditorScripts.GameCharacterEditor.html#AutoBattleFramework_EditorScripts_GameCharacterEditor_OnInspectorGUI
+  commentId: M:AutoBattleFramework.EditorScripts.GameCharacterEditor.OnInspectorGUI
+  fullName: AutoBattleFramework.EditorScripts.GameCharacterEditor.OnInspectorGUI()
+  nameWithType: GameCharacterEditor.OnInspectorGUI()
+- uid: AutoBattleFramework.EditorScripts.GameCharacterEditor.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: api/AutoBattleFramework.EditorScripts.GameCharacterEditor.html#AutoBattleFramework_EditorScripts_GameCharacterEditor_OnInspectorGUI_
+  commentId: Overload:AutoBattleFramework.EditorScripts.GameCharacterEditor.OnInspectorGUI
+  isSpec: "True"
+  fullName: AutoBattleFramework.EditorScripts.GameCharacterEditor.OnInspectorGUI
+  nameWithType: GameCharacterEditor.OnInspectorGUI
+- uid: AutoBattleFramework.EditorScripts.NGO_MenuActions
+  name: NGO_MenuActions
+  href: api/AutoBattleFramework.EditorScripts.NGO_MenuActions.html
+  commentId: T:AutoBattleFramework.EditorScripts.NGO_MenuActions
+  fullName: AutoBattleFramework.EditorScripts.NGO_MenuActions
+  nameWithType: NGO_MenuActions
 - uid: AutoBattleFramework.EditorScripts.ReadOnlyDrawer
   name: ReadOnlyDrawer
   href: api/AutoBattleFramework.EditorScripts.ReadOnlyDrawer.html
@@ -3612,6 +3935,19 @@ references:
   commentId: F:AutoBattleFramework.Shop.ShopGUI.EquippedItemDescriptionUI.item
   fullName: AutoBattleFramework.Shop.ShopGUI.EquippedItemDescriptionUI.item
   nameWithType: EquippedItemDescriptionUI.item
+- uid: AutoBattleFramework.Shop.ShopGUI.EquippedItemDescriptionUI.OnPointerClick(PointerEventData)
+  name: OnPointerClick(PointerEventData)
+  href: api/AutoBattleFramework.Shop.ShopGUI.EquippedItemDescriptionUI.html#AutoBattleFramework_Shop_ShopGUI_EquippedItemDescriptionUI_OnPointerClick_PointerEventData_
+  commentId: M:AutoBattleFramework.Shop.ShopGUI.EquippedItemDescriptionUI.OnPointerClick(PointerEventData)
+  fullName: AutoBattleFramework.Shop.ShopGUI.EquippedItemDescriptionUI.OnPointerClick(PointerEventData)
+  nameWithType: EquippedItemDescriptionUI.OnPointerClick(PointerEventData)
+- uid: AutoBattleFramework.Shop.ShopGUI.EquippedItemDescriptionUI.OnPointerClick*
+  name: OnPointerClick
+  href: api/AutoBattleFramework.Shop.ShopGUI.EquippedItemDescriptionUI.html#AutoBattleFramework_Shop_ShopGUI_EquippedItemDescriptionUI_OnPointerClick_
+  commentId: Overload:AutoBattleFramework.Shop.ShopGUI.EquippedItemDescriptionUI.OnPointerClick
+  isSpec: "True"
+  fullName: AutoBattleFramework.Shop.ShopGUI.EquippedItemDescriptionUI.OnPointerClick
+  nameWithType: EquippedItemDescriptionUI.OnPointerClick
 - uid: AutoBattleFramework.Shop.ShopGUI.EquippedItemDescriptionUI.OnPointerEnter(PointerEventData)
   name: OnPointerEnter(PointerEventData)
   href: api/AutoBattleFramework.Shop.ShopGUI.EquippedItemDescriptionUI.html#AutoBattleFramework_Shop_ShopGUI_EquippedItemDescriptionUI_OnPointerEnter_PointerEventData_
@@ -5138,6 +5474,12 @@ references:
   commentId: T:AutoBattleFramework.Skills.HealthStealEffect
   fullName: AutoBattleFramework.Skills.HealthStealEffect
   nameWithType: HealthStealEffect
+- uid: AutoBattleFramework.Skills.HealthStealEffect.healColor
+  name: healColor
+  href: api/AutoBattleFramework.Skills.HealthStealEffect.html#AutoBattleFramework_Skills_HealthStealEffect_healColor
+  commentId: F:AutoBattleFramework.Skills.HealthStealEffect.healColor
+  fullName: AutoBattleFramework.Skills.HealthStealEffect.healColor
+  nameWithType: HealthStealEffect.healColor
 - uid: AutoBattleFramework.Skills.HealthStealEffect.OnHit(GameCharacter,GameCharacter,System.Single)
   name: OnHit(GameCharacter, GameCharacter, Single)
   href: api/AutoBattleFramework.Skills.HealthStealEffect.html#AutoBattleFramework_Skills_HealthStealEffect_OnHit_GameCharacter_GameCharacter_System_Single_
@@ -5812,12 +6154,31 @@ references:
   isSpec: "True"
   fullName: AutoBattleFramework.Stats.ItemModificator.AddItemModificator
   nameWithType: ItemModificator.AddItemModificator
+- uid: AutoBattleFramework.Stats.ItemModificator.RemoveItemModificator(GameCharacter)
+  name: RemoveItemModificator(GameCharacter)
+  href: api/AutoBattleFramework.Stats.ItemModificator.html#AutoBattleFramework_Stats_ItemModificator_RemoveItemModificator_GameCharacter_
+  commentId: M:AutoBattleFramework.Stats.ItemModificator.RemoveItemModificator(GameCharacter)
+  fullName: AutoBattleFramework.Stats.ItemModificator.RemoveItemModificator(GameCharacter)
+  nameWithType: ItemModificator.RemoveItemModificator(GameCharacter)
+- uid: AutoBattleFramework.Stats.ItemModificator.RemoveItemModificator*
+  name: RemoveItemModificator
+  href: api/AutoBattleFramework.Stats.ItemModificator.html#AutoBattleFramework_Stats_ItemModificator_RemoveItemModificator_
+  commentId: Overload:AutoBattleFramework.Stats.ItemModificator.RemoveItemModificator
+  isSpec: "True"
+  fullName: AutoBattleFramework.Stats.ItemModificator.RemoveItemModificator
+  nameWithType: ItemModificator.RemoveItemModificator
 - uid: AutoBattleFramework.Stats.ItemModificator.scriptableShopItem
   name: scriptableShopItem
   href: api/AutoBattleFramework.Stats.ItemModificator.html#AutoBattleFramework_Stats_ItemModificator_scriptableShopItem
   commentId: F:AutoBattleFramework.Stats.ItemModificator.scriptableShopItem
   fullName: AutoBattleFramework.Stats.ItemModificator.scriptableShopItem
   nameWithType: ItemModificator.scriptableShopItem
+- uid: AutoBattleFramework.Stats.ItemModificator.traits
+  name: traits
+  href: api/AutoBattleFramework.Stats.ItemModificator.html#AutoBattleFramework_Stats_ItemModificator_traits
+  commentId: F:AutoBattleFramework.Stats.ItemModificator.traits
+  fullName: AutoBattleFramework.Stats.ItemModificator.traits
+  nameWithType: ItemModificator.traits
 - uid: AutoBattleFramework.Stats.StatModificator
   name: StatModificator
   href: api/AutoBattleFramework.Stats.StatModificator.html

@@ -1,0 +1,308 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Create a new trait | Auto-Battle Framework documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Create a new trait | Auto-Battle Framework documentation ">
+    <meta name="generator" content="docfx 2.59.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.6/release/featherlight.min.css" type="text/css" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../overview/Introduction.html" title="Manual">Manual</a>
+                      </li>
+                      <li>
+                          <a href="../api/AutoBattleFramework.BattleBehaviour.html" title="Scripting API">Scripting API</a>
+                      </li>
+                      <li>
+                          <a href="../changelog/1.0.1.html" title="Changelog">Changelog</a>
+                      </li>
+                      <li>
+                          <a href="https://gambitegy.github.io/" title="Contact">Contact</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">Overview</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Introduction.html" title="Introduction" class="">Introduction</a>
+                          </li>
+                          <li class="">
+                            <a href="install.html" title="Install Auto-Battle Framework" class="">Install Auto-Battle Framework</a>
+                          </li>
+                          <li class="">
+                            <a href="description.html" title="Description of the systems" class="">Description of the systems</a>
+                          </li>
+                          <li class="">
+                            <a href="scene.html" title="Description of the sample scene" class="">Description of the sample scene</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">Tutorials</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="started.html" title="Getting started" class="">Getting started</a>
+                          </li>
+                          <li class="">
+                            <a href="battlegrid.html" title="Customizing the Battle Grid" class="">Customizing the Battle Grid</a>
+                          </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="ccharacter.html" title="Create a new Game Character" class="">Create a new Game Character</a>
+                              
+                              <ul class="nav level3">
+                                <li class="active">
+                                  <a href="ctrait.html" title="Create a new Trait" class="active">Create a new Trait</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="cattack.html" title="Create a new Attack Effect" class="">Create a new Attack Effect</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="cprojectile.html" title="Create a new Projectile" class="">Create a new Projectile</a>
+                                </li>
+                                <li class="">
+                                  <a href="cbuff.html" title="Create a new Buff Effect" class="">Create a new Buff Effect</a>
+                                </li>
+                                <li class="">
+                                  <a href="conhit.html" title="Create a new On-Hit Effect" class="">Create a new On-Hit Effect</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="fusionmanager.html" title="Fusion Manager" class="">Fusion Manager</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="clevelup.html" title="Level Up a Game Character" class="">Level Up a Game Character</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <a href="citem.html" title="Create a new Game Item" class="">Create a new Game Item</a>
+                          </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="shopmanager.html" title="Shop Manager" class="">Shop Manager</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="citemlist.html" title="Create a new Item List" class="">Create a new Item List</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="battlestage.html" title="Battle Stage" class="">Battle Stage</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="preparationstate.html" title="Create a new Preparation State" class="">Create a new Preparation State</a>
+                                </li>
+                                <li class="">
+                                  <a href="fightstate.html" title="Create a new Fight State" class="">Create a new Fight State</a>
+                                </li>
+                                <li class="">
+                                  <a href="changestagestate.html" title="Create a new Change Stage State" class="">Create a new Change Stage State</a>
+                                </li>
+                                <li class="">
+                                  <a href="cstate.html" title="Create a new Battle State" class="">Create a new Battle State</a>
+                                </li>
+                                <li class="">
+                                  <a href="cstage.html" title="Create a new Battle Stage" class="">Create a new Battle Stage</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <a href="editui.html" title="Customize the UI" class="">Customize the UI</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="create-a-new-trait">Create a new trait</h1>
+
+<p>The following sections will show you how to create a new trait and then attach it to a character.</p>
+<p>A brief explanation of what a trait can provide:</p>
+<ul>
+<li><p>Stats modification: When several characters with the same trait are on the battlefield, the character&#39;s stats increase or decrease depending on the item&#39;s modifier.</p>
+</li>
+<li><p>On-hit effect: When several characters with the same trait are on the battlefield, the character&#39;s attacks apply an effect when hitting an enemy. This can be in the form of a buff, apply a debuff to the enemy or apply extra damage.</p>
+</li>
+<li><p>Attack effect: When several characters with the same trait are on the battlefield, in addition to the effect that all characters have, it applies another additional effect.</p>
+</li>
+</ul>
+<p>We will create a new Witch Trait that will increase magic damage and get a health stealing effect when the character does damage (On-hit effect).
+A Trait Option is a set of bonuses that characters gain depending on the number of characters in battle that shares the trait. We will create two Trait Options, one will need a witch to activate and only the effects will be applied on her, another will need 3 witches to activate, but all the team members will gain the bonuses.</p>
+<ol>
+<li><p>Right click on a project folder and click on &quot;Create/Auto-Battle Framework/Traits/Trait&quot;. This will create a new Trait Scriptable Object.
+<img src="../resources/ctrait/1.png" alt="Drag the Skill model">
+<em>Creation of a new Trait Scriptable Object</em></p>
+</li>
+<li><p>Select the newly created feature and fill in the following fields.</p>
+<ul>
+<li>Trait Name: The name of the trait. Enter &quot;Witch&quot;.</li>
+<li>Trait Image: The sprite of the trait. Select &quot;glare-star&quot;.</li>
+<li>Trait Description: The description of the trait. Enter &quot;Witches gain magic damage and steal life from their enemies.&quot;.
+<img src="../resources/ctrait/2.png" alt="Complete trait basic information">
+<em>Complete trait basic information.</em></li>
+</ul>
+</li>
+<li><p>To create a new Trait Option, create it in the Trait Options list, the fields required to complete a Trait Option are as follows.:</p>
+<ul>
+<li>Number of Traits: Necessary number of characters with this trait for this Trait Option to be activated. It is necessary that the Trait Options are always ordered in ascending order in the list according to this number.</li>
+<li>Modificator: Here are the modifications that will be applied to the character once this option is activated.</li>
+<li>To create a new Stats Modicator, in Item Modifier we create a new Stat Modificator in the list. Then choose the stat we want to modify, the type of modifier and the value. The description and requirements of the stats are the same as when <a href="citem.html">creating an item</a>.</li>
+<li>To add an Attack Effect to the item, add one to the Attack Effects list.</li>
+<li><p>To add an On-Hit Effect to the item, add one to the On-Hit Effects list.</p>
+<p>For our example:<br>
+Create a first Trait Option, with a Number of Traits with value 1.<br>
+That increases magic damage by 20.<br>
+Add HealthSteal to the list of On-Hit Effects. <br>
+As Option Description enter &quot;Gain 20 Magic damage and steals Health&quot;.<br>
+Select any color for the Trait Option. To follow the package color style, choose FFA858 (hexadecimal). Make sure that alpha is 255.<br>
+Leave the Target as Character With Trait.<br></p>
+<p>Then, add a second one, but with a Number of Traits with value 3.<br>
+That increases magic damage by 50.<br>
+Make sure HealthSteal is still in the On-Hit Effects list.<br>
+As Option Description enter &quot;All Team members gain 50 Magic damage and steals Health&quot;.<br>
+Select any color for the Trait Option. To follow the package color style, choose D2D2D2 (hexadecimal). Make sure that alpha is 255.<br>
+Set the Target to All Characters.<br><br>
+<img src="../resources/ctrait/3.png" alt="Add the Trait Options">
+<em>Adding the Trait Options to the trait.</em></p>
+</li>
+</ul>
+</li>
+<li><p>Select the Witch character created in <a href="ccharacter.html">create a new character</a>, and add the new created Trait in her Game Character Inspector.
+<img src="../resources/ctrait/4.png" alt="Add the Attack Effect">
+<em>Add the AttackSpeedEffect to the Attack Effects list.</em></p>
+</li>
+<li><p>Select the Auto-Battle GameObject in the scene, and add the newly created Witch Trait to the Traits to Check Team 1 in the Battle Inspector. 
+<img src="../resources/ctrait/5.png" alt="Add the trait to the Traits to check list">
+<em>Add the trait to the Traits To Check list.</em></p>
+</li>
+<li><p>Test the game and make sure that the witch has the Witch Trait, and that its effects and descriptions are applied correctly.
+<img src="../resources/ctrait/6.png" alt="Witch Trait in action">
+<em>The Witch now has the Witch Trait.</em></p>
+</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Auto-Battle Framework documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.6/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="../styles/plugin-featherlight.js"></script>
+  </body>
+</html>

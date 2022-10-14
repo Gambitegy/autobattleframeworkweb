@@ -54,7 +54,7 @@
                           <a href="../api/AutoBattleFramework.BattleBehaviour.html" title="Scripting API">Scripting API</a>
                       </li>
                       <li>
-                          <a href="../changelog/1.0.1.html" title="Changelog">Changelog</a>
+                          <a href="../changelog/changelog.html" title="Changelog">Changelog</a>
                       </li>
                       <li>
                           <a href="https://gambitegy.github.io/" title="Contact">Contact</a>
@@ -116,6 +116,9 @@
                           <li class="">
                             <a href="AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.html" title="ScriptableBattleStage" class="">ScriptableBattleStage</a>
                           </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.TeamData.html" title="TeamData" class="">TeamData</a>
+                          </li>
                         </ul>  </li>
                     <li class="">
                       <span class="expand-stub"></span>
@@ -145,6 +148,15 @@
                           </li>
                           <li class="">
                             <a href="AutoBattleFramework.BattleBehaviour.GameActors.GameItem.html" title="GameItem" class="">GameItem</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AutoBattleFramework.BattleBehaviour.Multiplayer.html" title="AutoBattleFramework.BattleBehaviour.Multiplayer" class="">AutoBattleFramework.BattleBehaviour.Multiplayer</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AutoBattleFramework.BattleBehaviour.Multiplayer.IPlayer.html" title="IPlayer" class="">IPlayer</a>
                           </li>
                         </ul>  </li>
                     <li class="">
@@ -255,7 +267,10 @@
                             <a href="AutoBattleFramework.EditorScripts.BenchEditor.html" title="BenchEditor" class="">BenchEditor</a>
                           </li>
                           <li class="">
-                            <a href="AutoBattleFramework.EditorScripts.MenuActions.html" title="MenuActions" class="">MenuActions</a>
+                            <a href="AutoBattleFramework.EditorScripts.GameCharacterEditor.html" title="GameCharacterEditor" class="">GameCharacterEditor</a>
+                          </li>
+                          <li class="">
+                            <a href="AutoBattleFramework.EditorScripts.NGO_MenuActions.html" title="NGO_MenuActions" class="">NGO_MenuActions</a>
                           </li>
                           <li class="">
                             <a href="AutoBattleFramework.EditorScripts.ReadOnlyDrawer.html" title="ReadOnlyDrawer" class="">ReadOnlyDrawer</a>
@@ -515,7 +530,7 @@
   
   
   <h4 id="AutoBattleFramework_BattleBehaviour_States_PreparationState_battlePositions" data-uid="AutoBattleFramework.BattleBehaviour.States.PreparationState.battlePositions">battlePositions</h4>
-  <div class="markdown level1 summary"><p>Positions where characters belonging to <a class="xref" href="AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_Team2">Team2</a> will be spawned.</p>
+  <div class="markdown level1 summary"><p>Positions where characters belonging to the enemy team, the second position of <a class="xref" href="AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_teams">teams</a>, will be spawned.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -697,7 +712,7 @@
   <a id="AutoBattleFramework_BattleBehaviour_States_PreparationState_OnStageStart_" data-uid="AutoBattleFramework.BattleBehaviour.States.PreparationState.OnStageStart*"></a>
   <h4 id="AutoBattleFramework_BattleBehaviour_States_PreparationState_OnStageStart" data-uid="AutoBattleFramework.BattleBehaviour.States.PreparationState.OnStageStart">OnStageStart()</h4>
   <div class="markdown level1 summary"><p>The player recieves the gold from <a class="xref" href="AutoBattleFramework.BattleBehaviour.States.PreparationState.html#AutoBattleFramework_BattleBehaviour_States_PreparationState_interestRate">interestRate</a>, then recieves gold from <a class="xref" href="AutoBattleFramework.BattleBehaviour.States.PreparationState.html#AutoBattleFramework_BattleBehaviour_States_PreparationState_goldPerRound">goldPerRound</a> and shop experience from <a class="xref" href="AutoBattleFramework.BattleBehaviour.States.PreparationState.html#AutoBattleFramework_BattleBehaviour_States_PreparationState_expPerRound">expPerRound</a>. <br>
-Spawns the <a class="xref" href="AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_Team2">Team2</a> members in the positions set by <a class="xref" href="AutoBattleFramework.BattleBehaviour.States.PreparationState.html#AutoBattleFramework_BattleBehaviour_States_PreparationState_battlePositions">battlePositions</a>.</p>
+Spawns the enemy team members in the positions set by <a class="xref" href="AutoBattleFramework.BattleBehaviour.States.PreparationState.html#AutoBattleFramework_BattleBehaviour_States_PreparationState_battlePositions">battlePositions</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
