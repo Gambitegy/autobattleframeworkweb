@@ -52,7 +52,7 @@
                           <a href="../api/AutoBattleFramework.BattleBehaviour.html" title="Scripting API">Scripting API</a>
                       </li>
                       <li>
-                          <a href="../changelog/changelog.html" title="Changelog">Changelog</a>
+                          <a href="../changelog/1.0.1.html" title="Changelog">Changelog</a>
                       </li>
                       <li>
                           <a href="https://gambitegy.github.io/" title="Contact">Contact</a>
@@ -193,6 +193,15 @@
                             <a href="editui.html" title="Customize the UI" class="">Customize the UI</a>
                           </li>
                         </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">Multiplayer</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="multiplayer.html" title="Multiplayer" class="">Multiplayer</a>
+                          </li>
+                        </ul>  </li>
                   </ul>        </div>
               </div>
             </div>
@@ -272,15 +281,22 @@ The rest will be assigned to team 2, the enemy characters will be spawned in the
 <h2 id="character-and-item-benches">Character and item benches</h2>
 <p>The character bench is the area where the player will place the characters that will not play in the next round. It is also the area where the newly purchased characters will be placed.
 The player can take characters from the bench to the field and vice versa, as long as the maximum number of characters allowed on the field is not exceeded.</p>
-<p>To modify character bench, start by selecting the first index of &quot;Auto-Battle/CharacterBenches&quot; object in the scene.
+<p>To modify character bench, start by selecting the &quot;Auto-Battle/CharacterBench&quot; object in the scene.
 <img src="../resources/battlegrid/7.png" alt="Character bench">
 <em>Select the Character Bench object in the scene.</em></p>
 <p>The item bench is the area where the player will place the items not equipped to characters. It is also the area where newly purchased items will be placed.</p>
-<p>To modify character bench, start by selecting the first index of &quot;Auto-Battle/ItemBench&quot; object in the scene.
+<p>To modify character bench, start by selecting the &quot;Auto-Battle/ItemBench&quot; object in the scene.
 <img src="../resources/battlegrid/8.png" alt="Item bench">
 <em>Select the Item Bench object in the scene.</em></p>
 <h3 id="benches-settings">Benches settings</h3>
 <p>The options of the benches are completely the same as those of the <a href="#battle-grid-settings">Battle grid</a> except for the options related to team 2.</p>
+<h2 id="how-to-create-a-battlefield-for-more-than-2-players">How to create a battlefield for more than 2 players.</h2>
+<p>Currently there is no automatic way to create a field for more than two players, however, we can change the values and colors of each cell to assign them to a specific player.</p>
+<p>In the scene, select the multiple boxes to be assigned to a specific player. In the Grid Cell inspector indicate the index of the player you want to assign, index 0 being player 1, index 1 being player 2 and so on. Enter an index -1 if you do not want to assign the cell to any player.</p>
+<p>In the same way, in the Grid Cell Effect inspector, select the colors for the squares assigned to the player. Then, right-click on the Grid Cell Effect inspector, and press &quot;Update colors&quot;.</p>
+<p><img src="../resources/battlegrid/9.png" alt="Example of how to assign player and color to cells.">
+<em>Example of how to assign player and color to cells.</em></p>
+<p>Note that you will also have to assign benches for items and characters for each player.</p>
 </article>
           </div>
           
@@ -289,7 +305,7 @@ The player can take characters from the bench to the field and vice versa, as lo
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://bitbucket.org/SDuelist/autobattleframework/src/master/Documentation/overview/battlegrid.md#lines-1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://bitbucket.org/SDuelist/auto-battle-framework-multiplayer/src/master/Documentation/overview/battlegrid.md#lines-1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
