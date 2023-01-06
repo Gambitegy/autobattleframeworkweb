@@ -1660,7 +1660,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "VjE+Fm8lY0lUEZYQ10AKhwgP7Px1cKJB4NNJFOOpCBU="
+          "hash": "CLs90AZkdmXvPoC51CiHWgdrl5Gzv3oa7jwjSUh+GpE="
         }
       },
       "is_incremental": false,
@@ -3367,25 +3367,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because config changed.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ConfigChanged"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 27,
-          "skipped_file_count": 0
+          "skipped_file_count": 26
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 135,
-          "skipped_file_count": 0
+          "skipped_file_count": 135
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
