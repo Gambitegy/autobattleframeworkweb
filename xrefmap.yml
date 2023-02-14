@@ -7,6 +7,191 @@ references:
   commentId: N:AutoBattleFramework.BattleBehaviour
   fullName: AutoBattleFramework.BattleBehaviour
   nameWithType: AutoBattleFramework.BattleBehaviour
+- uid: AutoBattleFramework.BattleBehaviour.Backup
+  name: AutoBattleFramework.BattleBehaviour.Backup
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.html
+  commentId: N:AutoBattleFramework.BattleBehaviour.Backup
+  fullName: AutoBattleFramework.BattleBehaviour.Backup
+  nameWithType: AutoBattleFramework.BattleBehaviour.Backup
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BackupState
+  name: BackupState
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BackupState.html
+  commentId: T:AutoBattleFramework.BattleBehaviour.Backup.BackupState
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BackupState
+  nameWithType: BackupState
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BackupState.#ctor(BattleState)
+  name: BackupState(BattleState)
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BackupState.html#AutoBattleFramework_BattleBehaviour_Backup_BackupState__ctor_BattleState_
+  commentId: M:AutoBattleFramework.BattleBehaviour.Backup.BackupState.#ctor(BattleState)
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BackupState.BackupState(BattleState)
+  nameWithType: BackupState.BackupState(BattleState)
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BackupState.#ctor*
+  name: BackupState
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BackupState.html#AutoBattleFramework_BattleBehaviour_Backup_BackupState__ctor_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.Backup.BackupState.#ctor
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BackupState.BackupState
+  nameWithType: BackupState.BackupState
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BackupState.BattleStateBackup
+  name: BattleStateBackup
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BackupState.html#AutoBattleFramework_BattleBehaviour_Backup_BackupState_BattleStateBackup
+  commentId: F:AutoBattleFramework.BattleBehaviour.Backup.BackupState.BattleStateBackup
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BackupState.BattleStateBackup
+  nameWithType: BackupState.BattleStateBackup
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BackupState.BenchesBackup
+  name: BenchesBackup
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BackupState.html#AutoBattleFramework_BattleBehaviour_Backup_BackupState_BenchesBackup
+  commentId: F:AutoBattleFramework.BattleBehaviour.Backup.BackupState.BenchesBackup
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BackupState.BenchesBackup
+  nameWithType: BackupState.BenchesBackup
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BackupState.CharactersBackup
+  name: CharactersBackup
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BackupState.html#AutoBattleFramework_BattleBehaviour_Backup_BackupState_CharactersBackup
+  commentId: F:AutoBattleFramework.BattleBehaviour.Backup.BackupState.CharactersBackup
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BackupState.CharactersBackup
+  nameWithType: BackupState.CharactersBackup
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BackupState.CurrencyBackup
+  name: CurrencyBackup
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BackupState.html#AutoBattleFramework_BattleBehaviour_Backup_BackupState_CurrencyBackup
+  commentId: F:AutoBattleFramework.BattleBehaviour.Backup.BackupState.CurrencyBackup
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BackupState.CurrencyBackup
+  nameWithType: BackupState.CurrencyBackup
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BackupState.SeedBackup
+  name: SeedBackup
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BackupState.html#AutoBattleFramework_BattleBehaviour_Backup_BackupState_SeedBackup
+  commentId: F:AutoBattleFramework.BattleBehaviour.Backup.BackupState.SeedBackup
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BackupState.SeedBackup
+  nameWithType: BackupState.SeedBackup
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BackupState.ShopExperience
+  name: ShopExperience
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BackupState.html#AutoBattleFramework_BattleBehaviour_Backup_BackupState_ShopExperience
+  commentId: F:AutoBattleFramework.BattleBehaviour.Backup.BackupState.ShopExperience
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BackupState.ShopExperience
+  nameWithType: BackupState.ShopExperience
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BackupState.ShopLevel
+  name: ShopLevel
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BackupState.html#AutoBattleFramework_BattleBehaviour_Backup_BackupState_ShopLevel
+  commentId: F:AutoBattleFramework.BattleBehaviour.Backup.BackupState.ShopLevel
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BackupState.ShopLevel
+  nameWithType: BackupState.ShopLevel
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup
+  name: BattleBackup
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.html
+  commentId: T:AutoBattleFramework.BattleBehaviour.Backup.BattleBackup
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup
+  nameWithType: BattleBackup
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyBackup(AutoBattleFramework.BattleBehaviour.Backup.BackupState,BattleState,System.Int32)
+  name: ApplyBackup(BackupState, BattleState, Int32)
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.html#AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_ApplyBackup_AutoBattleFramework_BattleBehaviour_Backup_BackupState_BattleState_System_Int32_
+  commentId: M:AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyBackup(AutoBattleFramework.BattleBehaviour.Backup.BackupState,BattleState,System.Int32)
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyBackup(AutoBattleFramework.BattleBehaviour.Backup.BackupState, BattleState, System.Int32)
+  nameWithType: BattleBackup.ApplyBackup(BackupState, BattleState, Int32)
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyBackup*
+  name: ApplyBackup
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.html#AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_ApplyBackup_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyBackup
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyBackup
+  nameWithType: BattleBackup.ApplyBackup
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyLastStageBackup(BattleState,System.Int32)
+  name: ApplyLastStageBackup(BattleState, Int32)
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.html#AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_ApplyLastStageBackup_BattleState_System_Int32_
+  commentId: M:AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyLastStageBackup(BattleState,System.Int32)
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyLastStageBackup(BattleState, System.Int32)
+  nameWithType: BattleBackup.ApplyLastStageBackup(BattleState, Int32)
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyLastStageBackup*
+  name: ApplyLastStageBackup
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.html#AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_ApplyLastStageBackup_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyLastStageBackup
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyLastStageBackup
+  nameWithType: BattleBackup.ApplyLastStageBackup
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyLastStateBackup(BattleState,System.Int32)
+  name: ApplyLastStateBackup(BattleState, Int32)
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.html#AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_ApplyLastStateBackup_BattleState_System_Int32_
+  commentId: M:AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyLastStateBackup(BattleState,System.Int32)
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyLastStateBackup(BattleState, System.Int32)
+  nameWithType: BattleBackup.ApplyLastStateBackup(BattleState, Int32)
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyLastStateBackup*
+  name: ApplyLastStateBackup
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.html#AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_ApplyLastStateBackup_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyLastStateBackup
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyLastStateBackup
+  nameWithType: BattleBackup.ApplyLastStateBackup
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupLastStage(BattleState,System.Collections.Generic.List{GameCharacter},Bench[])
+  name: BackupLastStage(BattleState, List<GameCharacter>, Bench[])
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.html#AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_BackupLastStage_BattleState_System_Collections_Generic_List_GameCharacter__Bench___
+  commentId: M:AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupLastStage(BattleState,System.Collections.Generic.List{GameCharacter},Bench[])
+  name.vb: BackupLastStage(BattleState, List(Of GameCharacter), Bench())
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupLastStage(BattleState, System.Collections.Generic.List<GameCharacter>, Bench[])
+  fullName.vb: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupLastStage(BattleState, System.Collections.Generic.List(Of GameCharacter), Bench())
+  nameWithType: BattleBackup.BackupLastStage(BattleState, List<GameCharacter>, Bench[])
+  nameWithType.vb: BattleBackup.BackupLastStage(BattleState, List(Of GameCharacter), Bench())
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupLastStage*
+  name: BackupLastStage
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.html#AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_BackupLastStage_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupLastStage
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupLastStage
+  nameWithType: BattleBackup.BackupLastStage
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupLastState(BattleState,System.Collections.Generic.List{GameCharacter},Bench[])
+  name: BackupLastState(BattleState, List<GameCharacter>, Bench[])
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.html#AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_BackupLastState_BattleState_System_Collections_Generic_List_GameCharacter__Bench___
+  commentId: M:AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupLastState(BattleState,System.Collections.Generic.List{GameCharacter},Bench[])
+  name.vb: BackupLastState(BattleState, List(Of GameCharacter), Bench())
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupLastState(BattleState, System.Collections.Generic.List<GameCharacter>, Bench[])
+  fullName.vb: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupLastState(BattleState, System.Collections.Generic.List(Of GameCharacter), Bench())
+  nameWithType: BattleBackup.BackupLastState(BattleState, List<GameCharacter>, Bench[])
+  nameWithType.vb: BattleBackup.BackupLastState(BattleState, List(Of GameCharacter), Bench())
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupLastState*
+  name: BackupLastState
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.html#AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_BackupLastState_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupLastState
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupLastState
+  nameWithType: BattleBackup.BackupLastState
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupPlayerTeam(AutoBattleFramework.BattleBehaviour.Backup.BackupState,BattleState,System.Collections.Generic.List{GameCharacter},Bench[])
+  name: BackupPlayerTeam(BackupState, BattleState, List<GameCharacter>, Bench[])
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.html#AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_BackupPlayerTeam_AutoBattleFramework_BattleBehaviour_Backup_BackupState_BattleState_System_Collections_Generic_List_GameCharacter__Bench___
+  commentId: M:AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupPlayerTeam(AutoBattleFramework.BattleBehaviour.Backup.BackupState,BattleState,System.Collections.Generic.List{GameCharacter},Bench[])
+  name.vb: BackupPlayerTeam(BackupState, BattleState, List(Of GameCharacter), Bench())
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupPlayerTeam(AutoBattleFramework.BattleBehaviour.Backup.BackupState, BattleState, System.Collections.Generic.List<GameCharacter>, Bench[])
+  fullName.vb: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupPlayerTeam(AutoBattleFramework.BattleBehaviour.Backup.BackupState, BattleState, System.Collections.Generic.List(Of GameCharacter), Bench())
+  nameWithType: BattleBackup.BackupPlayerTeam(BackupState, BattleState, List<GameCharacter>, Bench[])
+  nameWithType.vb: BattleBackup.BackupPlayerTeam(BackupState, BattleState, List(Of GameCharacter), Bench())
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupPlayerTeam*
+  name: BackupPlayerTeam
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.html#AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_BackupPlayerTeam_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupPlayerTeam
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupPlayerTeam
+  nameWithType: BattleBackup.BackupPlayerTeam
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.Instance
+  name: Instance
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.html#AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_Instance
+  commentId: P:AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.Instance
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.Instance
+  nameWithType: BattleBackup.Instance
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.Instance*
+  name: Instance
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.html#AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_Instance_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.Instance
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.Instance
+  nameWithType: BattleBackup.Instance
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.LastStageBackup
+  name: LastStageBackup
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.html#AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_LastStageBackup
+  commentId: F:AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.LastStageBackup
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.LastStageBackup
+  nameWithType: BattleBackup.LastStageBackup
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.LastStateBackup
+  name: LastStateBackup
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.html#AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_LastStateBackup
+  commentId: F:AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.LastStateBackup
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.LastStateBackup
+  nameWithType: BattleBackup.LastStateBackup
 - uid: AutoBattleFramework.BattleBehaviour.Battle
   name: Battle
   href: api/AutoBattleFramework.BattleBehaviour.Battle.html
@@ -125,6 +310,12 @@ references:
   commentId: F:AutoBattleFramework.BattleBehaviour.Battle.itemDescriptionUI
   fullName: AutoBattleFramework.BattleBehaviour.Battle.itemDescriptionUI
   nameWithType: Battle.itemDescriptionUI
+- uid: AutoBattleFramework.BattleBehaviour.Battle.KeepSeedWhenUsingBackup
+  name: KeepSeedWhenUsingBackup
+  href: api/AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_KeepSeedWhenUsingBackup
+  commentId: F:AutoBattleFramework.BattleBehaviour.Battle.KeepSeedWhenUsingBackup
+  fullName: AutoBattleFramework.BattleBehaviour.Battle.KeepSeedWhenUsingBackup
+  nameWithType: Battle.KeepSeedWhenUsingBackup
 - uid: AutoBattleFramework.BattleBehaviour.Battle.losePanel
   name: losePanel
   href: api/AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_losePanel
@@ -143,6 +334,12 @@ references:
   commentId: F:AutoBattleFramework.BattleBehaviour.Battle.PhysicalDamageColor
   fullName: AutoBattleFramework.BattleBehaviour.Battle.PhysicalDamageColor
   nameWithType: Battle.PhysicalDamageColor
+- uid: AutoBattleFramework.BattleBehaviour.Battle.Seed
+  name: Seed
+  href: api/AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_Seed
+  commentId: F:AutoBattleFramework.BattleBehaviour.Battle.Seed
+  fullName: AutoBattleFramework.BattleBehaviour.Battle.Seed
+  nameWithType: Battle.Seed
 - uid: AutoBattleFramework.BattleBehaviour.Battle.SellZones
   name: SellZones
   href: api/AutoBattleFramework.BattleBehaviour.Battle.html#AutoBattleFramework_BattleBehaviour_Battle_SellZones
@@ -1549,6 +1746,32 @@ references:
   isSpec: "True"
   fullName: AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.NextState
   nameWithType: ScriptableBattleStage.NextState
+- uid: AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.PreviousState
+  name: PreviousState()
+  href: api/AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.html#AutoBattleFramework_BattleBehaviour_ScriptableBattleStage_PreviousState
+  commentId: M:AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.PreviousState
+  fullName: AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.PreviousState()
+  nameWithType: ScriptableBattleStage.PreviousState()
+- uid: AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.PreviousState*
+  name: PreviousState
+  href: api/AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.html#AutoBattleFramework_BattleBehaviour_ScriptableBattleStage_PreviousState_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.PreviousState
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.PreviousState
+  nameWithType: ScriptableBattleStage.PreviousState
+- uid: AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.ResetStage
+  name: ResetStage()
+  href: api/AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.html#AutoBattleFramework_BattleBehaviour_ScriptableBattleStage_ResetStage
+  commentId: M:AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.ResetStage
+  fullName: AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.ResetStage()
+  nameWithType: ScriptableBattleStage.ResetStage()
+- uid: AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.ResetStage*
+  name: ResetStage
+  href: api/AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.html#AutoBattleFramework_BattleBehaviour_ScriptableBattleStage_ResetStage_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.ResetStage
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.ResetStage
+  nameWithType: ScriptableBattleStage.ResetStage
 - uid: AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.stage
   name: stage
   href: api/AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.html#AutoBattleFramework_BattleBehaviour_ScriptableBattleStage_stage
@@ -1580,6 +1803,45 @@ references:
   isSpec: "True"
   fullName: AutoBattleFramework.BattleBehaviour.States.BattleState.AllowFieldDrag
   nameWithType: BattleState.AllowFieldDrag
+- uid: AutoBattleFramework.BattleBehaviour.States.BattleState.ApplyBackupPlayerTeam(System.Int32)
+  name: ApplyBackupPlayerTeam(Int32)
+  href: api/AutoBattleFramework.BattleBehaviour.States.BattleState.html#AutoBattleFramework_BattleBehaviour_States_BattleState_ApplyBackupPlayerTeam_System_Int32_
+  commentId: M:AutoBattleFramework.BattleBehaviour.States.BattleState.ApplyBackupPlayerTeam(System.Int32)
+  fullName: AutoBattleFramework.BattleBehaviour.States.BattleState.ApplyBackupPlayerTeam(System.Int32)
+  nameWithType: BattleState.ApplyBackupPlayerTeam(Int32)
+- uid: AutoBattleFramework.BattleBehaviour.States.BattleState.ApplyBackupPlayerTeam*
+  name: ApplyBackupPlayerTeam
+  href: api/AutoBattleFramework.BattleBehaviour.States.BattleState.html#AutoBattleFramework_BattleBehaviour_States_BattleState_ApplyBackupPlayerTeam_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.States.BattleState.ApplyBackupPlayerTeam
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.States.BattleState.ApplyBackupPlayerTeam
+  nameWithType: BattleState.ApplyBackupPlayerTeam
+- uid: AutoBattleFramework.BattleBehaviour.States.BattleState.BackupStagePlayerTeam(System.Int32)
+  name: BackupStagePlayerTeam(Int32)
+  href: api/AutoBattleFramework.BattleBehaviour.States.BattleState.html#AutoBattleFramework_BattleBehaviour_States_BattleState_BackupStagePlayerTeam_System_Int32_
+  commentId: M:AutoBattleFramework.BattleBehaviour.States.BattleState.BackupStagePlayerTeam(System.Int32)
+  fullName: AutoBattleFramework.BattleBehaviour.States.BattleState.BackupStagePlayerTeam(System.Int32)
+  nameWithType: BattleState.BackupStagePlayerTeam(Int32)
+- uid: AutoBattleFramework.BattleBehaviour.States.BattleState.BackupStagePlayerTeam*
+  name: BackupStagePlayerTeam
+  href: api/AutoBattleFramework.BattleBehaviour.States.BattleState.html#AutoBattleFramework_BattleBehaviour_States_BattleState_BackupStagePlayerTeam_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.States.BattleState.BackupStagePlayerTeam
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.States.BattleState.BackupStagePlayerTeam
+  nameWithType: BattleState.BackupStagePlayerTeam
+- uid: AutoBattleFramework.BattleBehaviour.States.BattleState.BackupStatePlayerTeam(System.Int32)
+  name: BackupStatePlayerTeam(Int32)
+  href: api/AutoBattleFramework.BattleBehaviour.States.BattleState.html#AutoBattleFramework_BattleBehaviour_States_BattleState_BackupStatePlayerTeam_System_Int32_
+  commentId: M:AutoBattleFramework.BattleBehaviour.States.BattleState.BackupStatePlayerTeam(System.Int32)
+  fullName: AutoBattleFramework.BattleBehaviour.States.BattleState.BackupStatePlayerTeam(System.Int32)
+  nameWithType: BattleState.BackupStatePlayerTeam(Int32)
+- uid: AutoBattleFramework.BattleBehaviour.States.BattleState.BackupStatePlayerTeam*
+  name: BackupStatePlayerTeam
+  href: api/AutoBattleFramework.BattleBehaviour.States.BattleState.html#AutoBattleFramework_BattleBehaviour_States_BattleState_BackupStatePlayerTeam_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.States.BattleState.BackupStatePlayerTeam
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.States.BattleState.BackupStatePlayerTeam
+  nameWithType: BattleState.BackupStatePlayerTeam
 - uid: AutoBattleFramework.BattleBehaviour.States.BattleState.CharacterAIUpdate(GameCharacter)
   name: CharacterAIUpdate(GameCharacter)
   href: api/AutoBattleFramework.BattleBehaviour.States.BattleState.html#AutoBattleFramework_BattleBehaviour_States_BattleState_CharacterAIUpdate_GameCharacter_
@@ -1656,6 +1918,89 @@ references:
   isSpec: "True"
   fullName: AutoBattleFramework.BattleBehaviour.States.BattleState.Update
   nameWithType: BattleState.Update
+- uid: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState
+  name: ChangeSceneState
+  href: api/AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.html
+  commentId: T:AutoBattleFramework.BattleBehaviour.States.ChangeSceneState
+  fullName: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState
+  nameWithType: ChangeSceneState
+- uid: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.AllowFieldDrag(GameActor)
+  name: AllowFieldDrag(GameActor)
+  href: api/AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.html#AutoBattleFramework_BattleBehaviour_States_ChangeSceneState_AllowFieldDrag_GameActor_
+  commentId: M:AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.AllowFieldDrag(GameActor)
+  fullName: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.AllowFieldDrag(GameActor)
+  nameWithType: ChangeSceneState.AllowFieldDrag(GameActor)
+- uid: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.AllowFieldDrag*
+  name: AllowFieldDrag
+  href: api/AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.html#AutoBattleFramework_BattleBehaviour_States_ChangeSceneState_AllowFieldDrag_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.AllowFieldDrag
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.AllowFieldDrag
+  nameWithType: ChangeSceneState.AllowFieldDrag
+- uid: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.ChangeSceneTo
+  name: ChangeSceneTo
+  href: api/AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.html#AutoBattleFramework_BattleBehaviour_States_ChangeSceneState_ChangeSceneTo
+  commentId: F:AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.ChangeSceneTo
+  fullName: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.ChangeSceneTo
+  nameWithType: ChangeSceneState.ChangeSceneTo
+- uid: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.CharacterAIUpdate(GameCharacter)
+  name: CharacterAIUpdate(GameCharacter)
+  href: api/AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.html#AutoBattleFramework_BattleBehaviour_States_ChangeSceneState_CharacterAIUpdate_GameCharacter_
+  commentId: M:AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.CharacterAIUpdate(GameCharacter)
+  fullName: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.CharacterAIUpdate(GameCharacter)
+  nameWithType: ChangeSceneState.CharacterAIUpdate(GameCharacter)
+- uid: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.CharacterAIUpdate*
+  name: CharacterAIUpdate
+  href: api/AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.html#AutoBattleFramework_BattleBehaviour_States_ChangeSceneState_CharacterAIUpdate_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.CharacterAIUpdate
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.CharacterAIUpdate
+  nameWithType: ChangeSceneState.CharacterAIUpdate
+- uid: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.OnStageStart
+  name: OnStageStart()
+  href: api/AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.html#AutoBattleFramework_BattleBehaviour_States_ChangeSceneState_OnStageStart
+  commentId: M:AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.OnStageStart
+  fullName: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.OnStageStart()
+  nameWithType: ChangeSceneState.OnStageStart()
+- uid: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.OnStageStart*
+  name: OnStageStart
+  href: api/AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.html#AutoBattleFramework_BattleBehaviour_States_ChangeSceneState_OnStageStart_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.OnStageStart
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.OnStageStart
+  nameWithType: ChangeSceneState.OnStageStart
+- uid: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.OnTimerFinish
+  name: OnTimerFinish()
+  href: api/AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.html#AutoBattleFramework_BattleBehaviour_States_ChangeSceneState_OnTimerFinish
+  commentId: M:AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.OnTimerFinish
+  fullName: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.OnTimerFinish()
+  nameWithType: ChangeSceneState.OnTimerFinish()
+- uid: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.OnTimerFinish*
+  name: OnTimerFinish
+  href: api/AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.html#AutoBattleFramework_BattleBehaviour_States_ChangeSceneState_OnTimerFinish_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.OnTimerFinish
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.OnTimerFinish
+  nameWithType: ChangeSceneState.OnTimerFinish
+- uid: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.ShowWinButton
+  name: ShowWinButton
+  href: api/AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.html#AutoBattleFramework_BattleBehaviour_States_ChangeSceneState_ShowWinButton
+  commentId: F:AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.ShowWinButton
+  fullName: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.ShowWinButton
+  nameWithType: ChangeSceneState.ShowWinButton
+- uid: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.Update
+  name: Update()
+  href: api/AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.html#AutoBattleFramework_BattleBehaviour_States_ChangeSceneState_Update
+  commentId: M:AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.Update
+  fullName: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.Update()
+  nameWithType: ChangeSceneState.Update()
+- uid: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.Update*
+  name: Update
+  href: api/AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.html#AutoBattleFramework_BattleBehaviour_States_ChangeSceneState_Update_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.Update
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.Update
+  nameWithType: ChangeSceneState.Update
 - uid: AutoBattleFramework.BattleBehaviour.States.ChangeStageState
   name: ChangeStageState
   href: api/AutoBattleFramework.BattleBehaviour.States.ChangeStageState.html
@@ -2774,6 +3119,12 @@ references:
   commentId: F:AutoBattleFramework.BattleUI.DamagePopup.displayText
   fullName: AutoBattleFramework.BattleUI.DamagePopup.displayText
   nameWithType: DamagePopup.displayText
+- uid: AutoBattleFramework.BattleUI.DamagePopup.Invisible
+  name: Invisible
+  href: api/AutoBattleFramework.BattleUI.DamagePopup.html#AutoBattleFramework_BattleUI_DamagePopup_Invisible
+  commentId: F:AutoBattleFramework.BattleUI.DamagePopup.Invisible
+  fullName: AutoBattleFramework.BattleUI.DamagePopup.Invisible
+  nameWithType: DamagePopup.Invisible
 - uid: AutoBattleFramework.BattleUI.DamagePopup.Setcolor(Color)
   name: Setcolor(Color)
   href: api/AutoBattleFramework.BattleUI.DamagePopup.html#AutoBattleFramework_BattleUI_DamagePopup_Setcolor_Color_
@@ -2855,6 +3206,70 @@ references:
   isSpec: "True"
   fullName: AutoBattleFramework.BattleUI.ItemDescriptionUI.ShowUI
   nameWithType: ItemDescriptionUI.ShowUI
+- uid: AutoBattleFramework.BattleUI.LosePanel
+  name: LosePanel
+  href: api/AutoBattleFramework.BattleUI.LosePanel.html
+  commentId: T:AutoBattleFramework.BattleUI.LosePanel
+  fullName: AutoBattleFramework.BattleUI.LosePanel
+  nameWithType: LosePanel
+- uid: AutoBattleFramework.BattleUI.LosePanel.AutomaticResetStage
+  name: AutomaticResetStage
+  href: api/AutoBattleFramework.BattleUI.LosePanel.html#AutoBattleFramework_BattleUI_LosePanel_AutomaticResetStage
+  commentId: F:AutoBattleFramework.BattleUI.LosePanel.AutomaticResetStage
+  fullName: AutoBattleFramework.BattleUI.LosePanel.AutomaticResetStage
+  nameWithType: LosePanel.AutomaticResetStage
+- uid: AutoBattleFramework.BattleUI.LosePanel.BackToMainMenu
+  name: BackToMainMenu()
+  href: api/AutoBattleFramework.BattleUI.LosePanel.html#AutoBattleFramework_BattleUI_LosePanel_BackToMainMenu
+  commentId: M:AutoBattleFramework.BattleUI.LosePanel.BackToMainMenu
+  fullName: AutoBattleFramework.BattleUI.LosePanel.BackToMainMenu()
+  nameWithType: LosePanel.BackToMainMenu()
+- uid: AutoBattleFramework.BattleUI.LosePanel.BackToMainMenu*
+  name: BackToMainMenu
+  href: api/AutoBattleFramework.BattleUI.LosePanel.html#AutoBattleFramework_BattleUI_LosePanel_BackToMainMenu_
+  commentId: Overload:AutoBattleFramework.BattleUI.LosePanel.BackToMainMenu
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleUI.LosePanel.BackToMainMenu
+  nameWithType: LosePanel.BackToMainMenu
+- uid: AutoBattleFramework.BattleUI.LosePanel.ResetLastStage
+  name: ResetLastStage()
+  href: api/AutoBattleFramework.BattleUI.LosePanel.html#AutoBattleFramework_BattleUI_LosePanel_ResetLastStage
+  commentId: M:AutoBattleFramework.BattleUI.LosePanel.ResetLastStage
+  fullName: AutoBattleFramework.BattleUI.LosePanel.ResetLastStage()
+  nameWithType: LosePanel.ResetLastStage()
+- uid: AutoBattleFramework.BattleUI.LosePanel.ResetLastStage*
+  name: ResetLastStage
+  href: api/AutoBattleFramework.BattleUI.LosePanel.html#AutoBattleFramework_BattleUI_LosePanel_ResetLastStage_
+  commentId: Overload:AutoBattleFramework.BattleUI.LosePanel.ResetLastStage
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleUI.LosePanel.ResetLastStage
+  nameWithType: LosePanel.ResetLastStage
+- uid: AutoBattleFramework.BattleUI.LosePanel.ResetLastState
+  name: ResetLastState()
+  href: api/AutoBattleFramework.BattleUI.LosePanel.html#AutoBattleFramework_BattleUI_LosePanel_ResetLastState
+  commentId: M:AutoBattleFramework.BattleUI.LosePanel.ResetLastState
+  fullName: AutoBattleFramework.BattleUI.LosePanel.ResetLastState()
+  nameWithType: LosePanel.ResetLastState()
+- uid: AutoBattleFramework.BattleUI.LosePanel.ResetLastState*
+  name: ResetLastState
+  href: api/AutoBattleFramework.BattleUI.LosePanel.html#AutoBattleFramework_BattleUI_LosePanel_ResetLastState_
+  commentId: Overload:AutoBattleFramework.BattleUI.LosePanel.ResetLastState
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleUI.LosePanel.ResetLastState
+  nameWithType: LosePanel.ResetLastState
+- uid: AutoBattleFramework.BattleUI.LosePanel.ResetScene
+  name: ResetScene()
+  href: api/AutoBattleFramework.BattleUI.LosePanel.html#AutoBattleFramework_BattleUI_LosePanel_ResetScene
+  commentId: M:AutoBattleFramework.BattleUI.LosePanel.ResetScene
+  fullName: AutoBattleFramework.BattleUI.LosePanel.ResetScene()
+  nameWithType: LosePanel.ResetScene()
+- uid: AutoBattleFramework.BattleUI.LosePanel.ResetScene*
+  name: ResetScene
+  href: api/AutoBattleFramework.BattleUI.LosePanel.html#AutoBattleFramework_BattleUI_LosePanel_ResetScene_
+  commentId: Overload:AutoBattleFramework.BattleUI.LosePanel.ResetScene
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleUI.LosePanel.ResetScene
+  nameWithType: LosePanel.ResetScene
 - uid: AutoBattleFramework.BattleUI.ShopExpBarUI
   name: ShopExpBarUI
   href: api/AutoBattleFramework.BattleUI.ShopExpBarUI.html
@@ -7588,6 +8003,51 @@ references:
   commentId: F:AutoBattleFramework.Utility.AutoBattleSettings.SettingsPath
   fullName: AutoBattleFramework.Utility.AutoBattleSettings.SettingsPath
   nameWithType: AutoBattleSettings.SettingsPath
+- uid: AutoBattleFramework.Utility.MenuCameraMovement
+  name: MenuCameraMovement
+  href: api/AutoBattleFramework.Utility.MenuCameraMovement.html
+  commentId: T:AutoBattleFramework.Utility.MenuCameraMovement
+  fullName: AutoBattleFramework.Utility.MenuCameraMovement
+  nameWithType: MenuCameraMovement
+- uid: AutoBattleFramework.Utility.MenuCameraMovement.OpenAssetStore
+  name: OpenAssetStore()
+  href: api/AutoBattleFramework.Utility.MenuCameraMovement.html#AutoBattleFramework_Utility_MenuCameraMovement_OpenAssetStore
+  commentId: M:AutoBattleFramework.Utility.MenuCameraMovement.OpenAssetStore
+  fullName: AutoBattleFramework.Utility.MenuCameraMovement.OpenAssetStore()
+  nameWithType: MenuCameraMovement.OpenAssetStore()
+- uid: AutoBattleFramework.Utility.MenuCameraMovement.OpenAssetStore*
+  name: OpenAssetStore
+  href: api/AutoBattleFramework.Utility.MenuCameraMovement.html#AutoBattleFramework_Utility_MenuCameraMovement_OpenAssetStore_
+  commentId: Overload:AutoBattleFramework.Utility.MenuCameraMovement.OpenAssetStore
+  isSpec: "True"
+  fullName: AutoBattleFramework.Utility.MenuCameraMovement.OpenAssetStore
+  nameWithType: MenuCameraMovement.OpenAssetStore
+- uid: AutoBattleFramework.Utility.MenuCameraMovement.StartScene1
+  name: StartScene1()
+  href: api/AutoBattleFramework.Utility.MenuCameraMovement.html#AutoBattleFramework_Utility_MenuCameraMovement_StartScene1
+  commentId: M:AutoBattleFramework.Utility.MenuCameraMovement.StartScene1
+  fullName: AutoBattleFramework.Utility.MenuCameraMovement.StartScene1()
+  nameWithType: MenuCameraMovement.StartScene1()
+- uid: AutoBattleFramework.Utility.MenuCameraMovement.StartScene1*
+  name: StartScene1
+  href: api/AutoBattleFramework.Utility.MenuCameraMovement.html#AutoBattleFramework_Utility_MenuCameraMovement_StartScene1_
+  commentId: Overload:AutoBattleFramework.Utility.MenuCameraMovement.StartScene1
+  isSpec: "True"
+  fullName: AutoBattleFramework.Utility.MenuCameraMovement.StartScene1
+  nameWithType: MenuCameraMovement.StartScene1
+- uid: AutoBattleFramework.Utility.MenuCameraMovement.StartScene2
+  name: StartScene2()
+  href: api/AutoBattleFramework.Utility.MenuCameraMovement.html#AutoBattleFramework_Utility_MenuCameraMovement_StartScene2
+  commentId: M:AutoBattleFramework.Utility.MenuCameraMovement.StartScene2
+  fullName: AutoBattleFramework.Utility.MenuCameraMovement.StartScene2()
+  nameWithType: MenuCameraMovement.StartScene2()
+- uid: AutoBattleFramework.Utility.MenuCameraMovement.StartScene2*
+  name: StartScene2
+  href: api/AutoBattleFramework.Utility.MenuCameraMovement.html#AutoBattleFramework_Utility_MenuCameraMovement_StartScene2_
+  commentId: Overload:AutoBattleFramework.Utility.MenuCameraMovement.StartScene2
+  isSpec: "True"
+  fullName: AutoBattleFramework.Utility.MenuCameraMovement.StartScene2
+  nameWithType: MenuCameraMovement.StartScene2
 - uid: AutoBattleFramework.Utility.ReadOnlyAttribute
   name: ReadOnlyAttribute
   href: api/AutoBattleFramework.Utility.ReadOnlyAttribute.html

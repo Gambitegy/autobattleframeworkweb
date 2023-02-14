@@ -1,0 +1,1027 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BattleBackup
+   | Auto-Battle Framework documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BattleBackup
+   | Auto-Battle Framework documentation ">
+    <meta name="generator" content="docfx 2.59.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.6/release/featherlight.min.css" type="text/css" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../overview/Introduction.html" title="Manual">Manual</a>
+                      </li>
+                      <li>
+                          <a>Scripting API</a>
+                      </li>
+                      <li>
+                          <a href="../changelog/1.0.1.html" title="Changelog">Changelog</a>
+                      </li>
+                      <li>
+                          <a href="https://gambitegy.github.io/" title="Contact">Contact</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">BattleBehaviour</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a class="">BattleBehaviour.Fusion</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a class="">FusionManager</a>
+                                </li>
+                                <li class="">
+                                  <a class="">GameCharacterFusion</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <a class="">Battle</a>
+                          </li>
+                          <li class="">
+                            <a class="">BossSize</a>
+                          </li>
+                          <li class="">
+                            <a class="">CharacterGroup</a>
+                          </li>
+                          <li class="">
+                            <a class="">ScriptableBattlePosition</a>
+                          </li>
+                          <li class="">
+                            <a class="">ScriptableBattleStage</a>
+                          </li>
+                          <li class="">
+                            <a class="">TeamData</a>
+                          </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a class="">BattleBehaviour.Backup</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a class="">BackupState</a>
+                                </li>
+                                <li class="">
+                                  <a class="">BattleBackup</a>
+                                </li>
+                              </ul>  </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">GameActors</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a class="">GameActor</a>
+                          </li>
+                          <li class="">
+                            <a class="">GameCharacter</a>
+                          </li>
+                          <li class="">
+                            <a class="">GameCharacter.AIState</a>
+                          </li>
+                          <li class="">
+                            <a class="">GameItem</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">States</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a class="">BattleState</a>
+                          </li>
+                          <li class="">
+                            <a class="">ChangeStageState</a>
+                          </li>
+                          <li class="">
+                            <a class="">FightState</a>
+                          </li>
+                          <li class="">
+                            <a class="">FightState.LoseCondition</a>
+                          </li>
+                          <li class="">
+                            <a class="">FightState.WinCondition</a>
+                          </li>
+                          <li class="">
+                            <a class="">PreparationState</a>
+                          </li>
+                          <li class="">
+                            <a class="">ResetSceneState</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">Battlefield</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a class="">BattleGrid</a>
+                          </li>
+                          <li class="">
+                            <a class="">BattleGrid.GridType</a>
+                          </li>
+                          <li class="">
+                            <a class="">Bench</a>
+                          </li>
+                          <li class="">
+                            <a class="">GridCell</a>
+                          </li>
+                          <li class="">
+                            <a class="">GridCellEffect</a>
+                          </li>
+                          <li class="">
+                            <a class="">SellZone</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">BattleUI</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a class="">CharacterEnergyUI</a>
+                          </li>
+                          <li class="">
+                            <a class="">CharacterHealthUI</a>
+                          </li>
+                          <li class="">
+                            <a class="">CharacterStatsUI</a>
+                          </li>
+                          <li class="">
+                            <a class="">DamagePopup</a>
+                          </li>
+                          <li class="">
+                            <a class="">ItemDescriptionUI</a>
+                          </li>
+                          <li class="">
+                            <a class="">ShopExpBarUI</a>
+                          </li>
+                          <li class="">
+                            <a class="">StageUI</a>
+                          </li>
+                          <li class="">
+                            <a class="">TraitDescriptionUI</a>
+                          </li>
+                          <li class="">
+                            <a class="">TraitListUI</a>
+                          </li>
+                          <li class="">
+                            <a class="">TraitListUI.OrderBy</a>
+                          </li>
+                          <li class="">
+                            <a class="">TraitStatsUI</a>
+                          </li>
+                          <li class="">
+                            <a class="">TraitUI</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">EditorScripts</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a class="">BattleGridEditor</a>
+                          </li>
+                          <li class="">
+                            <a class="">BattlePositionEditor</a>
+                          </li>
+                          <li class="">
+                            <a class="">BenchEditor</a>
+                          </li>
+                          <li class="">
+                            <a class="">GameCharacterEditor</a>
+                          </li>
+                          <li class="">
+                            <a class="">NetworkObjectsListEditor</a>
+                          </li>
+                          <li class="">
+                            <a class="">NFO_GameCharacterEditor</a>
+                          </li>
+                          <li class="">
+                            <a class="">NGO_MenuActions</a>
+                          </li>
+                          <li class="">
+                            <a class="">ReadOnlyDrawer</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">Formulas</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a class="">BattleFormulas</a>
+                          </li>
+                          <li class="">
+                            <a class="">BattleFormulas.DamageType</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">Movement</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a class="">ApproximateAstarMovement</a>
+                          </li>
+                          <li class="">
+                            <a class="">ExactAstarMovement</a>
+                          </li>
+                          <li class="">
+                            <a class="">IBattleMovement</a>
+                          </li>
+                          <li class="">
+                            <a class="">PathFinding2D</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">Multiplayer</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a class="">BattleBehaviour</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a class="">NetworkObjectList</a>
+                                </li>
+                                <li class="">
+                                  <span class="expand-stub"></span>
+                                  <a class="">GameActors</a>
+                                    
+                                    <ul class="nav level4">
+                                      <li class="">
+                                        <a class="">NGO_GameCharacter</a>
+                                      </li>
+                                      <li class="">
+                                        <a class="">NGO_GameItem</a>
+                                      </li>
+                                    </ul>  </li>
+                                <li class="">
+                                  <span class="expand-stub"></span>
+                                  <a class="">Player</a>
+                                    
+                                    <ul class="nav level4">
+                                      <li class="">
+                                        <a class="">GamePlayer</a>
+                                      </li>
+                                      <li class="">
+                                        <a class="">IPlayer</a>
+                                      </li>
+                                    </ul>  </li>
+                                <li class="">
+                                  <span class="expand-stub"></span>
+                                  <a class="">States</a>
+                                    
+                                    <ul class="nav level4">
+                                      <li class="">
+                                        <a class="">MP_ConnectionState</a>
+                                      </li>
+                                      <li class="">
+                                        <a class="">MP_FightState</a>
+                                      </li>
+                                      <li class="">
+                                        <a class="">MP_PreparationState</a>
+                                      </li>
+                                    </ul>  </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a class="">ClientTransform</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a class="">ClientNetworkTransform</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a class="">EditorScripts</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a class="">NGO_MenuActions</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a class="">GamingServices</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <span class="expand-stub"></span>
+                                  <a class="">GamingServices</a>
+                                    
+                                    <ul class="nav level4">
+                                      <li class="">
+                                        <a class="">GamingServices.RelayHostData</a>
+                                      </li>
+                                      <li class="">
+                                        <a class="">GamingServices.RelayJoinData</a>
+                                      </li>
+                                    </ul>  </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a class="">UI</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a class="">NetworkManagerUI</a>
+                                </li>
+                              </ul>  </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">Shop</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a class="">ScriptableShopItem</a>
+                          </li>
+                          <li class="">
+                            <a class="">ShopCharacter</a>
+                          </li>
+                          <li class="">
+                            <a class="">ShopGameItem</a>
+                          </li>
+                          <li class="">
+                            <a class="">ShopItemInfo</a>
+                          </li>
+                          <li class="">
+                            <a class="">ShopLevel</a>
+                          </li>
+                          <li class="">
+                            <a class="">ShopLevelManager</a>
+                          </li>
+                          <li class="">
+                            <a class="">ShopManager</a>
+                          </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a class="">ShopGUI</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a class="">CurrencyUI</a>
+                                </li>
+                                <li class="">
+                                  <a class="">EquippedItemDescriptionUI</a>
+                                </li>
+                                <li class="">
+                                  <a class="">ShopItemUI</a>
+                                </li>
+                                <li class="">
+                                  <a class="">ShopUI</a>
+                                </li>
+                                <li class="">
+                                  <a class="">SpecialAttackDescriptionUI</a>
+                                </li>
+                                <li class="">
+                                  <a class="">Timer</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a class="">ShopList</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a class="">IShopList</a>
+                                </li>
+                                <li class="">
+                                  <a class="">ScriptableDeckList</a>
+                                </li>
+                                <li class="">
+                                  <a class="">ScriptableGroupItemList</a>
+                                </li>
+                                <li class="">
+                                  <a class="">ScriptableIndividualItemList</a>
+                                </li>
+                                <li class="">
+                                  <a class="">ShopItemList</a>
+                                </li>
+                              </ul>  </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">Skills</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a class="">ApplyBuffOnHitEffect</a>
+                          </li>
+                          <li class="">
+                            <a class="">ApplyDebuffOnHitEffect</a>
+                          </li>
+                          <li class="">
+                            <a class="">ArrowEffect</a>
+                          </li>
+                          <li class="">
+                            <a class="">BuffEffect</a>
+                          </li>
+                          <li class="">
+                            <a class="">BuffEffectInfo</a>
+                          </li>
+                          <li class="">
+                            <a class="">FixedDamageOverTimeEffect</a>
+                          </li>
+                          <li class="">
+                            <a class="">HealthMeteoriteAllEffect</a>
+                          </li>
+                          <li class="">
+                            <a class="">HealthStealEffect</a>
+                          </li>
+                          <li class="">
+                            <a class="">IAttackEffect</a>
+                          </li>
+                          <li class="">
+                            <a class="">MeleeEffect</a>
+                          </li>
+                          <li class="">
+                            <a class="">MeteoriteEffect</a>
+                          </li>
+                          <li class="">
+                            <a class="">OnHitEffect</a>
+                          </li>
+                          <li class="">
+                            <a class="">Projectile</a>
+                          </li>
+                          <li class="">
+                            <a class="">RangedEffect</a>
+                          </li>
+                          <li class="">
+                            <a class="">SimpleBuffEffect</a>
+                          </li>
+                          <li class="">
+                            <a class="">SwordEffect</a>
+                          </li>
+                          <li class="">
+                            <a class="">VariableDamageOverTimeEffect</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">Stats</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a class="">CharacterStats</a>
+                          </li>
+                          <li class="">
+                            <a class="">CharacterStats.CharacterStat</a>
+                          </li>
+                          <li class="">
+                            <a class="">ItemModificator</a>
+                          </li>
+                          <li class="">
+                            <a class="">StatModificator</a>
+                          </li>
+                          <li class="">
+                            <a class="">StatsModificator</a>
+                          </li>
+                          <li class="">
+                            <a class="">StatsModificator.ModificatorType</a>
+                          </li>
+                          <li class="">
+                            <a class="">Trait</a>
+                          </li>
+                          <li class="">
+                            <a class="">TraitOption</a>
+                          </li>
+                          <li class="">
+                            <a class="">TraitOption.TraitTarget</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">Utility</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a class="">AutoBattleSettings</a>
+                          </li>
+                          <li class="">
+                            <a class="">ReadOnlyAttribute</a>
+                          </li>
+                          <li class="">
+                            <a class="">UIUtility</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup">
+  
+  
+  <h1 id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup" class="text-break">Class BattleBackup
+  </h1>
+  <div class="markdown level0 summary"><p>It is used in case of losing a round, to maintain the state of the player&apos;s equipment before the changes made during the preparation of the last round.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">BattleBackup</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AutoBattleFramework.BattleBehaviour.Backup.html">AutoBattleFramework.BattleBehaviour.Backup</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class BattleBackup : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_LastStageBackup" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.LastStageBackup">LastStageBackup</h4>
+  <div class="markdown level1 summary"><p>Backup of the last stage. Usually the first Preparation State in a stage.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BackupState LastStageBackup</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoBattleFramework.BattleBehaviour.Backup.BackupState.html">BackupState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_LastStateBackup" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.LastStateBackup">LastStateBackup</h4>
+  <div class="markdown level1 summary"><p>Backup of the last stage. Usually a Preparation State backup.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BackupState LastStateBackup</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoBattleFramework.BattleBehaviour.Backup.BackupState.html">BackupState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_Instance_" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.Instance*"></a>
+  <h4 id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_Instance" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.Instance">Instance</h4>
+  <div class="markdown level1 summary"><p>Singleton of the Battle backup.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BattleBackup Instance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.html">BattleBackup</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_ApplyBackup_" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyBackup*"></a>
+  <h4 id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_ApplyBackup_AutoBattleFramework_BattleBehaviour_Backup_BackupState_BattleState_System_Int32_" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyBackup(AutoBattleFramework.BattleBehaviour.Backup.BackupState,BattleState,System.Int32)">ApplyBackup(BackupState, BattleState, Int32)</h4>
+  <div class="markdown level1 summary"><p>Apply the Backup of the current BattleState.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool ApplyBackup(BackupState backup, BattleState state, int PlayerIndex = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoBattleFramework.BattleBehaviour.Backup.BackupState.html">BackupState</a></td>
+        <td><span class="parametername">backup</span></td>
+        <td><p>Backup data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">BattleState</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>Current BattleState.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">PlayerIndex</span></td>
+        <td><p>Index of the player. Default 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_ApplyLastStageBackup_" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyLastStageBackup*"></a>
+  <h4 id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_ApplyLastStageBackup_BattleState_System_Int32_" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyLastStageBackup(BattleState,System.Int32)">ApplyLastStageBackup(BattleState, Int32)</h4>
+  <div class="markdown level1 summary"><p>Apply the Stage backup. Deletes all player characters and objects, and resets those in the stage backup.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ApplyLastStageBackup(BattleState state, int PlayerIndex = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BattleState</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>Current BattleState</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">PlayerIndex</span></td>
+        <td><p>Index of the player. Default 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p>Returns true if the backup has been applied successfully.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_ApplyLastStateBackup_" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyLastStateBackup*"></a>
+  <h4 id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_ApplyLastStateBackup_BattleState_System_Int32_" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyLastStateBackup(BattleState,System.Int32)">ApplyLastStateBackup(BattleState, Int32)</h4>
+  <div class="markdown level1 summary"><p>Apply the State backup. Deletes all player characters and objects, and resets those in the state backup.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ApplyLastStateBackup(BattleState state, int PlayerIndex = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BattleState</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>Current BattleState</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">PlayerIndex</span></td>
+        <td><p>Index of the player. Default 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p>Returns true if the backup has been applied successfully.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_BackupLastStage_" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupLastStage*"></a>
+  <h4 id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_BackupLastStage_BattleState_System_Collections_Generic_List_GameCharacter__Bench___" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupLastStage(BattleState,System.Collections.Generic.List{GameCharacter},Bench[])">BackupLastStage(BattleState, List&lt;GameCharacter&gt;, Bench[])</h4>
+  <div class="markdown level1 summary"><p>This copy is considered to be the first state of a phase, so it is advisable to call it only during the first state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BackupLastStage(BattleState state, List&lt;GameCharacter&gt; PlayerTeam, params Bench[] Benches)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BattleState</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>Current BattleState.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">GameCharacter</span>&gt;</td>
+        <td><span class="parametername">PlayerTeam</span></td>
+        <td><p>List of player characters on the battlefield.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Bench</span>[]</td>
+        <td><span class="parametername">Benches</span></td>
+        <td><p>All benches for which you want to make a backup copy. This can include character and item banks.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_BackupLastState_" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupLastState*"></a>
+  <h4 id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_BackupLastState_BattleState_System_Collections_Generic_List_GameCharacter__Bench___" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupLastState(BattleState,System.Collections.Generic.List{GameCharacter},Bench[])">BackupLastState(BattleState, List&lt;GameCharacter&gt;, Bench[])</h4>
+  <div class="markdown level1 summary"><p>Creates a backup copy of the GameActors in the current BattleState.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BackupLastState(BattleState state, List&lt;GameCharacter&gt; PlayerTeam, params Bench[] Benches)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BattleState</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>Current BattleState.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">GameCharacter</span>&gt;</td>
+        <td><span class="parametername">PlayerTeam</span></td>
+        <td><p>List of player characters on the battlefield.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Bench</span>[]</td>
+        <td><span class="parametername">Benches</span></td>
+        <td><p>All benches for which you want to make a backup copy. This can include character and item banks.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_BackupPlayerTeam_" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupPlayerTeam*"></a>
+  <h4 id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_BackupPlayerTeam_AutoBattleFramework_BattleBehaviour_Backup_BackupState_BattleState_System_Collections_Generic_List_GameCharacter__Bench___" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupPlayerTeam(AutoBattleFramework.BattleBehaviour.Backup.BackupState,BattleState,System.Collections.Generic.List{GameCharacter},Bench[])">BackupPlayerTeam(BackupState, BattleState, List&lt;GameCharacter&gt;, Bench[])</h4>
+  <div class="markdown level1 summary"><p>Backup copy of the status of characters and characters. Can be used to return to the previous state of a round, before making changes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void BackupPlayerTeam(BackupState backup, BattleState state, List&lt;GameCharacter&gt; PlayerTeam, params Bench[] Benches)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoBattleFramework.BattleBehaviour.Backup.BackupState.html">BackupState</a></td>
+        <td><span class="parametername">backup</span></td>
+        <td><p>Backup data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">BattleState</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>Current BattleState</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">GameCharacter</span>&gt;</td>
+        <td><span class="parametername">PlayerTeam</span></td>
+        <td><p>List of player characters on the battlefield.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Bench</span>[]</td>
+        <td><span class="parametername">Benches</span></td>
+        <td><p>All benches for which you want to make a backup copy. This can include character and item banks.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Auto-Battle Framework documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.6/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="../styles/plugin-featherlight.js"></script>
+  </body>
+</html>
