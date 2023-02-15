@@ -701,6 +701,31 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <h4 id="AutoBattleFramework_Shop_ShopList_ScriptableDeckList_RemovedItems" data-uid="AutoBattleFramework.Shop.ShopList.ScriptableDeckList.RemovedItems">RemovedItems</h4>
+  <div class="markdown level1 summary"><p>Cards removed from the deck.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;ShopItemInfo&gt; RemovedItems</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="AutoBattleFramework.Shop.ShopItemInfo.html">ShopItemInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -975,6 +1000,53 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="AutoBattleFramework.Shop.ShopList.IShopList.html#AutoBattleFramework_Shop_ShopList_IShopList_RemoveItemInfo_AutoBattleFramework_Shop_ShopItemInfo_">IShopList.RemoveItemInfo(ShopItemInfo)</a></div>
+  
+  
+  <a id="AutoBattleFramework_Shop_ShopList_ScriptableDeckList_RestoreItemInfo_" data-uid="AutoBattleFramework.Shop.ShopList.ScriptableDeckList.RestoreItemInfo*"></a>
+  <h4 id="AutoBattleFramework_Shop_ShopList_ScriptableDeckList_RestoreItemInfo_AutoBattleFramework_Shop_ScriptableShopItem_" data-uid="AutoBattleFramework.Shop.ShopList.ScriptableDeckList.RestoreItemInfo(AutoBattleFramework.Shop.ScriptableShopItem)">RestoreItemInfo(ScriptableShopItem)</h4>
+  <div class="markdown level1 summary"><p>Restore a <a class="xref" href="AutoBattleFramework.Shop.ShopItemInfo.html">ShopItemInfo</a> that has been bought before. Returns true if successful.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool RestoreItemInfo(ScriptableShopItem info)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoBattleFramework.Shop.ScriptableShopItem.html">ScriptableShopItem</a></td>
+        <td><span class="parametername">info</span></td>
+        <td><p>Item to be restored.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p>True if succesful</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AutoBattleFramework.Shop.ShopList.IShopList.html#AutoBattleFramework_Shop_ShopList_IShopList_RestoreItemInfo_AutoBattleFramework_Shop_ScriptableShopItem_">IShopList.RestoreItemInfo(ScriptableShopItem)</a></div>
   
   
   <a id="AutoBattleFramework_Shop_ShopList_ScriptableDeckList_Shuffle_" data-uid="AutoBattleFramework.Shop.ShopList.ScriptableDeckList.Shuffle*"></a>

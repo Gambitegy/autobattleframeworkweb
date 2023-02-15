@@ -5911,6 +5911,19 @@ references:
   isSpec: "True"
   fullName: AutoBattleFramework.Shop.ShopList.IShopList.RemoveItemInfo
   nameWithType: IShopList.RemoveItemInfo
+- uid: AutoBattleFramework.Shop.ShopList.IShopList.RestoreItemInfo(AutoBattleFramework.Shop.ScriptableShopItem)
+  name: RestoreItemInfo(ScriptableShopItem)
+  href: api/AutoBattleFramework.Shop.ShopList.IShopList.html#AutoBattleFramework_Shop_ShopList_IShopList_RestoreItemInfo_AutoBattleFramework_Shop_ScriptableShopItem_
+  commentId: M:AutoBattleFramework.Shop.ShopList.IShopList.RestoreItemInfo(AutoBattleFramework.Shop.ScriptableShopItem)
+  fullName: AutoBattleFramework.Shop.ShopList.IShopList.RestoreItemInfo(AutoBattleFramework.Shop.ScriptableShopItem)
+  nameWithType: IShopList.RestoreItemInfo(ScriptableShopItem)
+- uid: AutoBattleFramework.Shop.ShopList.IShopList.RestoreItemInfo*
+  name: RestoreItemInfo
+  href: api/AutoBattleFramework.Shop.ShopList.IShopList.html#AutoBattleFramework_Shop_ShopList_IShopList_RestoreItemInfo_
+  commentId: Overload:AutoBattleFramework.Shop.ShopList.IShopList.RestoreItemInfo
+  isSpec: "True"
+  fullName: AutoBattleFramework.Shop.ShopList.IShopList.RestoreItemInfo
+  nameWithType: IShopList.RestoreItemInfo
 - uid: AutoBattleFramework.Shop.ShopList.ScriptableDeckList
   name: ScriptableDeckList
   href: api/AutoBattleFramework.Shop.ShopList.ScriptableDeckList.html
@@ -6016,6 +6029,12 @@ references:
   isSpec: "True"
   fullName: AutoBattleFramework.Shop.ShopList.ScriptableDeckList.OnBuy
   nameWithType: ScriptableDeckList.OnBuy
+- uid: AutoBattleFramework.Shop.ShopList.ScriptableDeckList.RemovedItems
+  name: RemovedItems
+  href: api/AutoBattleFramework.Shop.ShopList.ScriptableDeckList.html#AutoBattleFramework_Shop_ShopList_ScriptableDeckList_RemovedItems
+  commentId: F:AutoBattleFramework.Shop.ShopList.ScriptableDeckList.RemovedItems
+  fullName: AutoBattleFramework.Shop.ShopList.ScriptableDeckList.RemovedItems
+  nameWithType: ScriptableDeckList.RemovedItems
 - uid: AutoBattleFramework.Shop.ShopList.ScriptableDeckList.RemoveItemInfo(AutoBattleFramework.Shop.ShopItemInfo)
   name: RemoveItemInfo(ShopItemInfo)
   href: api/AutoBattleFramework.Shop.ShopList.ScriptableDeckList.html#AutoBattleFramework_Shop_ShopList_ScriptableDeckList_RemoveItemInfo_AutoBattleFramework_Shop_ShopItemInfo_
@@ -6029,6 +6048,19 @@ references:
   isSpec: "True"
   fullName: AutoBattleFramework.Shop.ShopList.ScriptableDeckList.RemoveItemInfo
   nameWithType: ScriptableDeckList.RemoveItemInfo
+- uid: AutoBattleFramework.Shop.ShopList.ScriptableDeckList.RestoreItemInfo(AutoBattleFramework.Shop.ScriptableShopItem)
+  name: RestoreItemInfo(ScriptableShopItem)
+  href: api/AutoBattleFramework.Shop.ShopList.ScriptableDeckList.html#AutoBattleFramework_Shop_ShopList_ScriptableDeckList_RestoreItemInfo_AutoBattleFramework_Shop_ScriptableShopItem_
+  commentId: M:AutoBattleFramework.Shop.ShopList.ScriptableDeckList.RestoreItemInfo(AutoBattleFramework.Shop.ScriptableShopItem)
+  fullName: AutoBattleFramework.Shop.ShopList.ScriptableDeckList.RestoreItemInfo(AutoBattleFramework.Shop.ScriptableShopItem)
+  nameWithType: ScriptableDeckList.RestoreItemInfo(ScriptableShopItem)
+- uid: AutoBattleFramework.Shop.ShopList.ScriptableDeckList.RestoreItemInfo*
+  name: RestoreItemInfo
+  href: api/AutoBattleFramework.Shop.ShopList.ScriptableDeckList.html#AutoBattleFramework_Shop_ShopList_ScriptableDeckList_RestoreItemInfo_
+  commentId: Overload:AutoBattleFramework.Shop.ShopList.ScriptableDeckList.RestoreItemInfo
+  isSpec: "True"
+  fullName: AutoBattleFramework.Shop.ShopList.ScriptableDeckList.RestoreItemInfo
+  nameWithType: ScriptableDeckList.RestoreItemInfo
 - uid: AutoBattleFramework.Shop.ShopList.ScriptableDeckList.Shuffle(System.Collections.Generic.List{AutoBattleFramework.Shop.ShopItemInfo})
   name: Shuffle(List<ShopItemInfo>)
   href: api/AutoBattleFramework.Shop.ShopList.ScriptableDeckList.html#AutoBattleFramework_Shop_ShopList_ScriptableDeckList_Shuffle_System_Collections_Generic_List_AutoBattleFramework_Shop_ShopItemInfo__
@@ -6151,6 +6183,19 @@ references:
   isSpec: "True"
   fullName: AutoBattleFramework.Shop.ShopList.ScriptableGroupItemList.RemoveItemInfo
   nameWithType: ScriptableGroupItemList.RemoveItemInfo
+- uid: AutoBattleFramework.Shop.ShopList.ScriptableGroupItemList.RestoreItemInfo(AutoBattleFramework.Shop.ScriptableShopItem)
+  name: RestoreItemInfo(ScriptableShopItem)
+  href: api/AutoBattleFramework.Shop.ShopList.ScriptableGroupItemList.html#AutoBattleFramework_Shop_ShopList_ScriptableGroupItemList_RestoreItemInfo_AutoBattleFramework_Shop_ScriptableShopItem_
+  commentId: M:AutoBattleFramework.Shop.ShopList.ScriptableGroupItemList.RestoreItemInfo(AutoBattleFramework.Shop.ScriptableShopItem)
+  fullName: AutoBattleFramework.Shop.ShopList.ScriptableGroupItemList.RestoreItemInfo(AutoBattleFramework.Shop.ScriptableShopItem)
+  nameWithType: ScriptableGroupItemList.RestoreItemInfo(ScriptableShopItem)
+- uid: AutoBattleFramework.Shop.ShopList.ScriptableGroupItemList.RestoreItemInfo*
+  name: RestoreItemInfo
+  href: api/AutoBattleFramework.Shop.ShopList.ScriptableGroupItemList.html#AutoBattleFramework_Shop_ShopList_ScriptableGroupItemList_RestoreItemInfo_
+  commentId: Overload:AutoBattleFramework.Shop.ShopList.ScriptableGroupItemList.RestoreItemInfo
+  isSpec: "True"
+  fullName: AutoBattleFramework.Shop.ShopList.ScriptableGroupItemList.RestoreItemInfo
+  nameWithType: ScriptableGroupItemList.RestoreItemInfo
 - uid: AutoBattleFramework.Shop.ShopList.ScriptableIndividualItemList
   name: ScriptableIndividualItemList
   href: api/AutoBattleFramework.Shop.ShopList.ScriptableIndividualItemList.html
@@ -6244,6 +6289,19 @@ references:
   isSpec: "True"
   fullName: AutoBattleFramework.Shop.ShopList.ScriptableIndividualItemList.RemoveItemInfo
   nameWithType: ScriptableIndividualItemList.RemoveItemInfo
+- uid: AutoBattleFramework.Shop.ShopList.ScriptableIndividualItemList.RestoreItemInfo(AutoBattleFramework.Shop.ScriptableShopItem)
+  name: RestoreItemInfo(ScriptableShopItem)
+  href: api/AutoBattleFramework.Shop.ShopList.ScriptableIndividualItemList.html#AutoBattleFramework_Shop_ShopList_ScriptableIndividualItemList_RestoreItemInfo_AutoBattleFramework_Shop_ScriptableShopItem_
+  commentId: M:AutoBattleFramework.Shop.ShopList.ScriptableIndividualItemList.RestoreItemInfo(AutoBattleFramework.Shop.ScriptableShopItem)
+  fullName: AutoBattleFramework.Shop.ShopList.ScriptableIndividualItemList.RestoreItemInfo(AutoBattleFramework.Shop.ScriptableShopItem)
+  nameWithType: ScriptableIndividualItemList.RestoreItemInfo(ScriptableShopItem)
+- uid: AutoBattleFramework.Shop.ShopList.ScriptableIndividualItemList.RestoreItemInfo*
+  name: RestoreItemInfo
+  href: api/AutoBattleFramework.Shop.ShopList.ScriptableIndividualItemList.html#AutoBattleFramework_Shop_ShopList_ScriptableIndividualItemList_RestoreItemInfo_
+  commentId: Overload:AutoBattleFramework.Shop.ShopList.ScriptableIndividualItemList.RestoreItemInfo
+  isSpec: "True"
+  fullName: AutoBattleFramework.Shop.ShopList.ScriptableIndividualItemList.RestoreItemInfo
+  nameWithType: ScriptableIndividualItemList.RestoreItemInfo
 - uid: AutoBattleFramework.Shop.ShopList.ShopItemList
   name: ShopItemList
   href: api/AutoBattleFramework.Shop.ShopList.ShopItemList.html
@@ -6349,12 +6407,38 @@ references:
   commentId: F:AutoBattleFramework.Shop.ShopManager.RemoveFromListWhenBought
   fullName: AutoBattleFramework.Shop.ShopManager.RemoveFromListWhenBought
   nameWithType: ShopManager.RemoveFromListWhenBought
+- uid: AutoBattleFramework.Shop.ShopManager.RemoveShopItemFromAllLists(AutoBattleFramework.Shop.ShopItemInfo)
+  name: RemoveShopItemFromAllLists(ShopItemInfo)
+  href: api/AutoBattleFramework.Shop.ShopManager.html#AutoBattleFramework_Shop_ShopManager_RemoveShopItemFromAllLists_AutoBattleFramework_Shop_ShopItemInfo_
+  commentId: M:AutoBattleFramework.Shop.ShopManager.RemoveShopItemFromAllLists(AutoBattleFramework.Shop.ShopItemInfo)
+  fullName: AutoBattleFramework.Shop.ShopManager.RemoveShopItemFromAllLists(AutoBattleFramework.Shop.ShopItemInfo)
+  nameWithType: ShopManager.RemoveShopItemFromAllLists(ShopItemInfo)
+- uid: AutoBattleFramework.Shop.ShopManager.RemoveShopItemFromAllLists*
+  name: RemoveShopItemFromAllLists
+  href: api/AutoBattleFramework.Shop.ShopManager.html#AutoBattleFramework_Shop_ShopManager_RemoveShopItemFromAllLists_
+  commentId: Overload:AutoBattleFramework.Shop.ShopManager.RemoveShopItemFromAllLists
+  isSpec: "True"
+  fullName: AutoBattleFramework.Shop.ShopManager.RemoveShopItemFromAllLists
+  nameWithType: ShopManager.RemoveShopItemFromAllLists
 - uid: AutoBattleFramework.Shop.ShopManager.RepeatItems
   name: RepeatItems
   href: api/AutoBattleFramework.Shop.ShopManager.html#AutoBattleFramework_Shop_ShopManager_RepeatItems
   commentId: F:AutoBattleFramework.Shop.ShopManager.RepeatItems
   fullName: AutoBattleFramework.Shop.ShopManager.RepeatItems
   nameWithType: ShopManager.RepeatItems
+- uid: AutoBattleFramework.Shop.ShopManager.RestoreShopItemForAllLists(AutoBattleFramework.Shop.ScriptableShopItem)
+  name: RestoreShopItemForAllLists(ScriptableShopItem)
+  href: api/AutoBattleFramework.Shop.ShopManager.html#AutoBattleFramework_Shop_ShopManager_RestoreShopItemForAllLists_AutoBattleFramework_Shop_ScriptableShopItem_
+  commentId: M:AutoBattleFramework.Shop.ShopManager.RestoreShopItemForAllLists(AutoBattleFramework.Shop.ScriptableShopItem)
+  fullName: AutoBattleFramework.Shop.ShopManager.RestoreShopItemForAllLists(AutoBattleFramework.Shop.ScriptableShopItem)
+  nameWithType: ShopManager.RestoreShopItemForAllLists(ScriptableShopItem)
+- uid: AutoBattleFramework.Shop.ShopManager.RestoreShopItemForAllLists*
+  name: RestoreShopItemForAllLists
+  href: api/AutoBattleFramework.Shop.ShopManager.html#AutoBattleFramework_Shop_ShopManager_RestoreShopItemForAllLists_
+  commentId: Overload:AutoBattleFramework.Shop.ShopManager.RestoreShopItemForAllLists
+  isSpec: "True"
+  fullName: AutoBattleFramework.Shop.ShopManager.RestoreShopItemForAllLists
+  nameWithType: ShopManager.RestoreShopItemForAllLists
 - uid: AutoBattleFramework.Shop.ShopManager.shopLevelManager
   name: shopLevelManager
   href: api/AutoBattleFramework.Shop.ShopManager.html#AutoBattleFramework_Shop_ShopManager_shopLevelManager

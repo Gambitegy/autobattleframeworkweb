@@ -1228,7 +1228,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopList.IShopList.html",
-          "hash": "O7KuB3wSi+9AFEUVtBmD123FZ43cxm7J35rAMCOIPaU="
+          "hash": "POrfKN1tBMDdSUk2MlsE8IA/w0JpWEr6AJ15TCuxt8w="
         }
       },
       "is_incremental": false,
@@ -1240,7 +1240,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopList.ScriptableDeckList.html",
-          "hash": "FRKB16QtOsdzgn266GocYrldxjzEnlSkJt/q5xJKnGU="
+          "hash": "OQCOtK10B/csM2b3ckO6x/Q60XkHf1TILke+bbhfHLE="
         }
       },
       "is_incremental": false,
@@ -1252,7 +1252,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopList.ScriptableGroupItemList.html",
-          "hash": "vT3gl+nXJXsE+ix0DQ1pHqLebeh7h0B6fjOCYUQ9HW0="
+          "hash": "K4rcKvFG4D60Eh8UwPxP5BbTFKj3zyKvQ6E9Y1yyeDM="
         }
       },
       "is_incremental": false,
@@ -1264,7 +1264,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopList.ScriptableIndividualItemList.html",
-          "hash": "QQNJqvSffSwa0YwbmQuxrle+il1XwHBz+zGvMSLzAWY="
+          "hash": "jwfAzI3Gbm8rzYQa6fkC4xvP+stpkwbUXdKrx7j4Dpc="
         }
       },
       "is_incremental": false,
@@ -1300,7 +1300,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopManager.html",
-          "hash": "Vuo3oh5MWDBcmu8BPayU4UAJ7FYdSQPXIKS+NlMowFo="
+          "hash": "zun1NI9Ut3iJPJ/JyrsLYE+9pYO5PQq/JZU6BlsRBMQ="
         }
       },
       "is_incremental": false,
