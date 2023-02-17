@@ -192,6 +192,32 @@ references:
   commentId: F:AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.LastStateBackup
   fullName: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.LastStateBackup
   nameWithType: BattleBackup.LastStateBackup
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.RemoveBackup(AutoBattleFramework.BattleBehaviour.Backup.BackupState)
+  name: RemoveBackup(BackupState)
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.html#AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_RemoveBackup_AutoBattleFramework_BattleBehaviour_Backup_BackupState_
+  commentId: M:AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.RemoveBackup(AutoBattleFramework.BattleBehaviour.Backup.BackupState)
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.RemoveBackup(AutoBattleFramework.BattleBehaviour.Backup.BackupState)
+  nameWithType: BattleBackup.RemoveBackup(BackupState)
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.RemoveBackup*
+  name: RemoveBackup
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.html#AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_RemoveBackup_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.RemoveBackup
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.RemoveBackup
+  nameWithType: BattleBackup.RemoveBackup
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.RemoveLastStageBackup
+  name: RemoveLastStageBackup()
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.html#AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_RemoveLastStageBackup
+  commentId: M:AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.RemoveLastStageBackup
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.RemoveLastStageBackup()
+  nameWithType: BattleBackup.RemoveLastStageBackup()
+- uid: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.RemoveLastStageBackup*
+  name: RemoveLastStageBackup
+  href: api/AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.html#AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_RemoveLastStageBackup_
+  commentId: Overload:AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.RemoveLastStageBackup
+  isSpec: "True"
+  fullName: AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.RemoveLastStageBackup
+  nameWithType: BattleBackup.RemoveLastStageBackup
 - uid: AutoBattleFramework.BattleBehaviour.Battle
   name: Battle
   href: api/AutoBattleFramework.BattleBehaviour.Battle.html
