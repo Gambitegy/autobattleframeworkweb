@@ -54,7 +54,7 @@
                           <a href="../api/AutoBattleFramework.BattleBehaviour.html" title="Scripting API">Scripting API</a>
                       </li>
                       <li>
-                          <a href="../changelog/1.2.html" title="Changelog">Changelog</a>
+                          <a href="../changelog/1.3.html" title="Changelog">Changelog</a>
                       </li>
                       <li>
                           <a href="https://gambitegy.github.io/" title="Contact">Contact</a>
@@ -327,6 +327,9 @@
                               <ul class="nav level3">
                                 <li class="">
                                   <a href="AutoBattleFramework.Multiplayer.BattleBehaviour.NetworkObjectList.html" title="NetworkObjectList" class="">NetworkObjectList</a>
+                                </li>
+                                <li class="">
+                                  <a href="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.html" title="StatsStruct" class="">StatsStruct</a>
                                 </li>
                                 <li class="">
                                   <span class="expand-stub"></span>
@@ -860,6 +863,51 @@ If the host, perform a normal Attack.</p>
   </table>
   
   
+  <a id="AutoBattleFramework_Multiplayer_BattleBehaviour_GameActors_NGO_GameCharacter_GetStatsStruct_" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.GameActors.NGO_GameCharacter.GetStatsStruct*"></a>
+  <h4 id="AutoBattleFramework_Multiplayer_BattleBehaviour_GameActors_NGO_GameCharacter_GetStatsStruct_CharacterStats_" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.GameActors.NGO_GameCharacter.GetStatsStruct(CharacterStats)">GetStatsStruct(CharacterStats)</h4>
+  <div class="markdown level1 summary"><p>Get the stats struct of a character stats.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StatsStruct GetStatsStruct(CharacterStats stats)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CharacterStats</span></td>
+        <td><span class="parametername">stats</span></td>
+        <td><p>Stats of a character</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.html">StatsStruct</a></td>
+        <td><p>Stats struct.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AutoBattleFramework_Multiplayer_BattleBehaviour_GameActors_NGO_GameCharacter_GetTeamIndex_" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.GameActors.NGO_GameCharacter.GetTeamIndex*"></a>
   <h4 id="AutoBattleFramework_Multiplayer_BattleBehaviour_GameActors_NGO_GameCharacter_GetTeamIndex" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.GameActors.NGO_GameCharacter.GetTeamIndex">GetTeamIndex()</h4>
   <div class="markdown level1 summary"><p>Get the index of the team to which the character belongs.</p>
@@ -947,6 +995,41 @@ If the host, perform a normal Attack.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override void Sell()</code></pre>
   </div>
+  
+  
+  <a id="AutoBattleFramework_Multiplayer_BattleBehaviour_GameActors_NGO_GameCharacter_SetStatsByStruct_" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.GameActors.NGO_GameCharacter.SetStatsByStruct*"></a>
+  <h4 id="AutoBattleFramework_Multiplayer_BattleBehaviour_GameActors_NGO_GameCharacter_SetStatsByStruct_CharacterStats_AutoBattleFramework_Multiplayer_BattleBehaviour_StatsStruct_" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.GameActors.NGO_GameCharacter.SetStatsByStruct(CharacterStats,AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct)">SetStatsByStruct(CharacterStats, StatsStruct)</h4>
+  <div class="markdown level1 summary"><p>Get the stats struct of a character stats.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetStatsByStruct(CharacterStats stats, StatsStruct statsStruct)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CharacterStats</span></td>
+        <td><span class="parametername">stats</span></td>
+        <td><p>Stats to set</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.html">StatsStruct</a></td>
+        <td><span class="parametername">statsStruct</span></td>
+        <td><p>Stats struct</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="AutoBattleFramework_Multiplayer_BattleBehaviour_GameActors_NGO_GameCharacter_SetVariablesOnSpawn_" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.GameActors.NGO_GameCharacter.SetVariablesOnSpawn*"></a>

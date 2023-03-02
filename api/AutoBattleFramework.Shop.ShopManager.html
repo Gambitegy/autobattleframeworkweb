@@ -54,7 +54,7 @@
                           <a href="../api/AutoBattleFramework.BattleBehaviour.html" title="Scripting API">Scripting API</a>
                       </li>
                       <li>
-                          <a href="../changelog/1.2.html" title="Changelog">Changelog</a>
+                          <a href="../changelog/1.3.html" title="Changelog">Changelog</a>
                       </li>
                       <li>
                           <a href="https://gambitegy.github.io/" title="Contact">Contact</a>
@@ -327,6 +327,9 @@
                               <ul class="nav level3">
                                 <li class="">
                                   <a href="AutoBattleFramework.Multiplayer.BattleBehaviour.NetworkObjectList.html" title="NetworkObjectList" class="">NetworkObjectList</a>
+                                </li>
+                                <li class="">
+                                  <a href="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.html" title="StatsStruct" class="">StatsStruct</a>
                                 </li>
                                 <li class="">
                                   <span class="expand-stub"></span>
@@ -695,6 +698,80 @@
   </table>
   
   
+  <h4 id="AutoBattleFramework_Shop_ShopManager_GameActorsModified" data-uid="AutoBattleFramework.Shop.ShopManager.GameActorsModified">GameActorsModified</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform GameActorsModified</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AutoBattleFramework_Shop_ShopManager_GameActorsModifiedBackupStage" data-uid="AutoBattleFramework.Shop.ShopManager.GameActorsModifiedBackupStage">GameActorsModifiedBackupStage</h4>
+  <div class="markdown level1 summary"><p>&quot;Transform where the backup of modified GameActors will be placed. Place far from the main game.&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform GameActorsModifiedBackupStage</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AutoBattleFramework_Shop_ShopManager_GameActorsModifiedBackupState" data-uid="AutoBattleFramework.Shop.ShopManager.GameActorsModifiedBackupState">GameActorsModifiedBackupState</h4>
+  <div class="markdown level1 summary"><p>&quot;Transform where the backup of modified GameActors will be placed. Place far from the main game.&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform GameActorsModifiedBackupState</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="AutoBattleFramework_Shop_ShopManager_numberOfItems" data-uid="AutoBattleFramework.Shop.ShopManager.numberOfItems">numberOfItems</h4>
   <div class="markdown level1 summary"><p>Number of <a class="xref" href="AutoBattleFramework.Shop.ShopItemInfo.html">ShopItemInfo</a> displayed in <a class="xref" href="AutoBattleFramework.Shop.ShopManager.html#AutoBattleFramework_Shop_ShopManager_shopUI">shopUI</a>.</p>
 </div>
@@ -880,6 +957,56 @@
   </div>
   
   
+  <a id="AutoBattleFramework_Shop_ShopManager_EditGameCharacterFromAllLists_" data-uid="AutoBattleFramework.Shop.ShopManager.EditGameCharacterFromAllLists*"></a>
+  <h4 id="AutoBattleFramework_Shop_ShopManager_EditGameCharacterFromAllLists_GameCharacter_AutoBattleFramework_Stats_StatModificator_" data-uid="AutoBattleFramework.Shop.ShopManager.EditGameCharacterFromAllLists(GameCharacter,AutoBattleFramework.Stats.StatModificator)">EditGameCharacterFromAllLists(GameCharacter, StatModificator)</h4>
+  <div class="markdown level1 summary"><p>Edit a stat in runtime. Useful to create effects like &quot;From now on X character purchased through the store has 1000 life&quot;, or similar.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameCharacter EditGameCharacterFromAllLists(GameCharacter gameCharacter, StatModificator modificator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameCharacter</span></td>
+        <td><span class="parametername">gameCharacter</span></td>
+        <td><p>Character to edit</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AutoBattleFramework.Stats.StatModificator.html">StatModificator</a></td>
+        <td><span class="parametername">modificator</span></td>
+        <td><p>Stat to edit. The value needs to be fixed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameCharacter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AutoBattleFramework_Shop_ShopManager_GetRandomItems_" data-uid="AutoBattleFramework.Shop.ShopManager.GetRandomItems*"></a>
   <h4 id="AutoBattleFramework_Shop_ShopManager_GetRandomItems" data-uid="AutoBattleFramework.Shop.ShopManager.GetRandomItems">GetRandomItems()</h4>
   <div class="markdown level1 summary"><p>Gets a random number of <a class="xref" href="AutoBattleFramework.Shop.ShopItemInfo.html">ShopItemInfo</a> from the <a class="xref" href="AutoBattleFramework.Shop.ShopList.IShopList.html">IShopList</a> associated with the <a class="xref" href="AutoBattleFramework.Shop.ShopLevelManager.html#AutoBattleFramework_Shop_ShopLevelManager_CurrentLevel">CurrentLevel</a> based on the value of <a class="xref" href="AutoBattleFramework.Shop.ShopManager.html#AutoBattleFramework_Shop_ShopManager_numberOfItems">numberOfItems</a>.
@@ -927,6 +1054,55 @@ Creates all the <a class="xref" href="AutoBattleFramework.Shop.ShopGUI.ShopItemU
         <td><span class="parametername">info</span></td>
         <td><p>Item to remove</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AutoBattleFramework_Shop_ShopManager_RestoreGameCharacterBackupForAllLists_" data-uid="AutoBattleFramework.Shop.ShopManager.RestoreGameCharacterBackupForAllLists*"></a>
+  <h4 id="AutoBattleFramework_Shop_ShopManager_RestoreGameCharacterBackupForAllLists_GameCharacter_Transform_" data-uid="AutoBattleFramework.Shop.ShopManager.RestoreGameCharacterBackupForAllLists(GameCharacter,Transform)">RestoreGameCharacterBackupForAllLists(GameCharacter, Transform)</h4>
+  <div class="markdown level1 summary"><p>Restore a character backup who has been edited in all list. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameCharacter RestoreGameCharacterBackupForAllLists(GameCharacter gameCharacter, Transform backupParent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameCharacter</span></td>
+        <td><span class="parametername">gameCharacter</span></td>
+        <td><p>Character to edit</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">backupParent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameCharacter</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>

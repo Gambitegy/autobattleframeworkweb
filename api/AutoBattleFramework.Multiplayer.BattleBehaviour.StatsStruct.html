@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class BuffEffectInfo
+    <title>Struct StatsStruct
    | Auto-Battle Framework documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class BuffEffectInfo
+    <meta name="title" content="Struct StatsStruct
    | Auto-Battle Framework documentation ">
     <meta name="generator" content="docfx 2.59.3.0">
     
@@ -328,8 +328,8 @@
                                 <li class="">
                                   <a href="AutoBattleFramework.Multiplayer.BattleBehaviour.NetworkObjectList.html" title="NetworkObjectList" class="">NetworkObjectList</a>
                                 </li>
-                                <li class="">
-                                  <a href="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.html" title="StatsStruct" class="">StatsStruct</a>
+                                <li class="active">
+                                  <a href="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.html" title="StatsStruct" class="active">StatsStruct</a>
                                 </li>
                                 <li class="">
                                   <span class="expand-stub"></span>
@@ -506,8 +506,8 @@
                           <li class="">
                             <a href="AutoBattleFramework.Skills.BuffEffect.html" title="BuffEffect" class="">BuffEffect</a>
                           </li>
-                          <li class="active">
-                            <a href="AutoBattleFramework.Skills.BuffEffectInfo.html" title="BuffEffectInfo" class="active">BuffEffectInfo</a>
+                          <li class="">
+                            <a href="AutoBattleFramework.Skills.BuffEffectInfo.html" title="BuffEffectInfo" class="">BuffEffectInfo</a>
                           </li>
                           <li class="">
                             <a href="AutoBattleFramework.Skills.FixedDamageOverTimeEffect.html" title="FixedDamageOverTimeEffect" class="">FixedDamageOverTimeEffect</a>
@@ -601,135 +601,29 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="AutoBattleFramework.Skills.BuffEffectInfo">
+            <article class="content wrap" id="_content" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct">
   
   
-  <h1 id="AutoBattleFramework_Skills_BuffEffectInfo" data-uid="AutoBattleFramework.Skills.BuffEffectInfo" class="text-break">Class BuffEffectInfo
+  <h1 id="AutoBattleFramework_Multiplayer_BattleBehaviour_StatsStruct" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct" class="text-break">Struct StatsStruct
   </h1>
-  <div class="markdown level0 summary"><p>It contains buff information that depends on each character, such as elapsed time or stacks.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">BuffEffectInfo</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="AutoBattleFramework.Skills.html">AutoBattleFramework.Skills</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AutoBattleFramework.Multiplayer.BattleBehaviour.html">AutoBattleFramework.Multiplayer.BattleBehaviour</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="AutoBattleFramework_Skills_BuffEffectInfo_syntax">Syntax</h5>
+  <h5 id="AutoBattleFramework_Multiplayer_BattleBehaviour_StatsStruct_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class BuffEffectInfo</code></pre>
+    <pre><code class="lang-csharp hljs">public struct StatsStruct</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  
-  
-  <a id="AutoBattleFramework_Skills_BuffEffectInfo__ctor_" data-uid="AutoBattleFramework.Skills.BuffEffectInfo.#ctor*"></a>
-  <h4 id="AutoBattleFramework_Skills_BuffEffectInfo__ctor_AutoBattleFramework_Skills_BuffEffect_GameCharacter_System_Int32_System_Single_" data-uid="AutoBattleFramework.Skills.BuffEffectInfo.#ctor(AutoBattleFramework.Skills.BuffEffect,GameCharacter,System.Int32,System.Single)">BuffEffectInfo(BuffEffect, GameCharacter, Int32, Single)</h4>
-  <div class="markdown level1 summary"><p>Constructor of BuffEffectInfo.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BuffEffectInfo(BuffEffect buff, GameCharacter character, int stacks, float duration)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AutoBattleFramework.Skills.BuffEffect.html">BuffEffect</a></td>
-        <td><span class="parametername">buff</span></td>
-        <td><p>Buff that affects the character.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">GameCharacter</span></td>
-        <td><span class="parametername">character</span></td>
-        <td><p>Character affected by the buff.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">stacks</span></td>
-        <td><p>Number of current stacks.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">duration</span></td>
-        <td><p>Duration of the buff.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="AutoBattleFramework_Skills_BuffEffectInfo_buff" data-uid="AutoBattleFramework.Skills.BuffEffectInfo.buff">buff</h4>
-  <div class="markdown level1 summary"><p>Buff that applies to the character.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BuffEffect buff</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AutoBattleFramework.Skills.BuffEffect.html">BuffEffect</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="AutoBattleFramework_Skills_BuffEffectInfo_character" data-uid="AutoBattleFramework.Skills.BuffEffectInfo.character">character</h4>
+  <h4 id="AutoBattleFramework_Multiplayer_BattleBehaviour_StatsStruct_AttackSpeed" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.AttackSpeed">AttackSpeed</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameCharacter character</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameCharacter</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="AutoBattleFramework_Skills_BuffEffectInfo_duration" data-uid="AutoBattleFramework.Skills.BuffEffectInfo.duration">duration</h4>
-  <div class="markdown level1 summary"><p>Duration of the buff, in seconds.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected float duration</code></pre>
+    <pre><code class="lang-csharp hljs">public float AttackSpeed</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -748,13 +642,12 @@ public class BuffEffectInfo</code></pre>
   </table>
   
   
-  <h4 id="AutoBattleFramework_Skills_BuffEffectInfo_elapsedTime" data-uid="AutoBattleFramework.Skills.BuffEffectInfo.elapsedTime">elapsedTime</h4>
-  <div class="markdown level1 summary"><p>Time the buff has been applied.</p>
-</div>
+  <h4 id="AutoBattleFramework_Multiplayer_BattleBehaviour_StatsStruct_CriticalDamage" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.CriticalDamage">CriticalDamage</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float elapsedTime</code></pre>
+    <pre><code class="lang-csharp hljs">public float CriticalDamage</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -773,13 +666,252 @@ public class BuffEffectInfo</code></pre>
   </table>
   
   
-  <h4 id="AutoBattleFramework_Skills_BuffEffectInfo_stacks" data-uid="AutoBattleFramework.Skills.BuffEffectInfo.stacks">stacks</h4>
-  <div class="markdown level1 summary"><p>Number of current stacks.</p>
-</div>
+  <h4 id="AutoBattleFramework_Multiplayer_BattleBehaviour_StatsStruct_CriticalProbability" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.CriticalProbability">CriticalProbability</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int stacks</code></pre>
+    <pre><code class="lang-csharp hljs">public float CriticalProbability</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AutoBattleFramework_Multiplayer_BattleBehaviour_StatsStruct_Damage" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.Damage">Damage</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Damage</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AutoBattleFramework_Multiplayer_BattleBehaviour_StatsStruct_Defense" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.Defense">Defense</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Defense</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AutoBattleFramework_Multiplayer_BattleBehaviour_StatsStruct_Energy" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.Energy">Energy</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Energy</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AutoBattleFramework_Multiplayer_BattleBehaviour_StatsStruct_EnergyRecoveryOnHit" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.EnergyRecoveryOnHit">EnergyRecoveryOnHit</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float EnergyRecoveryOnHit</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AutoBattleFramework_Multiplayer_BattleBehaviour_StatsStruct_EnergyRecoveryPerAttack" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.EnergyRecoveryPerAttack">EnergyRecoveryPerAttack</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float EnergyRecoveryPerAttack</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AutoBattleFramework_Multiplayer_BattleBehaviour_StatsStruct_Health" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.Health">Health</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Health</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AutoBattleFramework_Multiplayer_BattleBehaviour_StatsStruct_MagicDamage" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.MagicDamage">MagicDamage</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MagicDamage</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AutoBattleFramework_Multiplayer_BattleBehaviour_StatsStruct_MagicDefense" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.MagicDefense">MagicDefense</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MagicDefense</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AutoBattleFramework_Multiplayer_BattleBehaviour_StatsStruct_MovementSpeed" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.MovementSpeed">MovementSpeed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MovementSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AutoBattleFramework_Multiplayer_BattleBehaviour_StatsStruct_Range" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.Range">Range</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Range</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -800,52 +932,14 @@ public class BuffEffectInfo</code></pre>
   </h3>
   
   
-  <a id="AutoBattleFramework_Skills_BuffEffectInfo_CanBeRemoved_" data-uid="AutoBattleFramework.Skills.BuffEffectInfo.CanBeRemoved*"></a>
-  <h4 id="AutoBattleFramework_Skills_BuffEffectInfo_CanBeRemoved" data-uid="AutoBattleFramework.Skills.BuffEffectInfo.CanBeRemoved">CanBeRemoved()</h4>
-  <div class="markdown level1 summary"><p>Check if the elapsed time is greater than the <a class="xref" href="AutoBattleFramework.Skills.BuffEffectInfo.html#AutoBattleFramework_Skills_BuffEffectInfo_duration">duration</a>. In that case, the buff should end.</p>
-</div>
+  <a id="AutoBattleFramework_Multiplayer_BattleBehaviour_StatsStruct_NetworkSerialize_" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.NetworkSerialize*"></a>
+  <h4 id="AutoBattleFramework_Multiplayer_BattleBehaviour_StatsStruct_NetworkSerialize__1_BufferSerializer___0__" data-uid="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.NetworkSerialize``1(BufferSerializer{``0})">NetworkSerialize&lt;T&gt;(BufferSerializer&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool CanBeRemoved()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><p>True if elapsed time is greater that <a class="xref" href="AutoBattleFramework.Skills.BuffEffectInfo.html#AutoBattleFramework_Skills_BuffEffectInfo_duration">duration</a></p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="AutoBattleFramework_Skills_BuffEffectInfo_RestartTime_" data-uid="AutoBattleFramework.Skills.BuffEffectInfo.RestartTime*"></a>
-  <h4 id="AutoBattleFramework_Skills_BuffEffectInfo_RestartTime" data-uid="AutoBattleFramework.Skills.BuffEffectInfo.RestartTime">RestartTime()</h4>
-  <div class="markdown level1 summary"><p>Set the elapsed time to 0.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RestartTime()</code></pre>
-  </div>
-  
-  
-  <a id="AutoBattleFramework_Skills_BuffEffectInfo_UpdateTime_" data-uid="AutoBattleFramework.Skills.BuffEffectInfo.UpdateTime*"></a>
-  <h4 id="AutoBattleFramework_Skills_BuffEffectInfo_UpdateTime_System_Single_" data-uid="AutoBattleFramework.Skills.BuffEffectInfo.UpdateTime(System.Single)">UpdateTime(Single)</h4>
-  <div class="markdown level1 summary"><p>Adds the value to the elapsed time. Normally the value is equal to Time.deltatime.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UpdateTime(float time)</code></pre>
+    <pre><code class="lang-csharp hljs">public void NetworkSerialize&lt;T&gt;(BufferSerializer&lt;T&gt; serializer)
+    where T : IReaderWriter</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -858,10 +952,24 @@ public class BuffEffectInfo</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">time</span></td>
-        <td><p>Delta time.</p>
-</td>
+        <td><span class="xref">BufferSerializer</span>&lt;T&gt;</td>
+        <td><span class="parametername">serializer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>

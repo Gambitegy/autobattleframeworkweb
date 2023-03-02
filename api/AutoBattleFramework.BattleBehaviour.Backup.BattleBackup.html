@@ -54,7 +54,7 @@
                           <a href="../api/AutoBattleFramework.BattleBehaviour.html" title="Scripting API">Scripting API</a>
                       </li>
                       <li>
-                          <a href="../changelog/1.2.html" title="Changelog">Changelog</a>
+                          <a href="../changelog/1.3.html" title="Changelog">Changelog</a>
                       </li>
                       <li>
                           <a href="https://gambitegy.github.io/" title="Contact">Contact</a>
@@ -327,6 +327,9 @@
                               <ul class="nav level3">
                                 <li class="">
                                   <a href="AutoBattleFramework.Multiplayer.BattleBehaviour.NetworkObjectList.html" title="NetworkObjectList" class="">NetworkObjectList</a>
+                                </li>
+                                <li class="">
+                                  <a href="AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.html" title="StatsStruct" class="">StatsStruct</a>
                                 </li>
                                 <li class="">
                                   <span class="expand-stub"></span>
@@ -702,13 +705,13 @@
   
   
   <a id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_ApplyBackup_" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyBackup*"></a>
-  <h4 id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_ApplyBackup_AutoBattleFramework_BattleBehaviour_Backup_BackupState_BattleState_System_Int32_" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyBackup(AutoBattleFramework.BattleBehaviour.Backup.BackupState,BattleState,System.Int32)">ApplyBackup(BackupState, BattleState, Int32)</h4>
+  <h4 id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_ApplyBackup_AutoBattleFramework_BattleBehaviour_Backup_BackupState_BattleState_Transform_System_Int32_" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.ApplyBackup(AutoBattleFramework.BattleBehaviour.Backup.BackupState,BattleState,Transform,System.Int32)">ApplyBackup(BackupState, BattleState, Transform, Int32)</h4>
   <div class="markdown level1 summary"><p>Apply the Backup of the current BattleState.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected bool ApplyBackup(BackupState backup, BattleState state, int PlayerIndex = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">protected bool ApplyBackup(BackupState backup, BattleState state, Transform shopBackupTransform, int PlayerIndex = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -731,6 +734,11 @@
         <td><span class="parametername">state</span></td>
         <td><p>Current BattleState.</p>
 </td>
+      </tr>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">shopBackupTransform</span></td>
+        <td></td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
@@ -942,13 +950,13 @@
   
   
   <a id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_BackupPlayerTeam_" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupPlayerTeam*"></a>
-  <h4 id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_BackupPlayerTeam_AutoBattleFramework_BattleBehaviour_Backup_BackupState_BattleState_System_Collections_Generic_List_GameCharacter__Bench___" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupPlayerTeam(AutoBattleFramework.BattleBehaviour.Backup.BackupState,BattleState,System.Collections.Generic.List{GameCharacter},Bench[])">BackupPlayerTeam(BackupState, BattleState, List&lt;GameCharacter&gt;, Bench[])</h4>
+  <h4 id="AutoBattleFramework_BattleBehaviour_Backup_BattleBackup_BackupPlayerTeam_AutoBattleFramework_BattleBehaviour_Backup_BackupState_BattleState_System_Collections_Generic_List_GameCharacter__Transform_Bench___" data-uid="AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.BackupPlayerTeam(AutoBattleFramework.BattleBehaviour.Backup.BackupState,BattleState,System.Collections.Generic.List{GameCharacter},Transform,Bench[])">BackupPlayerTeam(BackupState, BattleState, List&lt;GameCharacter&gt;, Transform, Bench[])</h4>
   <div class="markdown level1 summary"><p>Backup copy of the status of characters and characters. Can be used to return to the previous state of a round, before making changes.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void BackupPlayerTeam(BackupState backup, BattleState state, List&lt;GameCharacter&gt; PlayerTeam, params Bench[] Benches)</code></pre>
+    <pre><code class="lang-csharp hljs">protected void BackupPlayerTeam(BackupState backup, BattleState state, List&lt;GameCharacter&gt; PlayerTeam, Transform shopBackupTransform, params Bench[] Benches)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -977,6 +985,11 @@
         <td><span class="parametername">PlayerTeam</span></td>
         <td><p>List of player characters on the battlefield.</p>
 </td>
+      </tr>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">shopBackupTransform</span></td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">Bench</span>[]</td>

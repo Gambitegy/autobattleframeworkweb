@@ -28,7 +28,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.Backup.BackupState.html",
-          "hash": "+oCwsJwQQn+L0WecNvwUyCK3RlCPFNx15CkGRjgRnkg="
+          "hash": "3S0uVipWrlGKkI1icW+Vmk3AXDMljrhE19zz1atjTfw="
         }
       },
       "is_incremental": false,
@@ -40,7 +40,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.Backup.BattleBackup.html",
-          "hash": "oRiiBEZrwMOVeK6n9M22RSC2Adz/FnhT0LW1SNWUiSA="
+          "hash": "eXETRJtAr0TkPm7p7uzZI0ux2Nw0nPki4tjbS1cdHXc="
         }
       },
       "is_incremental": false,
@@ -52,7 +52,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.Backup.html",
-          "hash": "kma3+52tsGH7CW6choLQMwOm+evPDCcW5Bh1IxqDhrk="
+          "hash": "oO/ZhejQVSxlrAjg5Q4fRCUCZtkp3dQB+Uib4SXEtZU="
         }
       },
       "is_incremental": false,
@@ -64,7 +64,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.Battle.html",
-          "hash": "5M+vMpRsY50/pPxYigsvOU4avOmX/dbsigVC16GfTmk="
+          "hash": "K8pdGCx8GpJcBLxZrtf3zPFl767enq5gHWtmoDYdQuE="
         }
       },
       "is_incremental": false,
@@ -76,7 +76,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.BossSize.html",
-          "hash": "wt5VHkgAN1nWOt3J5DpzSC3bZmNy3IMbJkqh6dIBS/g="
+          "hash": "5FibOGp2SIS4GnawH/Fn1TSedKYThziaUxrvsrWw5UA="
         }
       },
       "is_incremental": false,
@@ -88,7 +88,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.CharacterGroup.html",
-          "hash": "0Cc7OaEvONw9gQgplYoPsMqtozMBgvk2Iur1Ak91k9A="
+          "hash": "IxsvzAlbPDMvAQ7NKtauhJP7YnBP/lyYYe2jrQfFoCg="
         }
       },
       "is_incremental": false,
@@ -100,7 +100,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.Fusion.FusionManager.html",
-          "hash": "2q1b4du0KX49VbBXNAJpT+ckDqrSt7zmzfaWzP7sD+M="
+          "hash": "zl2YPWwPVL5OrBogDS1e3bM962NHH09Wz7+ygZyOEu4="
         }
       },
       "is_incremental": false,
@@ -112,7 +112,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.Fusion.GameCharacterFusion.html",
-          "hash": "8KvbTou2upatap+w2ypemtHOBUfTwkvOQp61lQbPR/A="
+          "hash": "wZ6saLZdYdszjRpUu9gaPTv7fGFvGtm2YWjwzv0rUVI="
         }
       },
       "is_incremental": false,
@@ -124,7 +124,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.Fusion.html",
-          "hash": "FScHmT0xAXJyRLBhCoAI/Hm4EWDzptWi01I6cqkV7jo="
+          "hash": "Zzv1dBX7kJ342tmp4gRPs/GA4Ham723XCE8TBJwU5ys="
         }
       },
       "is_incremental": false,
@@ -136,7 +136,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.GameActors.GameActor.html",
-          "hash": "fXfaw9vOKfkl0P+0WLKJkAbdXyQWHa6bP5/IOj9iAoI="
+          "hash": "ioxd6RNrTqQEbp7SoPq09bI71DB3Xd/yUgEWH/K2P70="
         }
       },
       "is_incremental": false,
@@ -148,7 +148,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.AIState.html",
-          "hash": "VyFSwomywAopfCz/apn18c0GEp63vsyO8vrbctDRNyo="
+          "hash": "yHXL9eCi9HMmYScrhNxz8mUgbAm+wwdW8zlWO1gz5ow="
         }
       },
       "is_incremental": false,
@@ -160,7 +160,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.GameActors.GameCharacter.html",
-          "hash": "My+K4muRsQwI7nHhJ6Xkz8MAT2IZNCt29Oo2CS8mvug="
+          "hash": "/cdbEDZ0SWO2PumqwCn1zgBxzbLMVTMjuZZtrZerFO4="
         }
       },
       "is_incremental": false,
@@ -172,7 +172,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.GameActors.GameItem.html",
-          "hash": "/Ay0KTDAUYWZSeix1s1fX5dBqFOLuySjOl1nQ1h1kVU="
+          "hash": "NQv5PDnFps5t8rZF1P64YlFFbJ5MIyfzuR1O5RVjUjg="
         }
       },
       "is_incremental": false,
@@ -184,7 +184,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.GameActors.html",
-          "hash": "KMuLyyYOhkdGC/pdKttS1yaXewkXu2p0OQc1RGkgWUA="
+          "hash": "gZFT0s2v6J4mhJREDmpiHHde25jS225M/8H8+Ecewu8="
         }
       },
       "is_incremental": false,
@@ -196,7 +196,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.ScriptableBattlePosition.html",
-          "hash": "fnTtHO4fhAuFwpcRAu6gNTdXK8dm9xCUY3UIrZGUh+E="
+          "hash": "lyyxMnUrj2Wha0i/gEbyDPhmLWfjyxQfFQszTFji5AA="
         }
       },
       "is_incremental": false,
@@ -208,7 +208,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.ScriptableBattleStage.html",
-          "hash": "6y1ph27dx+SiozOXZBjNllrNKeGRjV0xef1+1fwTzKE="
+          "hash": "QYYIE8XbWj4Mmzl902lnmlg2ckcXaufn46+Ix6G68Uo="
         }
       },
       "is_incremental": false,
@@ -220,7 +220,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.States.BattleState.html",
-          "hash": "lwUf2H6rWYJJd41H8c2tAyQps7YPBoyj0RqcmMwWEb8="
+          "hash": "/YSt7wK9L6n0iegfWb2g96OG2kBd49D+YtZ58bjCV6A="
         }
       },
       "is_incremental": false,
@@ -232,7 +232,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.States.ChangeSceneState.html",
-          "hash": "buSLUm/jNXT5j6lAVGo0EdaKHB01ht+AZNnhUP5rWgU="
+          "hash": "+9mGnCShE90c01g0AJYox806TUBablXf67qDCMc021I="
         }
       },
       "is_incremental": false,
@@ -244,7 +244,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.States.ChangeStageState.html",
-          "hash": "bE9KwjubmRC5g7rde1o3ay5YLtiZnD3CgNkXpuNv270="
+          "hash": "Us4QS4Y5+qxjvadr9PmtlDkUYQVx4gU2yDzIJRFo8yE="
         }
       },
       "is_incremental": false,
@@ -256,7 +256,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.States.FightState.LoseCondition.html",
-          "hash": "9ieS59RjUTDa3eg59h6lJbumlm1YRwX3jMg6IhBLaxQ="
+          "hash": "fSSrs1REERFjWamJO5RjigGJ9YjznY/xCEpgfHEc4ws="
         }
       },
       "is_incremental": false,
@@ -268,7 +268,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.States.FightState.WinCondition.html",
-          "hash": "vGleujLs56cCur8wVm8XqLl474pb5SxfTj/JTkX/v6s="
+          "hash": "Xb6yOMldORra+3HwbElMyTe5L3pCZJMUUPEsQ20/QHs="
         }
       },
       "is_incremental": false,
@@ -280,7 +280,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.States.FightState.html",
-          "hash": "Eq18iuriGVSIaJDqJBKPJVLVxLURnN5wWJj2F+1L3LY="
+          "hash": "WlN3GKoMY8Tay/RPPWMvOMPGC/UybyX6tur54m1xLBQ="
         }
       },
       "is_incremental": false,
@@ -292,7 +292,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.States.PreparationState.html",
-          "hash": "POGxXon4fCx6EHypVqFY9lxUtBRAwJ2IxkUGtZXB4c8="
+          "hash": "lN71og+5S3mWJsUV1jx844HtTc+kwMkeMcDFisrruTg="
         }
       },
       "is_incremental": false,
@@ -304,7 +304,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.States.ResetSceneState.html",
-          "hash": "Egwp1kmMDanIRlUqM8o8Ist2bDcwQcnQp+uT6u3BOqI="
+          "hash": "fdgxVt1c1LdBArAB9H16cfdle7dwI12228wf7Mfet/U="
         }
       },
       "is_incremental": false,
@@ -316,7 +316,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.States.html",
-          "hash": "Cat+r6zzZSbHSaAD+Ui7ZhTAVbGsmbl+2xzs9BnUmaU="
+          "hash": "v/OdDYh4IM7rOiTIoNsx2aU3IxMYmYKWWhi9d8IvtMc="
         }
       },
       "is_incremental": false,
@@ -328,7 +328,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.TeamData.html",
-          "hash": "syJPP7PaLtzSXryl1FZ/hTpJuazlDTMgFFBdFVYKXYg="
+          "hash": "D2Gh+vUboe8h7EyF7W63Xo41n6U4a2hrJwwpMH1GkMQ="
         }
       },
       "is_incremental": false,
@@ -340,7 +340,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleBehaviour.html",
-          "hash": "6Oo3prJrFTYChQvjq4PpNLfcwyVdZ/vq1eLIYuuFOEw="
+          "hash": "bTKLbvtynGJSzOdgKA+NhttPihRwMoxzx4oMDSS/Ves="
         }
       },
       "is_incremental": false,
@@ -352,7 +352,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleUI.CharacterEnergyUI.html",
-          "hash": "7Vb56PHyWqjiEYZWH/QjtK/CYgsZGA2uDkd96PaUrk4="
+          "hash": "aNi4qQQVMYn6nO+6S91iK9iHi1ueKoFZ2AT2ylaZ1OE="
         }
       },
       "is_incremental": false,
@@ -364,7 +364,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleUI.CharacterHealthUI.html",
-          "hash": "Lt+INmv5qgeEmMaOc0N2k9FAwn87ja3HApQlFw/vn4k="
+          "hash": "XxX/p5d37TO5vDeFXeVFNJ+LTSVV7dkeoMR7UQuJx+8="
         }
       },
       "is_incremental": false,
@@ -376,7 +376,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleUI.CharacterStatsUI.html",
-          "hash": "43huFY97TxEw4ySiOlpMcZrnu9L2T+suvj6fd7q1J0w="
+          "hash": "JRLX2M381gUwYPZZ+6A5HyHXs2zyya+bHpyeIHXazXU="
         }
       },
       "is_incremental": false,
@@ -388,7 +388,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleUI.DamagePopup.html",
-          "hash": "GuajytIzTv8r+gKjV7BQj0CeEkqcDCJp4GcJ0aw3pcU="
+          "hash": "GI74Iqo1J0YIdJTI+E5cpaI1XeE0zFGVxxtNEuNpfbw="
         }
       },
       "is_incremental": false,
@@ -400,7 +400,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleUI.ItemDescriptionUI.html",
-          "hash": "TLqdiz/+rPw0XTNswK5abp/LUodb2rWA5s6SWT/jXLg="
+          "hash": "prhfhDjU/tA3bsImVPupj9HDz5dxkqQMarrl18CyByo="
         }
       },
       "is_incremental": false,
@@ -412,7 +412,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleUI.LosePanel.html",
-          "hash": "BIz39nTriDchlJMX7gaq8HqXCc9tNaeTyMbiCdcDfto="
+          "hash": "5loYUUtBXpeOigTQ6mYzTMtRvr8B/dbtw1JUvWq3tQ0="
         }
       },
       "is_incremental": false,
@@ -424,7 +424,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleUI.ShopExpBarUI.html",
-          "hash": "uprHiAL346TETbxu1YThycVFB6W8/7l6jIr+2bRnoII="
+          "hash": "G1xXthvlC17tRhod+9UjHz6AI69+bs81zlp9QVCXZ/0="
         }
       },
       "is_incremental": false,
@@ -436,7 +436,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleUI.StageUI.html",
-          "hash": "hSJUUT+WJTdnGxltbT1kzIvv7c2D7F7ylCzWEM6620E="
+          "hash": "ZCYb0yT3i33pXtidnKX3LIEXJsw8EbMrp5qdwMohfZw="
         }
       },
       "is_incremental": false,
@@ -448,7 +448,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleUI.TraitDescriptionUI.html",
-          "hash": "7xGv7GNOWH9Yvd6u6vxiDZX/sYAVcZSvLqYg7m6sCc8="
+          "hash": "nCSUc3NMjxhPLKXUKJ3PwIIdpCXPTMQ78OFDV9ENpd0="
         }
       },
       "is_incremental": false,
@@ -460,7 +460,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleUI.TraitListUI.OrderBy.html",
-          "hash": "mB6ol8At5pUSJG6rvrAsZIkR55MrUFZbTv+5VdZHqP0="
+          "hash": "bK9aVbp9EPLzaMN05YaBgqcpPwdxxuUu2CTGdrk4pg0="
         }
       },
       "is_incremental": false,
@@ -472,7 +472,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleUI.TraitListUI.html",
-          "hash": "EjEswAJrCF8uaPXIIgS5pWtLTPWzUiwHIjLhNEd0zUg="
+          "hash": "IC0O1JuvGqL05QtT/gm/tC34pVg7dDaHvKvmNWjFDv0="
         }
       },
       "is_incremental": false,
@@ -484,7 +484,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleUI.TraitStatsUI.html",
-          "hash": "snqt5XnMBWpdzkhVqPZLWXRK0KZcxnqHplAm+8JsWds="
+          "hash": "OioRK3CDDwQsgui5MHyE4kOXT8cRj/YZmlnXvUSIG/E="
         }
       },
       "is_incremental": false,
@@ -496,7 +496,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleUI.TraitUI.html",
-          "hash": "N7p+KeToaQ5xhuzaTHxcoeEUlZKhGw7mygmjIQFj4lg="
+          "hash": "D3/MsQviLFyk71BSrFUMyxohSDLqZS4gYNr9U6kA1gk="
         }
       },
       "is_incremental": false,
@@ -508,7 +508,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.BattleUI.html",
-          "hash": "GaICGtQFcU+0U0Hs9FRCdURQ6KsGQkmuOxaI433BT4s="
+          "hash": "d6gThAPa7pJjpsxgdeZpbOKJ4HBNMW/8jsDvU6HRH8U="
         }
       },
       "is_incremental": false,
@@ -520,7 +520,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Battlefield.BattleGrid.GridType.html",
-          "hash": "YfPg7cAyKmHkyK8++iwuTZli/5xUrCXoiLxWixlqxEg="
+          "hash": "aXmTDyOfWulsLKa/RB6gnGXyxvc8bE0ClfL5ljTiCH0="
         }
       },
       "is_incremental": false,
@@ -532,7 +532,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Battlefield.BattleGrid.html",
-          "hash": "zCXsCa+O/ec4EeEIE0/LrpLLgCBVyKo1rOkTKikNEfI="
+          "hash": "6tv0otmol0VnVX2AP7ae+4sH+7hLtRnmqz2Ke1Bwqv4="
         }
       },
       "is_incremental": false,
@@ -544,7 +544,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Battlefield.Bench.html",
-          "hash": "7PB6oTH5/lKLvztd5Rt8fTlLCRt45KOetLO+pPa/QNE="
+          "hash": "ruCAejpq2zXY89CCCEV9OggwyMzr5aeMB+ayyL7RZIA="
         }
       },
       "is_incremental": false,
@@ -556,7 +556,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Battlefield.GridCell.html",
-          "hash": "bEkxnBF3LyQTV4y889dTfOXYbjtvilDXQQvORt/lQnQ="
+          "hash": "lyfiqb8XvMcHiBqt9i8aw5wcLjyKLjXAEPQ+TbMteXA="
         }
       },
       "is_incremental": false,
@@ -568,7 +568,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Battlefield.GridCellEffect.html",
-          "hash": "hK7J9D228pn8xEg8GgPpQWahIWB+kl0GcGqwn4GHces="
+          "hash": "DLh8FMlAMpJ8v6Ptghuu4hWJZLg3hZlVsjKct/3uED8="
         }
       },
       "is_incremental": false,
@@ -580,7 +580,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Battlefield.SellZone.html",
-          "hash": "EgqHk0FvhjNE+ozJa7etDa9O4kdYKwtuCsSN7daZxLE="
+          "hash": "2evIrLVh8sZrlWcotPT0yhGol6xCQcnyu4/ZnGHOQ74="
         }
       },
       "is_incremental": false,
@@ -592,7 +592,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Battlefield.html",
-          "hash": "gz8vpLKtGXc7qDnzRWvHQ27CwrZaAHOtFXDX9auCTBw="
+          "hash": "dGGlMrQOhNhdEmNQCWhAbxyQ5OX1AZ7rvXCHD/zDwUs="
         }
       },
       "is_incremental": false,
@@ -604,7 +604,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.EditorScripts.BattleGridEditor.html",
-          "hash": "9hbfjY9YQ4GA/AKOAe/I3l2JgJN8JwV4eeZTxfqrEdY="
+          "hash": "U1JFLOrDnno5QuZ1ZT6GPbGEwKbMsTqN28c8Jwtf/UQ="
         }
       },
       "is_incremental": false,
@@ -616,7 +616,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.EditorScripts.BattlePositionEditor.html",
-          "hash": "AT0sBeillymtbT0iznKB6dTI3vFCzFp6c1aKQzjPOaE="
+          "hash": "ojnUasT29Yz32pZV1hofyGSe5VB9mAkHUITDbPVV1Io="
         }
       },
       "is_incremental": false,
@@ -628,7 +628,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.EditorScripts.BenchEditor.html",
-          "hash": "Y/3K6rwidFXgr/JldCG/hy71yLrSw8kR4ysUWoshbtU="
+          "hash": "sXBbSezpeV6Cixt6k2WeysVSu+b2JoMy5sn6Ky32Nv4="
         }
       },
       "is_incremental": false,
@@ -640,7 +640,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.EditorScripts.GameCharacterEditor.html",
-          "hash": "8RUTQAjcwf84f083oDicfXW+jNLHPmnvCq9jtqvO+eE="
+          "hash": "CimRe3mkxPTmffB40FftHM4TFf53wxC5cJpbtfnzxZ0="
         }
       },
       "is_incremental": false,
@@ -652,7 +652,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.EditorScripts.NFO_GameCharacterEditor.html",
-          "hash": "cL33VIg4fyskCwX6gF/udab+kvDWJ5Mbsfp10aPaLUM="
+          "hash": "Kfgi20HspKSt2KYDef7z72erw+/rhsqVBiwFOA0bUso="
         }
       },
       "is_incremental": false,
@@ -664,7 +664,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.EditorScripts.NGO_MenuActions.html",
-          "hash": "bk1DXNC7dTMWvhCFk/oh6+t1AhHsDdz7Pz76VjWKPr8="
+          "hash": "bwRczPKAfIfeY90XZrmdePcGIEOJWrKaOHabm/SWdEk="
         }
       },
       "is_incremental": false,
@@ -676,7 +676,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.EditorScripts.NetworkObjectsListEditor.html",
-          "hash": "22XTXqiCByqDpH8/F7NNdqt5+6tJlohL+pdnMmGWWug="
+          "hash": "1gZxWsNIcHiJOdnd9hHfdZO0+9YBzg35tVsxrv42cR4="
         }
       },
       "is_incremental": false,
@@ -688,7 +688,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.EditorScripts.ReadOnlyDrawer.html",
-          "hash": "F5qeiRemMvVLHBywXoT6nRK3zCQHca86k4d9BY12z5s="
+          "hash": "nMOexKGNXx/I7xc7j3100LdrOwxCO7n81rf8Qf6JxZw="
         }
       },
       "is_incremental": false,
@@ -700,7 +700,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.EditorScripts.html",
-          "hash": "LAuowmQcb/fAjuApaRuzc1oKTtIfTfJhBLAAp8BSjto="
+          "hash": "SuRqDik4pPzCw94/5mSQJWBcVIg2Kh/+TVCqBAHMv8o="
         }
       },
       "is_incremental": false,
@@ -712,7 +712,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Formulas.BattleFormulas.DamageType.html",
-          "hash": "IvX5EHPJN8tYtTJpRVbLW93rgDphwEXHdKGSc3o0mh0="
+          "hash": "GaAwvRGepwZg2Pr3uIjt9xxadP+NBLicCWxi0t4cjkg="
         }
       },
       "is_incremental": false,
@@ -724,7 +724,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Formulas.BattleFormulas.html",
-          "hash": "rthfM4tqdpPHdt6u0hGwAIUayTCRjLCUvkYwWQfvuuI="
+          "hash": "+ocBwsiodGKdDAcCYFplK4mQElGbEnGLe06/94+2OZQ="
         }
       },
       "is_incremental": false,
@@ -736,7 +736,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Formulas.html",
-          "hash": "YC7wiZGlarxqdOJ4s4pi70uYWF4/TeeHmnrPZKZK5XY="
+          "hash": "7VVhaOqa2QYsZFB3nHR1R5Qsg7mmaEXY0T3ZOoEk6y8="
         }
       },
       "is_incremental": false,
@@ -748,7 +748,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Movement.ApproximateAstarMovement.html",
-          "hash": "I1YRjtkvOiVcWUoJujH+BPXvZIwpszMa/aopvv7dAJY="
+          "hash": "EwXstWomz8OOp5AwKK75SzxM9dfLw0m3IL5ww9tnnyc="
         }
       },
       "is_incremental": false,
@@ -760,7 +760,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Movement.ExactAstarMovement.html",
-          "hash": "2LIgF8s4kVGWGTnhV5pn6wUKghY7fikVNtnuz8VPgck="
+          "hash": "jVaUAoumWFCZNlhwbm5PCzvfgXs1jCmuHX1qTJ1TKeU="
         }
       },
       "is_incremental": false,
@@ -772,7 +772,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Movement.IBattleMovement.html",
-          "hash": "qxxmePt+NAMg07KTl0VG/Fw5hV44v8F8knLMfHHSk5w="
+          "hash": "m/CaKKIpNg3jOyD0sH+HdtXdJXa2pf6u845ImlYYfJ8="
         }
       },
       "is_incremental": false,
@@ -784,7 +784,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Movement.PathFinding2D.html",
-          "hash": "djFQeSrZZ5QmzuPzzpogSxKAo/x82aQ2JCik8bHxFiA="
+          "hash": "RT47gsI2DiHhrb8a2tCWNJLgiAQK99cu4QJEwIh9iZs="
         }
       },
       "is_incremental": false,
@@ -796,7 +796,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Movement.html",
-          "hash": "V/oyQJBbVs+ltBsD5BRX0hS3C0PkAtBXHS/8IEy+GAo="
+          "hash": "ISSmBrsrHAuFiCfRh1XEoi6jr2CMbiVh7f8JSyiM7vo="
         }
       },
       "is_incremental": false,
@@ -808,7 +808,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Multiplayer.BattleBehaviour.GameActors.NGO_GameCharacter.html",
-          "hash": "RIXJMiunxos3bZs9UJz2DEEqoi9ItlBBMj81w4WBp3U="
+          "hash": "wF032+P93lk1gaNciIUqdFXXtUqX+kejtGWAKriDkvk="
         }
       },
       "is_incremental": false,
@@ -820,7 +820,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Multiplayer.BattleBehaviour.GameActors.NGO_GameItem.html",
-          "hash": "MxRnlK5t4+n/yLpyNqVpNKaXi2+4CFSB88snKTsnMHQ="
+          "hash": "nL7/Bb8ODGWjvjXSOY3S7KBhmPM50zI9aJDaErtfYz8="
         }
       },
       "is_incremental": false,
@@ -832,7 +832,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Multiplayer.BattleBehaviour.GameActors.html",
-          "hash": "EaRHTpEpTa8Q5Q6JN88uk2QP1Xgbi9GdxBxT25IuCVI="
+          "hash": "zRGLDHocUvGHvcBqnD2/8xzjV7OT3NjK8GeHrk/w1yE="
         }
       },
       "is_incremental": false,
@@ -844,7 +844,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Multiplayer.BattleBehaviour.NetworkObjectList.html",
-          "hash": "6uD8atHXDVBFg2fOSlvPNruX/UiORV1BLsMCrC5Yvcw="
+          "hash": "Ri4WbKlY9By0hQS0gE5vUhqP1jQCL+z+V/l/1eYrDHE="
         }
       },
       "is_incremental": false,
@@ -856,7 +856,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Multiplayer.BattleBehaviour.Player.GamePlayer.html",
-          "hash": "QeEwpX6qJKLITDdLZMxTiYjHDKiUNwYM6CqjletT0gk="
+          "hash": "UWlC5Rv7YVK+58qQv1VIIFhODWw9dG6of3LlacSJJow="
         }
       },
       "is_incremental": false,
@@ -868,7 +868,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Multiplayer.BattleBehaviour.Player.IPlayer.html",
-          "hash": "+a66I+fGe8ASvvn7uYqcHXlck/fUFQ5KOvgpspcjMKg="
+          "hash": "HW7UcQgVYM43LEnNhAlhYf4D2n3SsvEnBv5ciHjLG/c="
         }
       },
       "is_incremental": false,
@@ -880,7 +880,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Multiplayer.BattleBehaviour.Player.html",
-          "hash": "28Zzo5TR6nC3g9sctapR5kCrMCM2P4wxzWxDGbKDZno="
+          "hash": "vTqQnyxDRrHmzhBUa4ZyQf9iw0rvGVoMwcELKIwJo8I="
         }
       },
       "is_incremental": false,
@@ -892,7 +892,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Multiplayer.BattleBehaviour.States.MP_ConnectionState.html",
-          "hash": "Fw5bu2W2RgX4WvLsGVvtFQh7ZEZINYA3RqDNlUe8vjY="
+          "hash": "NHTXzFhzMoWuQUCL7kuBWS/KiUZE0JTZWjKe8sQOPuQ="
         }
       },
       "is_incremental": false,
@@ -904,7 +904,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Multiplayer.BattleBehaviour.States.MP_FightState.html",
-          "hash": "+9qZaysM7dJNymlKDcFS6ML+9r54ZNsqdsna73VCVps="
+          "hash": "2HKo33gbspcNR8N9vamldVw1A8fW3dRgb1FMhpANV9M="
         }
       },
       "is_incremental": false,
@@ -916,7 +916,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Multiplayer.BattleBehaviour.States.MP_PreparationState.html",
-          "hash": "lkYTRy/Fg5Ypw0r7A3AT7VC+8zDYhKUaFL2UNOqTT6Y="
+          "hash": "cANIPrFoCsXUGrql1zUdr/vYWoGqie4Q/+51z8RkqPw="
         }
       },
       "is_incremental": false,
@@ -928,7 +928,19 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Multiplayer.BattleBehaviour.States.html",
-          "hash": "6D8t2e7jveDjQ1AstkSxhTmAmr6SjD/sxpMQ1ousmG8="
+          "hash": "SynbSaqW25Zru2H/ZSHQeZ4slMN2PUU06zzgGJO9H+4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoBattleFramework.Multiplayer.BattleBehaviour.StatsStruct.html",
+          "hash": "hkoeGHFG2QnqLGCRI2aUhblTahfvJ8F4bBvogKzsgVM="
         }
       },
       "is_incremental": false,
@@ -940,7 +952,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Multiplayer.BattleBehaviour.html",
-          "hash": "hiOmM82okUvykAYwptdeg11qNxYT4Rj8tva5305nygM="
+          "hash": "XmD4dATrt7nCmBNFcs2VZ8pph+bmHlyB/AYojam68+Y="
         }
       },
       "is_incremental": false,
@@ -952,7 +964,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Multiplayer.ClientTransform.ClientNetworkTransform.html",
-          "hash": "Fu0CJtI9aPSvRHma0MseqVARNfCKHJzomWK93PJ+new="
+          "hash": "gKFDLb+BiA3BycQ21GwmNC24byamgJWTssdt7g6Jm7U="
         }
       },
       "is_incremental": false,
@@ -964,7 +976,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Multiplayer.ClientTransform.html",
-          "hash": "40j5yTpoxcit/04DqP1yKy82R3ZVz+m8B54fG/TtDlE="
+          "hash": "2bpKpXNcRS3Di7IZooga7tAoNL2euEhVJMdq9omiK/A="
         }
       },
       "is_incremental": false,
@@ -976,7 +988,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Multiplayer.EditorScripts.NGO_MenuActions.html",
-          "hash": "PDSOQ67wEO6RR25XGZGmg07RjTocgHJELWxO/NRb/UI="
+          "hash": "ykDJd1mrRvCjRLHNCgFL8hoQLx6teQvLAyF1wmX0W1U="
         }
       },
       "is_incremental": false,
@@ -988,7 +1000,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Multiplayer.EditorScripts.html",
-          "hash": "U2a3h2gEJA7E+Ig53h9FK/9RhLGUotj+QNt+Er8k+MU="
+          "hash": "xCXbrX33+xBzhGIvUnuuQpZM5lsjmFKQdX/MpBBsTtQ="
         }
       },
       "is_incremental": false,
@@ -1000,7 +1012,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Multiplayer.GamingServices.GamingServices.RelayHostData.html",
-          "hash": "ufucy0J8xxfFhnX/4unpQBKywJrBNAdm4tLJWtIkl+0="
+          "hash": "qQfxTXuP0NjgLsHAmVqzQJKUzszMWc7hQ6G2y9mJpvI="
         }
       },
       "is_incremental": false,
@@ -1012,7 +1024,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Multiplayer.GamingServices.GamingServices.RelayJoinData.html",
-          "hash": "VhNKarpO+cnnLA1j1JNueplzTS1CaALSl1qlFlzv7qE="
+          "hash": "BVf6FFRZO47aRieqcmJ5ihNi0OO4FBPi6uSB8CFIrV8="
         }
       },
       "is_incremental": false,
@@ -1024,7 +1036,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Multiplayer.GamingServices.GamingServices.html",
-          "hash": "maZaLkYjg0fTGKGIV7sQlm2eJBiQOhu4UT+Lf4n2hgA="
+          "hash": "jjGMqzh/7pCHEd4OVBfcnlalRkX9sA0qJP2j0t1qcLs="
         }
       },
       "is_incremental": false,
@@ -1036,7 +1048,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Multiplayer.GamingServices.html",
-          "hash": "OSIigUTyRsnUka8Ui+05Exxny9mVsfL1MKeJQdAhAjI="
+          "hash": "bfL6aKfBBPhzKnIqTUFegwFsPp+HMub/RAMBWlryUfE="
         }
       },
       "is_incremental": false,
@@ -1048,7 +1060,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Multiplayer.UI.NetworkManagerUI.html",
-          "hash": "FUBZWYcsGSyq27Lwc+r+T8v6D5q8d48HL+7HAFr+QPU="
+          "hash": "yZjzuoNzZ1Lqj1FfdXw14OKKIqSA3Lx7pF7D+RCwS7M="
         }
       },
       "is_incremental": false,
@@ -1060,7 +1072,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Multiplayer.UI.html",
-          "hash": "gLmyqQzjpdTImcCyvKbLNaO0Fwg+deiHq82qttbfDY4="
+          "hash": "AmLEqdo5o9W7GvsN56ZEMYHaB/wL9wS8TQagMM5v4K4="
         }
       },
       "is_incremental": false,
@@ -1072,7 +1084,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ScriptableShopItem.html",
-          "hash": "uYfZJ4lbaAK3c52025T3gajCtOT+m3Nhw+dAKbvJoF4="
+          "hash": "sxQzz2HEajAKkHFIfg5boEakgmklyXD1tyAHdmI23pg="
         }
       },
       "is_incremental": false,
@@ -1084,7 +1096,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopCharacter.html",
-          "hash": "IMPrfSHLZpq+ekoW68mlShamG+urZ/9ObCBiu8MGEQk="
+          "hash": "lVfclOhyW3tmTGECi7nErqNmdVgwmUQU5oFTryiHEDw="
         }
       },
       "is_incremental": false,
@@ -1096,7 +1108,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopGUI.CurrencyUI.html",
-          "hash": "hrwp0ZmjesnXuoxCxrlk6cHAiwA2mQIXNnxi0RyoUfA="
+          "hash": "xE9eiTUCr5PY1Ijyu/dRjUZZAz+sXNojE/LbColVrGI="
         }
       },
       "is_incremental": false,
@@ -1108,7 +1120,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopGUI.EquippedItemDescriptionUI.html",
-          "hash": "rSwkeW+Ln89UAkghBpeTsYLLBEJ3+9WxsiduKEi2cTk="
+          "hash": "Q3EyBWwDcWQb4p3u0wXuNHGkuuLumeESNf2K7FmgDtE="
         }
       },
       "is_incremental": false,
@@ -1120,7 +1132,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopGUI.ShopItemUI.html",
-          "hash": "0+mTraLHX1b+h3TS3lY7oJVCSDpSdZIS14h6vtrtTm0="
+          "hash": "SkbqNexQg2Nu9hZVjhLPgM5vne5g87eBD6JtHqkgVOY="
         }
       },
       "is_incremental": false,
@@ -1132,7 +1144,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopGUI.ShopUI.html",
-          "hash": "QQjUG3Qw0Dce+eJR/5jkgJe+4xqDXxSlvR0viI3uCVo="
+          "hash": "Pn8ya8God80usz8cEspXMn7Xt45+wREpM8gG3zeSodc="
         }
       },
       "is_incremental": false,
@@ -1144,7 +1156,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopGUI.SpecialAttackDescriptionUI.html",
-          "hash": "WzF7NSO0qnlitM3l9j9uBJf8MaUVxj/uYbQfxuzjcXw="
+          "hash": "fbiodUlULdnf3KpTefxaG0E9dpneeg2xYg1Q0RwXdGk="
         }
       },
       "is_incremental": false,
@@ -1156,7 +1168,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopGUI.Timer.html",
-          "hash": "oCQ3VgHLq9lInrwY35/FDgQZeRQbZy3+H07M/93skYw="
+          "hash": "YsvrphwT6jnM+Ujmk8m++b6bd4kiFCjKupMnBdSm5GQ="
         }
       },
       "is_incremental": false,
@@ -1168,7 +1180,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopGUI.html",
-          "hash": "vTrBokPpeBVK9JogXHiYidd96Mmtk88XwdSMBBPvIrc="
+          "hash": "m5j0JrfBE86QZy5ZMVAVsubVzyIiGLeVDpHMRn3yEF8="
         }
       },
       "is_incremental": false,
@@ -1180,7 +1192,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopGameItem.html",
-          "hash": "tXYcb0XtKSJnF38c5OrFgJnPI9C9PhY3AP4VgPBxtzg="
+          "hash": "5WKJOl+wOb6C34OU08jq/LiMTQVHLTzVBZqOM9M7Tio="
         }
       },
       "is_incremental": false,
@@ -1192,7 +1204,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopItemInfo.html",
-          "hash": "veYdPxDVHKLlBHUfTSQQr35Nq2fG204B6Y98L2/hVGc="
+          "hash": "br/Snx91f5tfbxQk2Z8hqKuXMS9GJ41MWMns0YiQV0g="
         }
       },
       "is_incremental": false,
@@ -1204,7 +1216,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopLevel.html",
-          "hash": "81WO7gbI8xFKfaNcdPCsEweAfD6X+Qql799eH2alP44="
+          "hash": "1TTxsbswS0UrafDrmHJzBApvgzEbfuQPMsCB9G+NUak="
         }
       },
       "is_incremental": false,
@@ -1216,7 +1228,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopLevelManager.html",
-          "hash": "AZvG4RjRSa1l08fohT5v8nUguP8ntb+a6zTWUhpibIM="
+          "hash": "J4m9ahvnmvQP633znCPtnqoEEmmdc/qMe2PRZAeFkGg="
         }
       },
       "is_incremental": false,
@@ -1228,7 +1240,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopList.IShopList.html",
-          "hash": "POrfKN1tBMDdSUk2MlsE8IA/w0JpWEr6AJ15TCuxt8w="
+          "hash": "sfrd7iRc4tHe1WxNvo/U0vygeFhUDoEsLYGR3WEnS5E="
         }
       },
       "is_incremental": false,
@@ -1240,7 +1252,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopList.ScriptableDeckList.html",
-          "hash": "OQCOtK10B/csM2b3ckO6x/Q60XkHf1TILke+bbhfHLE="
+          "hash": "WEOB23W0FJ4vRukm3w3syX1metaiqJY2d9eNwDJXuLc="
         }
       },
       "is_incremental": false,
@@ -1252,7 +1264,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopList.ScriptableGroupItemList.html",
-          "hash": "K4rcKvFG4D60Eh8UwPxP5BbTFKj3zyKvQ6E9Y1yyeDM="
+          "hash": "iUvA4RlWJAif3iOE4ZaBh0fyp4IZbiOfY5Ni51H2LMA="
         }
       },
       "is_incremental": false,
@@ -1264,7 +1276,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopList.ScriptableIndividualItemList.html",
-          "hash": "jwfAzI3Gbm8rzYQa6fkC4xvP+stpkwbUXdKrx7j4Dpc="
+          "hash": "jcazUagbGwNgGAf72IC9p1yV5c1pBoZndTuqsRcM5V4="
         }
       },
       "is_incremental": false,
@@ -1276,7 +1288,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopList.ShopItemList.html",
-          "hash": "Z8O2T2pUq8dgAFp2CpFRWhI4v2jsRjVS1z7QZYkWYss="
+          "hash": "pndkUUwqaZHpxm0Gqi7m5juddRJB/fBhp7wWENoTuiI="
         }
       },
       "is_incremental": false,
@@ -1288,7 +1300,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopList.html",
-          "hash": "aCoCHm0x8LQoAMW00dqtXIWDKhqofoRqFYpUTxx5k6Y="
+          "hash": "H8qSSf5Pd9Q/oBlNxNrgj2yS4zZCtKH/R60O+Wo3CPg="
         }
       },
       "is_incremental": false,
@@ -1300,7 +1312,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.ShopManager.html",
-          "hash": "zun1NI9Ut3iJPJ/JyrsLYE+9pYO5PQq/JZU6BlsRBMQ="
+          "hash": "XlBKGh5MDI3Vq9AY80ctT6vfL8E3efgQfepoErxJqDo="
         }
       },
       "is_incremental": false,
@@ -1312,7 +1324,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Shop.html",
-          "hash": "TACSMROGHb0CUDzZvwQujDJaWTuCsmIMmHXW0gXPdJA="
+          "hash": "vkspVtxWDQHHFBfq1Q7c1eTd3B7VH1KDvbxf1OguBKI="
         }
       },
       "is_incremental": false,
@@ -1324,7 +1336,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Skills.ApplyBuffOnHitEffect.html",
-          "hash": "Vtj+SrStt1nhvHSe8A7FitQ0MmkE8Vs6zthqhnYKmtI="
+          "hash": "yP3+9ccoP3BV0jVKXy0LWpuIJLl4NpOVkLk+eRoggJA="
         }
       },
       "is_incremental": false,
@@ -1336,7 +1348,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Skills.ApplyDebuffOnHitEffect.html",
-          "hash": "ONI3KvOkfkyIkiVdmTgtkui0NmWCAOEJ/UIALMM/Vjw="
+          "hash": "Z2XOav0uGmWUp06ymBKCXbYreT35GWmvH4Bthnr3BB4="
         }
       },
       "is_incremental": false,
@@ -1348,7 +1360,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Skills.ArrowEffect.html",
-          "hash": "C7N8jtyI8pEOKzm1hfiHeZocKHMbuO2GRasEOD6F83Q="
+          "hash": "HUaXeLTGxB9H9qYBcNnsDiNXUF5DvjpZ+3lowoiEl/Q="
         }
       },
       "is_incremental": false,
@@ -1360,7 +1372,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Skills.BuffEffect.html",
-          "hash": "aMhGHj/VXZpw7soxGmVqnG+faih2ZLB2FCHTOB4hcMo="
+          "hash": "tD9YmK+zf5DUG0h8zNTmSexM862zwZg1xr1cuzHCF2o="
         }
       },
       "is_incremental": false,
@@ -1372,7 +1384,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Skills.BuffEffectInfo.html",
-          "hash": "f5Tz0eWGj4oERHv9JujY9UxgwPXahcKLeJne/2LABaQ="
+          "hash": "VFA4ufWpJsdJF1XiM3RwLs26gXQ4k7nGMP9GI+BZ7xQ="
         }
       },
       "is_incremental": false,
@@ -1384,7 +1396,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Skills.FixedDamageOverTimeEffect.html",
-          "hash": "2LwhfJI9CVht4czmYUVYGegk7zF1TmZ6DCVgQJ3JOVY="
+          "hash": "/GQrjYTkdiPWYKl2W7D2Kh3gS01VLbOCfcHV9/RGjDs="
         }
       },
       "is_incremental": false,
@@ -1396,7 +1408,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Skills.HealthMeteoriteAllEffect.html",
-          "hash": "0dF7oG19DDL8q0pub2gdi2jyKE/WgVNWpVYGhyTwIhg="
+          "hash": "uyqV++l329ALgQhauGkDG/kd2sGsCfNOIetyCEoC0rs="
         }
       },
       "is_incremental": false,
@@ -1408,7 +1420,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Skills.HealthStealEffect.html",
-          "hash": "L5CEXYLLH3aTARhdppvI2CCR8BxOwVgyHLP2MiIrjKw="
+          "hash": "nNoZ+NEcsLUjJ22HQV0j+TxZgktO45zY4xWv3vsKRd4="
         }
       },
       "is_incremental": false,
@@ -1420,7 +1432,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Skills.IAttackEffect.html",
-          "hash": "mH0ZAG13D7TZpWXluCYMGMRZwTakipNXdsDp+a23yU4="
+          "hash": "VPljNMax5wUCIPtzlUNZwrSS1jhQPLm1V4HHfhtHlxw="
         }
       },
       "is_incremental": false,
@@ -1432,7 +1444,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Skills.MeleeEffect.html",
-          "hash": "NvnMbyXZ2+fmcCQpJ3cOWrNGiDsF4gMbaoxRTDzUZIc="
+          "hash": "XN0awsolTXZ4R+NG9f76cAZ8J+Uc4nGUrE7DjJfmBp8="
         }
       },
       "is_incremental": false,
@@ -1444,7 +1456,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Skills.MeteoriteEffect.html",
-          "hash": "uQLKnKYKa8lq6U1v6wZU7WWOEXDYGwV0QPvJ78pD1D8="
+          "hash": "9MbjcXnyptOASMqRvA8wjaFKiaA2s/3vNbaFAgEGIKU="
         }
       },
       "is_incremental": false,
@@ -1456,7 +1468,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Skills.OnHitEffect.html",
-          "hash": "5YpnVC5wt9dAXUH7cHOp3n5GPS+dkQXpo3NmZU6QodQ="
+          "hash": "fLurYpN5PpcgiRuKxmE/p8zrgSe6C2YID1M2ztcmwFU="
         }
       },
       "is_incremental": false,
@@ -1468,7 +1480,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Skills.Projectile.html",
-          "hash": "raeJZvcRbywzHdjg2+wKJm58R3XCOK49fFE4rS6tGks="
+          "hash": "XUcxl3jX8beQruaaPI73RZ9oAXCRMILVUddxA1VDPSo="
         }
       },
       "is_incremental": false,
@@ -1480,7 +1492,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Skills.RangedEffect.html",
-          "hash": "3eSHrTytzskjlE8oxma+5f0I4w+WUnOxZbJJH1iNBJk="
+          "hash": "qapNz4wKSgW2JT0tIyX7iwBYkU8qcBURkuKT9xYqutM="
         }
       },
       "is_incremental": false,
@@ -1492,7 +1504,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Skills.SimpleBuffEffect.html",
-          "hash": "K21p9D5s05HwcZdywaTvXzeR+BmR94Guz2OjctI2Py8="
+          "hash": "9tg4isIEjAdAvoBBsOSHRnhjRbHM+Z2WtNJHC3Bg0pU="
         }
       },
       "is_incremental": false,
@@ -1504,7 +1516,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Skills.SwordEffect.html",
-          "hash": "t546xakjMGcMnAhrffzq0ltD5t3T0dCns3iEXf5kiLE="
+          "hash": "wrhRDhiiKsQRjQP16dXjMsB6BXDHu8Y2kdOdxQ+giJ0="
         }
       },
       "is_incremental": false,
@@ -1516,7 +1528,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Skills.VariableDamageOverTimeEffect.html",
-          "hash": "xi2rZ14QvlS2QO0nrEYrKrmLxX5kUz7Wcudw+wZYNNA="
+          "hash": "W5L0LxqECUtNkbyu72peW1O4tXxs6aPIwiEiYI6DWo4="
         }
       },
       "is_incremental": false,
@@ -1528,7 +1540,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Skills.html",
-          "hash": "TqP+/hrHiSp3GyOFnwbjkyefTTaVN2IhTKoSRN6bnds="
+          "hash": "x+SwYnpgaOXmhTc1NcuKzjhKZGcLcFiOYUfUIJWcCzw="
         }
       },
       "is_incremental": false,
@@ -1540,7 +1552,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Stats.CharacterStats.CharacterStat.html",
-          "hash": "7HIouEFz0hA5XqZQTVYcSYFhBo/yqyxDobrW/d6LnYI="
+          "hash": "ZrAechKIHuaB6lwJMtCYyIZ9ZRMxmlQAmNemYnopc+0="
         }
       },
       "is_incremental": false,
@@ -1552,7 +1564,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Stats.CharacterStats.html",
-          "hash": "H1hTBOA1ZzklTokgQkYQ0ufvxiXn/MNJQyQBJ+H+CNE="
+          "hash": "eoptUmILzfZ6MHHxEetLtFdCIJnFUBSodAGimuD2Euc="
         }
       },
       "is_incremental": false,
@@ -1564,7 +1576,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Stats.ItemModificator.html",
-          "hash": "+l2j3dytChZqRMW2VTt+GKno3Arubrdfwa1RzMoXtcQ="
+          "hash": "yyIxw67gBEdB2Hdb3EGrJzlqRQ3/KJ7doJzVkW7LLT8="
         }
       },
       "is_incremental": false,
@@ -1576,7 +1588,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Stats.StatModificator.html",
-          "hash": "HWOvp1afj2Cfr4+hVWSCWf2qCB0qlA+V9tHsfS7aZFA="
+          "hash": "ieQzdREHh2FnuI/fcnYDo/kSw7oSDAXp2KSl40Y5q9M="
         }
       },
       "is_incremental": false,
@@ -1588,7 +1600,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Stats.StatsModificator.ModificatorType.html",
-          "hash": "JIchUA9HK9c4hkRARsrAM3g72G9z6CBP0pjH45ybjEs="
+          "hash": "eDkDnIX33MaMVgg7zNDRMZT2TpjXQGzovdf/OCDxk5o="
         }
       },
       "is_incremental": false,
@@ -1600,7 +1612,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Stats.StatsModificator.html",
-          "hash": "bZVJ4LC+IQodhW/wXRGzhvHDoYtoxUIqFivXuBl4a+M="
+          "hash": "UTHwJYCc1WrwS4b4O3v0Dg245DNzxwUa2YnQjC0U04M="
         }
       },
       "is_incremental": false,
@@ -1612,7 +1624,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Stats.Trait.html",
-          "hash": "iotWqdVF+fQwW6MXIlPbF5FKXCyCb7rR6WgseGuQHrE="
+          "hash": "ThjbmdIfBwqAVcWKYOtJ7vvA9aCOW1+Z93GKcnogmag="
         }
       },
       "is_incremental": false,
@@ -1624,7 +1636,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Stats.TraitOption.TraitTarget.html",
-          "hash": "va0tdTVSo2T2aE9b61GyuJPEXZB2w58ycneWu9tRR+s="
+          "hash": "SBpZdQRxaRthDRHEbB7iPEz92F+U3sSgi2wpZ/nylBY="
         }
       },
       "is_incremental": false,
@@ -1636,7 +1648,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Stats.TraitOption.html",
-          "hash": "SFQZQxH1puiJ5YmaAyYcH0Y49+2eFOLu+3q2XZmMWAk="
+          "hash": "nLgES1XPBgGS9TGfJuSFEm4B6zZ21I2LxTKyb576UY8="
         }
       },
       "is_incremental": false,
@@ -1648,7 +1660,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Stats.html",
-          "hash": "DY4jLW/A7k/MeCbCp3bitcsMoNVPPu91DUEeq8cJNTw="
+          "hash": "cCQ5OSWYm/iiEe0qTxNXmzwas3sZsnyFLmng5WJDPmw="
         }
       },
       "is_incremental": false,
@@ -1660,7 +1672,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Utility.AutoBattleSettings.html",
-          "hash": "008HU7qxBFmtbN+UqqUmdnrOhaRwnujVh2g00zHIqJc="
+          "hash": "h0nxFBgVhsn1TfzLaIL5B0vwufijhMTvkmTLr9LSEmo="
         }
       },
       "is_incremental": false,
@@ -1672,7 +1684,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Utility.MenuCameraMovement.html",
-          "hash": "ummasp7e0Y+h/TgUxwRoF2HIHY0gMbu0fDRAXv+uCB8="
+          "hash": "8Ushoa7Fk9GyHVfIsRdfiqjTXggUn1tbItC46XUmY24="
         }
       },
       "is_incremental": false,
@@ -1684,7 +1696,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Utility.ReadOnlyAttribute.html",
-          "hash": "if2/9S4s96Aoy/DaDgPvIzlgIZti5dhH3y7xmnqhZ9I="
+          "hash": "U29N8sdJ6bJ5sZ/TMs4Smnc0nhfviBkmGBqAHa90ASM="
         }
       },
       "is_incremental": false,
@@ -1696,7 +1708,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Utility.UIUtility.html",
-          "hash": "IUHoqH0vXpQ3zfNp0L7AoBZyK9Pm6SUq6cd1hY4U9bk="
+          "hash": "suaQ7EhDvNZcBAaVP4Rn+lX1UdG+sYtcJqG/XjbF8pc="
         }
       },
       "is_incremental": false,
@@ -1708,7 +1720,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AutoBattleFramework.Utility.html",
-          "hash": "n4nW97J45R4ua+s0VRt3ECgKiiqy0KJa15vQuBzgVGg="
+          "hash": "X/VoT8Nxq+zz/EW7iPMICuioBvLLmlPzy8pcEN1PEuA="
         }
       },
       "is_incremental": false,
@@ -1720,7 +1732,7 @@
       "output": {
         ".html": {
           "relative_path": "changelog/1.0.1.html",
-          "hash": "EHoYtxjTV6a65wQ7bppukarBZyuFXg5dU8gCI8uH5N0="
+          "hash": "20Gcixecp4pqlXFQSc9/J+896c2oF036+O53+6Fldlk="
         }
       },
       "is_incremental": false,
@@ -1732,7 +1744,7 @@
       "output": {
         ".html": {
           "relative_path": "changelog/1.1.html",
-          "hash": "FHATvpocSzAsxWubpufjqfjaQ2VtcYiR3okPKJWslxo="
+          "hash": "wMdFbjIgvHVmrL3NuVedQmXKBP+eeMBOU/pgcImUvQY="
         }
       },
       "is_incremental": false,
@@ -1744,7 +1756,19 @@
       "output": {
         ".html": {
           "relative_path": "changelog/1.2.html",
-          "hash": "D3BtyfGGuSp3XJpy2Yg/NUz64f1DozzekRHHY3WCkKc="
+          "hash": "SExfN6k9IMfiCw2W0hC9kwAVVYRdN5ixmkFD/e8IdmY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "changelog/1.3.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/1.3.html",
+          "hash": "BS3XC0mLJseLjkG1WVYhye1Mii79mbvtUcY64aiN4kc="
         }
       },
       "is_incremental": false,
@@ -1756,7 +1780,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "nEsMKdSW7za0g3JRhly4kGWV9rjhkIuO/UBVPbCfXo4="
+          "hash": "W+M9O6Bif04SBsGkmmDZfnuq4aCUAJp3GPQTemezEVU="
         }
       },
       "is_incremental": false,
@@ -1779,7 +1803,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/Introduction.html",
-          "hash": "DVWjubpJeL+OpKCyUnq0IXlQO/2Xz2vPlji4aha8FyY="
+          "hash": "GNebMxxbDcQct21FQr5kADa1cVOkHyMCtHl5KXdBBjU="
         }
       },
       "is_incremental": false,
@@ -1791,7 +1815,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/battlegrid.html",
-          "hash": "sYExRFOb5Ex+hFKj6ioBYjqiKiMMf93MJ2/r77x7LyA="
+          "hash": "tbeqMSHxSObCWAgKPIDnPCbQjtTs/vAr7kIeWZXxSTg="
         }
       },
       "is_incremental": false,
@@ -1803,7 +1827,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/battlestage.html",
-          "hash": "WK2LztrlyO7YuHl+DsQ1wIiG8+tt4Dl6sJ0W50iLdx4="
+          "hash": "wR0ET97A3j61MPHsO/hfQwXNGtlwFCQPdOTUmVKrenk="
         }
       },
       "is_incremental": false,
@@ -1815,7 +1839,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/cattack.html",
-          "hash": "SJVq/Pp358QSSL8FaQSRPw3X8bQWjjSklSNP0515s1E="
+          "hash": "NLM0GptiTQdpRqF+Hv3DV6mE6deumPHjOoQFrlDin0g="
         }
       },
       "is_incremental": false,
@@ -1827,7 +1851,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/cbuff.html",
-          "hash": "Em6KHqbMK8MGIXiTqzoptn3tiaqeXnNY1PRaOl2VXXI="
+          "hash": "aMC5+K6QKgBDcrw6U250BZQrhNs6o/eDuyvRRCm3uOc="
         }
       },
       "is_incremental": false,
@@ -1839,7 +1863,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/ccharacter.html",
-          "hash": "LZ+WACygHAtrPXvtTMVrwEkXKrfrrraI+5FJ0lmUwh0="
+          "hash": "CEh9qQuMRgOX/tackOusMOApbgU4bYgAT5uDEL9j5lw="
         }
       },
       "is_incremental": false,
@@ -1851,7 +1875,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/changestagestate.html",
-          "hash": "i6XJY9v7GqmH7DM6idszKAyuGVnTZwMcfryOQRkmXAM="
+          "hash": "dTy3+Ou1kEX3QIqyjGHmn2e3h20gPzXr9qAnQere9Mk="
         }
       },
       "is_incremental": false,
@@ -1863,7 +1887,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/citem.html",
-          "hash": "vQjsQHTevFHDmn0+aGElgfxAm6gL6oWqlaGn8b89dXc="
+          "hash": "yl+nruMygKgnB64MSd3namBZkvuZWZ3QqPp9ZFoJmpY="
         }
       },
       "is_incremental": false,
@@ -1875,7 +1899,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/citemlist.html",
-          "hash": "KAkcbyX9r0NoKF3Xx/axGJkafjR00tnsNv2qjeq6wfE="
+          "hash": "0MSDypPatxmC5G5XXyFeWAMWssIWP3CCX4Yz9D5T35g="
         }
       },
       "is_incremental": false,
@@ -1887,7 +1911,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/clevelup.html",
-          "hash": "vem06u2UKE0Eu6E5jkXEkGKImopQvKN0isbk7G4Ufio="
+          "hash": "W+iJDYzTAqtYRnNStCiIyaDW6VHlROP2G2S91mICESc="
         }
       },
       "is_incremental": false,
@@ -1899,7 +1923,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/conhit.html",
-          "hash": "uAMKgofPx6suHJhOCyb8K54UZm/WrDyca5QuQS6YBEs="
+          "hash": "qn7Ev3ETVcG80y4/vpjkxuz5yLCZRB7bDXHP8zDWHeI="
         }
       },
       "is_incremental": false,
@@ -1911,7 +1935,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/cprojectile.html",
-          "hash": "3awJ60oDjNIMaX4WYlkvcul2FWYmc15xx9HmpLnwO/o="
+          "hash": "2IoRwTcVF8UAzrvHh4BCU7QrR0n4otGkgK1GUPXcpe8="
         }
       },
       "is_incremental": false,
@@ -1923,7 +1947,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/cstage.html",
-          "hash": "4tLyJ/iHiQjCyb0n4irLXyTBUnuC6jF98/7I3CtJFmw="
+          "hash": "TcP53L59r8zlytTbQoWTIwaz+HahAnBRTbpfsXL3Bdo="
         }
       },
       "is_incremental": false,
@@ -1935,7 +1959,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/cstate.html",
-          "hash": "9dMb3E4vRE7O1V6Vw6EWLiRFTDDBBTiv1dCMBEOFero="
+          "hash": "fCVpZJm8GxuuXI3FZ8APpL0+SrzuKoTTnHKalZ+kBJ8="
         }
       },
       "is_incremental": false,
@@ -1947,7 +1971,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/ctrait.html",
-          "hash": "PZmszT6EuXAVvyl03cp4+ZCdXp0d22Vmu9Xb3eU7Pxo="
+          "hash": "D4SNmRShm7QjYIKuUdareWBjK5m9zIVHIbJw6nyaGFo="
         }
       },
       "is_incremental": false,
@@ -1959,7 +1983,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/description.html",
-          "hash": "Pb23LXFKvIRMaa3yUJ61VqPDdHa77EDRjKMffMylTDA="
+          "hash": "cdw5lYhVbVV6dpABVac20lgbC/yztSZC6DiyjaxSvxo="
         }
       },
       "is_incremental": false,
@@ -1971,7 +1995,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/editui.html",
-          "hash": "fgfNXp/qJCB6357Mpq593neoWWZwLY8bXb7yi1yLEi4="
+          "hash": "3hLJljwy+9QuaAbhvETFyPE2qZH2xmGjyrN1pVoe5v4="
         }
       },
       "is_incremental": false,
@@ -1983,7 +2007,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/fightstate.html",
-          "hash": "gqX1fvFjbQ+wuqunUL+NfZ9zE7iReXoDxZN8pwQunOM="
+          "hash": "mt6IuxS6OwoMWNlTWptIGZCykd8FSjT7C7OMMNobbvI="
         }
       },
       "is_incremental": false,
@@ -1995,7 +2019,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/fusionmanager.html",
-          "hash": "ljjGuVC9C1ShwOKHJYogZW3hSA+ru/CvUSQxW8it0GY="
+          "hash": "D4I3vUAGfaoDnisPsGPeH669kAS5DKvS4kEQdwQ44f8="
         }
       },
       "is_incremental": false,
@@ -2007,7 +2031,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/install.html",
-          "hash": "QaM0fiDaymbzZdawMG5ik3N0r3jzwKXDL2l5h9C7CT0="
+          "hash": "wJ63Uh2HJ8MuH90CGcRmYpOOOZvbVtewIaSj83nUW9k="
         }
       },
       "is_incremental": false,
@@ -2019,7 +2043,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/multiplayer.html",
-          "hash": "8gbyW/a6kAY74AHdtHTb2lpn8xoKdp6LguuEHH7XFr0="
+          "hash": "d/mxcH1TZ6fB9z2v8KmyAmztwD14db19lOFwuBv2dK8="
         }
       },
       "is_incremental": false,
@@ -2031,7 +2055,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/preparationstate.html",
-          "hash": "Wq9H4i2mv7uEK5tMt1NH6WzQABvrwYJBBBwfU2grgLc="
+          "hash": "y/mkqMHc7pe8UA2bCTd9dBrheep4eid2VbME6lhL87U="
         }
       },
       "is_incremental": false,
@@ -2043,7 +2067,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/scene.html",
-          "hash": "x4JZz3aPKSu5X6XPkEFTNqkjGsZhaSUvAU7/ZvbB4po="
+          "hash": "DlRW/Y3zU/vnY6bWu8+clPPjXvJbOcmJkpv2+kX8Krc="
         }
       },
       "is_incremental": false,
@@ -2055,7 +2079,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/shopmanager.html",
-          "hash": "6qnWjCrKBA5hpGBGJenYrM4l+ODZ0S6E4ZoD0IGQeCw="
+          "hash": "eVIXF/PZ/z3bgPnEkVYN0fEXY2GXhHh7m2xIK5JC7ww="
         }
       },
       "is_incremental": false,
@@ -2067,7 +2091,7 @@
       "output": {
         ".html": {
           "relative_path": "overview/started.html",
-          "hash": "TOjrlVtgVraNAxA3NL4ZtXlJVSslPWwFQ4wB2LI5nxQ="
+          "hash": "tiQPavZMSkfs1g9XDUXGyVF52QMwYQYerFTqQxfjy0E="
         }
       },
       "is_incremental": false,
@@ -3474,13 +3498,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 29,
+          "total_file_count": 30,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 141,
+          "total_file_count": 142,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
